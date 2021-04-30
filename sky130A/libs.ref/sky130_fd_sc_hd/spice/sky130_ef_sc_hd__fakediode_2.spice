@@ -1,0 +1,7 @@
+* NGSPICE file created from sky130_ef_sc_hd__fakediode_2.ext - technology: sky130A
+
+.subckt sky130_ef_sc_hd__fakediode_2 DIODE VGND VNB VPB VPWR
+C0 DIODE VGND 0.15fF
+C1 DIODE VPWR 0.15fF
+.ends
+
