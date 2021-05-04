@@ -1,0 +1,22 @@
+CAPI=2:
+
+name : ::sky130_pdk:0
+
+filesets:
+  libs_ref:
+    files:
+      - libs.ref/sky130_fd_io/verilog/sky130_ef_io__gpiov2_pad_wrapped.v : {include_path: ., is_include_file : true}
+      - libs.ref/sky130_fd_io/verilog/sky130_ef_io.v : {include_path: ., is_include_file : true}
+      - libs.ref/sky130_fd_io/verilog/sky130_fd_io.v : {include_path: ., is_include_file : true}
+      - libs.ref/sky130_fd_sc_hvl/verilog/primitives.v : {include_path: ., is_include_file : true}
+      - libs.ref/sky130_fd_sc_hvl/verilog/sky130_fd_sc_hvl.v : {include_path: ., is_include_file : true}
+      - libs.ref/sky130_fd_sc_hd/verilog/primitives.v : {include_path: ., is_include_file : true}
+#      - libs.ref/sky130_fd_sc_hd/verilog/sky130_ef_sc_hd__fakediode_2.v
+#      - libs.ref/sky130_fd_sc_hd/verilog/sky130_ef_sc_hd__fill_12.v
+      - libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd.v : {include_path: ., is_include_file : true}
+#      - libs.ref/sky130_fd_sc_hd/verilog/sky130_ef_sc_hd__decap_12.v
+    file_type : verilogSource
+
+targets:
+  default:
+    filesets: [libs_ref]
