@@ -28,7 +28,7 @@
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -112,7 +112,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -146,7 +146,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__decap (
@@ -197,7 +197,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__decap (
@@ -252,7 +252,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__decap ();
@@ -292,7 +292,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__decap ();
@@ -348,7 +348,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -432,7 +432,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -466,7 +466,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -542,7 +542,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -632,7 +632,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -698,7 +698,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -792,7 +792,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -904,7 +904,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -988,7 +988,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -1022,7 +1022,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__fill (
@@ -1073,7 +1073,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__fill (
@@ -1128,7 +1128,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__fill ();
@@ -1174,7 +1174,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__fill ();
@@ -1230,7 +1230,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -1314,7 +1314,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -1398,7 +1398,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -1482,7 +1482,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -1516,7 +1516,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -1582,7 +1582,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -1652,7 +1652,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__probec_p (
@@ -1706,7 +1706,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__probec_p (
@@ -1776,7 +1776,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -1878,7 +1878,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -1992,7 +1992,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -2028,7 +2028,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -2102,7 +2102,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -2180,7 +2180,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o21ai (
@@ -2242,7 +2242,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o21ai (
@@ -2320,7 +2320,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -2440,7 +2440,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -2476,7 +2476,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -2554,7 +2554,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -2636,7 +2636,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a22oi (
@@ -2702,7 +2702,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a22oi (
@@ -2783,7 +2783,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -2818,7 +2818,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -2887,7 +2887,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -2960,7 +2960,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv_symmetric (
@@ -3011,7 +3011,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv_symmetric (
@@ -3079,7 +3079,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -3183,7 +3183,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -3289,7 +3289,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -3323,7 +3323,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -3391,7 +3391,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -3466,7 +3466,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -3524,7 +3524,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -3603,7 +3603,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -3639,7 +3639,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -3709,7 +3709,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -3783,7 +3783,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__xnor2 (
@@ -3841,7 +3841,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__xnor2 (
@@ -3915,7 +3915,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -4021,7 +4021,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -4127,7 +4127,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -4161,7 +4161,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -4231,7 +4231,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -4310,7 +4310,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -4370,7 +4370,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -4453,7 +4453,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -4565,7 +4565,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -4599,7 +4599,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -4669,7 +4669,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -4743,7 +4743,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__and3 (
@@ -4801,7 +4801,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__and3 (
@@ -4877,7 +4877,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -4991,7 +4991,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -5027,7 +5027,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -5101,7 +5101,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -5179,7 +5179,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a21oi (
@@ -5241,7 +5241,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a21oi (
@@ -5318,7 +5318,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -5443,7 +5443,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -5478,7 +5478,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -5557,7 +5557,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -5654,7 +5654,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -5723,7 +5723,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -5823,7 +5823,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -5859,7 +5859,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -5933,7 +5933,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -6011,7 +6011,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a21o (
@@ -6073,7 +6073,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a21o (
@@ -6151,7 +6151,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -6263,7 +6263,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -6375,7 +6375,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -6409,7 +6409,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -6481,7 +6481,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -6563,7 +6563,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -6625,7 +6625,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -6709,7 +6709,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -6743,7 +6743,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -6810,7 +6810,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -6881,7 +6881,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__conb (
@@ -6932,7 +6932,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__conb (
@@ -6999,7 +6999,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -7099,7 +7099,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -7133,7 +7133,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -7201,7 +7201,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -7273,7 +7273,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nor2 (
@@ -7329,7 +7329,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nor2 (
@@ -7401,7 +7401,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -7508,7 +7508,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -7543,7 +7543,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -7612,7 +7612,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -7685,7 +7685,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2hv_lh (
@@ -7736,7 +7736,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2hv_lh (
@@ -7804,7 +7804,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -7908,7 +7908,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -7942,7 +7942,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -8021,7 +8021,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -8115,7 +8115,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -8182,7 +8182,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -8276,7 +8276,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -8402,7 +8402,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -8438,7 +8438,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -8508,7 +8508,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -8582,7 +8582,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2lv_simple (
@@ -8634,7 +8634,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2lv_simple (
@@ -8703,7 +8703,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -8808,7 +8808,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -8843,7 +8843,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -8922,7 +8922,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -9019,7 +9019,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -9088,7 +9088,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -9187,7 +9187,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -9311,7 +9311,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -9411,7 +9411,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -9445,7 +9445,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -9511,7 +9511,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -9581,7 +9581,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__schmittbuf (
@@ -9635,7 +9635,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__schmittbuf (
@@ -9706,7 +9706,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -9741,7 +9741,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -9810,7 +9810,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -9883,7 +9883,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv (
@@ -9934,7 +9934,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv (
@@ -10002,7 +10002,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -10107,7 +10107,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -10212,7 +10212,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -10247,7 +10247,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -10316,7 +10316,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -10389,7 +10389,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2hv_hl (
@@ -10440,7 +10440,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2hv_hl (
@@ -10509,7 +10509,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -10545,7 +10545,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -10617,7 +10617,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -10693,7 +10693,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nor3 (
@@ -10753,7 +10753,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nor3 (
@@ -10829,7 +10829,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -10943,7 +10943,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -10979,7 +10979,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -11057,7 +11057,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -11139,7 +11139,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o22ai (
@@ -11205,7 +11205,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o22ai (
@@ -11287,7 +11287,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -11405,7 +11405,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -11509,7 +11509,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -11543,7 +11543,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -11611,7 +11611,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -11683,7 +11683,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2lv (
@@ -11733,7 +11733,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbufhv2lv (
@@ -11800,7 +11800,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -11834,7 +11834,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -11907,7 +11907,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -11987,7 +11987,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -12048,7 +12048,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -12128,7 +12128,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -12240,7 +12240,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -12340,7 +12340,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -12374,7 +12374,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -12440,7 +12440,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -12510,7 +12510,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__probe_p (
@@ -12564,7 +12564,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__probe_p (
@@ -12636,7 +12636,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -12756,7 +12756,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -12792,7 +12792,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -12870,7 +12870,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -12952,7 +12952,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o22a (
@@ -13018,7 +13018,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o22a (
@@ -13098,7 +13098,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -13210,7 +13210,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -13244,7 +13244,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -13314,7 +13314,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -13388,7 +13388,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nand3 (
@@ -13446,7 +13446,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nand3 (
@@ -13520,7 +13520,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -13620,7 +13620,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -13720,7 +13720,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -13820,7 +13820,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -13920,7 +13920,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -14020,7 +14020,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -14054,7 +14054,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -14120,7 +14120,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -14190,7 +14190,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__buf (
@@ -14244,7 +14244,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__buf (
@@ -14314,7 +14314,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -14416,7 +14416,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -14536,7 +14536,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -14572,7 +14572,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -14650,7 +14650,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -14732,7 +14732,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a22o (
@@ -14798,7 +14798,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__a22o (
@@ -14878,7 +14878,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -14984,7 +14984,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -15018,7 +15018,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -15086,7 +15086,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -15158,7 +15158,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nand2 (
@@ -15214,7 +15214,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__nand2 (
@@ -15286,7 +15286,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -15398,7 +15398,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -15432,7 +15432,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -15502,7 +15502,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -15576,7 +15576,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -15636,7 +15636,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -15712,7 +15712,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -15824,7 +15824,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -15858,7 +15858,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -15928,7 +15928,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -16002,7 +16002,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__or3 (
@@ -16060,7 +16060,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__or3 (
@@ -16134,7 +16134,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -16168,7 +16168,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -16236,7 +16236,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -16311,7 +16311,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -16369,7 +16369,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -16446,7 +16446,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -16552,7 +16552,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -16658,7 +16658,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -16692,7 +16692,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -16760,7 +16760,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -16832,7 +16832,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__and2 (
@@ -16888,7 +16888,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__and2 (
@@ -16960,7 +16960,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -17078,7 +17078,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -17112,7 +17112,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17189,7 +17189,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17276,7 +17276,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17341,7 +17341,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17428,7 +17428,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -17462,7 +17462,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17536,7 +17536,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17625,7 +17625,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17689,7 +17689,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -17780,7 +17780,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -17898,7 +17898,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -17932,7 +17932,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -18004,7 +18004,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -18086,7 +18086,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -18148,7 +18148,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -18232,7 +18232,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -18347,7 +18347,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -18460,7 +18460,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -18497,7 +18497,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -18572,7 +18572,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -18651,7 +18651,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon (
@@ -18712,7 +18712,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv_isosrchvaon (
@@ -18787,7 +18787,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -18881,7 +18881,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -18915,7 +18915,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__diode (
@@ -18968,7 +18968,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__diode (
@@ -19025,7 +19025,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__diode (
@@ -19070,7 +19070,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__diode (
@@ -19131,7 +19131,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -19237,7 +19237,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -19271,7 +19271,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -19339,7 +19339,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -19411,7 +19411,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__or2 (
@@ -19467,7 +19467,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__or2 (
@@ -19540,7 +19540,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -19671,7 +19671,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -19706,7 +19706,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -19790,7 +19790,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -19892,7 +19892,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -19964,7 +19964,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -20067,7 +20067,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -20175,7 +20175,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -20211,7 +20211,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -20281,7 +20281,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -20355,7 +20355,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__xor2 (
@@ -20413,7 +20413,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__xor2 (
@@ -20486,7 +20486,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -20599,7 +20599,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -20634,7 +20634,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -20707,7 +20707,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -20791,7 +20791,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -20854,7 +20854,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -20939,7 +20939,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -21057,7 +21057,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -21091,7 +21091,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -21168,7 +21168,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -21255,7 +21255,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -21320,7 +21320,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -21407,7 +21407,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -21441,7 +21441,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -21509,7 +21509,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -21581,7 +21581,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__einvn (
@@ -21633,7 +21633,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__einvn (
@@ -21701,7 +21701,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -21807,7 +21807,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -21907,7 +21907,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -22007,7 +22007,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -22107,7 +22107,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -22207,7 +22207,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -22307,7 +22307,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -22341,7 +22341,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -22407,7 +22407,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -22477,7 +22477,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__inv (
@@ -22531,7 +22531,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__inv (
@@ -22601,7 +22601,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -22719,7 +22719,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -22753,7 +22753,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -22827,7 +22827,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -22915,7 +22915,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -22979,7 +22979,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -23069,7 +23069,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -23175,7 +23175,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -23209,7 +23209,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -23277,7 +23277,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -23349,7 +23349,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__einvp (
@@ -23401,7 +23401,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__einvp (
@@ -23470,7 +23470,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -23601,7 +23601,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -23636,7 +23636,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -23720,7 +23720,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -23822,7 +23822,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -23894,7 +23894,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -23997,7 +23997,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -24111,7 +24111,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -24147,7 +24147,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -24221,7 +24221,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -24299,7 +24299,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o21a (
@@ -24361,7 +24361,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__o21a (
@@ -24437,7 +24437,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
@@ -24567,7 +24567,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -24601,7 +24601,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -24677,7 +24677,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -24757,7 +24757,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -24823,7 +24823,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -24908,7 +24908,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `ifdef USE_POWER_PINS
 
@@ -24945,7 +24945,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -25020,7 +25020,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 // Import user defined primitives.
 
@@ -25099,7 +25099,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg (
@@ -25160,7 +25160,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 `celldefine
 module sky130_fd_sc_hvl__lsbuflv2hv_clkiso_hlkg (
@@ -25239,7 +25239,7 @@ endmodule
  */
 
 `timescale 1ns / 1ps
-`default_nettype none
+`default_nettype wire
 
 
 `ifdef USE_POWER_PINS
