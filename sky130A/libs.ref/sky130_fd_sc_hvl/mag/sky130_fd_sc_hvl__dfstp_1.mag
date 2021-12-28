@@ -1,15 +1,17 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 4302 2157
+timestamp 1640697995
 << nwell >>
 rect -66 449 3042 897
 rect -66 377 1029 449
 rect 1434 377 3042 449
 << pwell >>
-rect 0 -17 2976 17
+rect 1089 313 1374 361
+rect 4 217 426 241
+rect 1089 217 2972 313
+rect 4 43 2972 217
+rect -26 -43 3002 43
 << mvnmos >>
 rect 87 131 187 215
 rect 243 131 343 215
@@ -1254,12 +1256,42 @@ flabel locali s 2911 538 2945 572 0 FreeSans 340 0 0 0 Q
 port 8 nsew signal output
 flabel locali s 2911 612 2945 646 0 FreeSans 340 0 0 0 Q
 port 8 nsew signal output
+rlabel locali s 2268 73 2386 295 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 2651 73 2841 295 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 494 73 601 199 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 971 73 1161 157 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 1360 73 1550 275 1 VGND
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 51 2976 125 1 VGND
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 -23 2976 23 1 VNB
+port 5 nsew ground bidirectional
+rlabel metal1 s 0 791 2976 837 1 VPB
+port 6 nsew power bidirectional
+rlabel locali s 2002 533 2192 741 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2346 671 2536 747 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2659 515 2848 741 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 447 525 497 741 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 1121 571 1187 741 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 1415 535 1605 741 1 VPWR
+port 7 nsew power bidirectional
+rlabel metal1 s 0 689 2976 763 1 VPWR
+port 7 nsew power bidirectional
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
 string FIXED_BBOX 0 0 2976 814
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 823582
-string GDS_START 794416
+string GDS_END 918942
+string GDS_START 889776
 << end >>

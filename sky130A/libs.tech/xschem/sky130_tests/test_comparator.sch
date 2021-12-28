@@ -1,6 +1,6 @@
-v {xschem version=2.9.9 file_version=1.2 
+v {xschem version=3.0.0 file_version=1.2 
 
-* Copyright 2020 Stefan Frederik Schippers
+* Copyright 2021 Stefan Frederik Schippers
 * 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ L 4 410 -180 410 -160 {}
 L 4 410 -160 570 -160 {}
 L 4 570 -180 570 -160 {}
 L 4 570 -180 690 -180 {}
-L 7 1310 -240 2740 -240 {}
+L 7 1090 -240 2470 -240 {}
 T {CAL} 140 -190 0 1 0.4 0.4 {}
 T {EN} 140 -140 0 1 0.4 0.4 {}
 T {CALIBRATION
@@ -42,10 +42,17 @@ T {SENSING
   30ns} 530 -310 0 1 0.4 0.4 {}
 T {OFF} 660 -310 0 1 0.4 0.4 {}
 T {OFF} 210 -310 0 1 0.4 0.4 {}
-T {NGSPICE MONTE CARLO SIMULATION} 1430 -290 0 0 0.8 0.8 {}
-T {Offset-compensated comparator. Detects +/- 2mv differential signal on PLUS, MINUS.
+T {NGSPICE MISMATCH SIMULATION} 1210 -290 0 0 0.8 0.8 {}
+T {Offset-compensated comparator. Detects +/- 8mV differential signal on PLUS, MINUS.
+Variations on per-instance process parameters (tt_mm corner), VCC and Temperature.
 Output on SAOUT
-Gaussian Threshold variation is added to all MOS transistors.} 1330 -220 0 0 0.6 0.6 {}
+} 1110 -220 0 0 0.6 0.6 {}
+T {Before running this simulation:
+copy file stimuli.test_comparator to xschem's
+simulation directory, then use menu:
+Simulation-> Utile Stimuli Editor (GUI)
+to translate the stimuli file to 
+stimuli_test_comparator.cir} 20 -1490 0 0 0.6 0.6 {}
 N 120 -480 120 -460 {lab=TEMPERAT}
 N 290 -1090 320 -1090 {lab=VSS}
 N 290 -1060 290 -1030 {lab=VSS}
@@ -218,34 +225,30 @@ C {devices/lab_pin.sym} 120 -580 0 0 {name=l50 lab=CAL}
 C {devices/code.sym} 720 -340 0 0 {name=STIMULI 
 only_toplevel=true
 place=end
-value="* .option SCALE=1e-6 
-.option method=gear seed=12
-
-* this experimental option enables mos model bin 
-* selection based on W/NF instead of W
+value="
+** this experimental option enables mos model bin 
+** selection based on W/NF instead of W
 .option wnflag=1 
 
-* .param VCC=1.8
 .param VCCGAUSS=agauss(1.8, 0.05, 1)
-.param VCC=VCCGAUSS
+.param VCC='VCCGAUSS'
+** use following line to remove VCC variations
+* .param VCC=1.8
 .param VDL='VCC/2+0.2'
-.param ABSVAR=0.02
-.temp 25
+.param TEMPGAUSS=agauss(40, 30, 1)
+.option temp='TEMPGAUSS'
+** use following line to remove temperature variations
+* .option temp=25
 
 ** to generate following file: 
 ** copy .../xschem_sky130/sky130_tests/stimuli.test_comparator to simulation directory
 ** then do 'Simulation->Utile Stimuli Editor (GUI)' and press 'Translate'
 .include \\"stimuli_test_comparator.cir\\"
 
-** variation marameters:
-.param sky130_fd_pr__nfet_01v8_lvt__vth0_slope_spectre='agauss(0, ABSVAR, 3)/sky130_fd_pr__nfet_01v8_lvt__vth0_slope'
-.param sky130_fd_pr__pfet_01v8_lvt__vth0_slope_spectre='agauss(0, ABSVAR, 3)/sky130_fd_pr__pfet_01v8_lvt__vth0_slope'
-
-* .tran 0.1n 900n uic
-
 .control
+  option seed=12
   let run=1
-  dowhile run <= 20
+  dowhile run <= 40
     if run > 1
       reset
       set appendwrite
@@ -337,9 +340,12 @@ C {devices/lab_pin.sym} 660 -780 0 1 {name=l11 lab=PLUS}
 C {devices/lab_pin.sym} 680 -710 0 1 {name=l12 lab=OUTDIFF}
 C {devices/parax_cap.sym} 500 -640 0 0 {name=C7  value=4f}
 C {devices/lab_pin.sym} 530 -870 0 0 {name=l13 lab=SP}
-C {devices/launcher.sym} 910 -270 0 0 {name=h2 
+C {devices/launcher.sym} 910 -320 0 0 {name=h2 
 descr="Simulate" 
-tclcommand="xschem netlist; xschem simulate"}
+tclcommand="execute 0 sh -c \\"cd $netlist_dir && \\\\ 
+  XSCHEM_SHAREDIR=$XSCHEM_SHAREDIR $utile_cmd_path stimuli.test_comparator \\" 
+xschem netlist; xschem simulate"
+}
 C {sky130_tests/not.sym} 160 -710 0 0 {name=x4 m=1 
 + W_N=1 L_N=0.15 W_P=2 L_P=0.15 
 + VCCPIN=VCC VSSPIN=VSS}
@@ -589,20 +595,17 @@ model=nfet_01v8_lvt
 spiceprefix=X
  }
 C {sky130_tests/passgate_nlvt.sym} 860 -1270 0 1 {name=x1 m=1
-W_N=0.42 L_N=0.15
-W_P=0.42 L_P=0.15
-ad=0.12 as=0.12 pd=0.9 ps=0.9
-VCCBPIN=VCC VSSBPIN=VSS nf=1 }
+W_N=0.42 L_N=0.4
+W_P=0.42 L_P=0.4
+VCCBPIN=VCC VSSBPIN=VSS}
 C {sky130_tests/passgate_nlvt.sym} 1350 -1270 0 1 {name=x2 m=1
-W_N=0.42 L_N=0.15
-W_P=0.42 L_P=0.15
-ad=0.12 as=0.12 pd=0.9 ps=0.9
-VCCBPIN=VCC VSSBPIN=VSS nf=1 }
+W_N=0.42 L_N=0.4
+W_P=0.42 L_P=0.4
+VCCBPIN=VCC VSSBPIN=VSS}
 C {sky130_tests/passgate_nlvt.sym} 1840 -1270 0 1 {name=x3 m=1
-W_N=0.42 L_N=0.15
-W_P=0.42 L_P=0.15
-ad=0.12 as=0.12 pd=0.9 ps=0.9
-VCCBPIN=VCC VSSBPIN=VSS nf=1 }
+W_N=0.42 L_N=0.4
+W_P=0.42 L_P=0.4
+VCCBPIN=VCC VSSBPIN=VSS}
 C {devices/capa.sym} 980 -1070 0 0 {name=C2
 m=1
 value=15f
@@ -621,7 +624,7 @@ value=15f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 1930 -1020 0 0 {name=p7 lab=VCC}
-C {devices/launcher.sym} 1150 -310 0 0 {name=h3
+C {devices/launcher.sym} 910 -270 0 0 {name=h3
 descr="Load file into gaw" 
 comment="
   This launcher gets raw filename from current schematic using 'xschem get schname'
@@ -635,42 +638,12 @@ load $netlist_dir/$rawfile
 table_set $rawfile\\"
 unset rawfile"
 }
-C {devices/code.sym} 720 -160 0 0 {name=TT_MODELS
+C {devices/code.sym} 720 -170 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
 value="
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_01v8/sky130_fd_pr__esd_nfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_pfet_g5v0d10v5/sky130_fd_pr__esd_pfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d16v0/sky130_fd_pr__nfet_g5v0d16v0__tt_discrete.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_g5v0d10v5/sky130_fd_pr__esd_nfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/nonfet.spice
-* Mismatch parameters
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice
-* Resistor\\\\$::SKYWATER_MODELS\\\\/Capacitor
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical__lin.spice
-* Special cells
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/specialized_cells.spice
-* All models
-.include \\\\$::SKYWATER_MODELS\\\\/models/all.spice
-* Corner
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/rf.spice
-"}
+** opencircuitdesign pdks install
+.lib $::SKYWATER_MODELS/sky130.lib.spice tt_mm
+
+"
+spice_ignore=false}

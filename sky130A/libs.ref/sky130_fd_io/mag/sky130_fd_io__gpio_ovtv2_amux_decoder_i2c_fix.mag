@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -3920 -5306 7899 2364
+timestamp 1640697850
 << nwell >>
 rect 458 120 478 482
 rect -2594 14 1034 120
@@ -15,11 +13,11 @@ rect 2622 -1119 3386 -988
 rect 2622 -2005 3502 -1119
 rect 1467 -3217 1831 -2749
 << pwell >>
-rect -2530 878 1066 912
-rect -2530 -778 970 -744
-rect -2237 -1970 556 -1936
-rect 4376 -2091 4658 -2039
-rect 1531 -2353 1767 -2319
+rect -2556 852 1092 938
+rect -2556 -804 996 -718
+rect -2263 -1996 582 -1910
+rect 4350 -2117 4684 -2013
+rect 1505 -2379 1793 -2293
 << psubdiff >>
 rect -2530 878 -2506 912
 rect -2472 878 -2365 912
@@ -5421,143 +5419,144 @@ rect -304 -4041 -274 -3985
 rect -218 -4041 -213 -3985
 rect -797 -4046 -213 -4041
 use sky130_fd_io__xor2_1  sky130_fd_io__xor2_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1404 0 -1 814
 box -38 -49 710 715
 use sky130_fd_io__nand2_1  sky130_fd_io__nand2_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 132 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__nand2_1  sky130_fd_io__nand2_1_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 708 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__nand2_1  sky130_fd_io__nand2_1_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1980 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__nand2_1  sky130_fd_io__nand2_1_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -732 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1505 0 -1 -2417
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -252 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -2556 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -2268 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_4
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 804 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_5
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 1092 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_6
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -444 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_7
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1692 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_8
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1404 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_9
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 132 0 -1 814
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_10
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 708 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_11
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 420 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_12
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -2268 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_13
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1692 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__inv_1  sky130_fd_io__inv_1_14
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -828 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__nor2_1  sky130_fd_io__nor2_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1116 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__nor2_1  sky130_fd_io__nor2_1_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -540 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__nor2_1  sky130_fd_io__nor2_1_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1980 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__nor2_1  sky130_fd_io__nor2_1_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -2556 0 1 -680
 box -38 -49 326 715
 use sky130_fd_io__hvsbt_nor  sky130_fd_io__hvsbt_nor_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 613 0 1 -1993
 box 0 24 534 1116
 use sky130_fd_io__hvsbt_nor  sky130_fd_io__hvsbt_nor_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -392 0 1 -1993
 box 0 24 534 1116
 use sky130_fd_io__hvsbt_nand2  sky130_fd_io__hvsbt_nand2_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 -791 0 1 -1993
 box -42 24 569 1116
 use sky130_fd_io__hvsbt_nand2  sky130_fd_io__hvsbt_nand2_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 -326 0 1 -1993
 box -42 24 569 1116
 use sky130_fd_io__hvsbt_nand2  sky130_fd_io__hvsbt_nand2_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1876 0 1 -1993
 box -42 24 569 1116
 use sky130_fd_io__hvsbt_nand2  sky130_fd_io__hvsbt_nand2_3
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 -1694 0 1 -1993
 box -42 24 569 1116
 use sky130_fd_io__gpio_ovtv2_amux_nand5  sky130_fd_io__gpio_ovtv2_amux_nand5_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 4886 1 0 -2138
-box 59 38 1194 1846
+box 33 38 1194 1846
 use sky130_fd_io__gpio_ovtv2_amux_nand5  sky130_fd_io__gpio_ovtv2_amux_nand5_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1238 1 0 -2138
-box 59 38 1194 1846
+box 33 38 1194 1846
 use sky130_fd_io__gpio_ovtv2_amux_nand4  sky130_fd_io__gpio_ovtv2_amux_nand4_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 2247 0 -1 834
 box -44 33 1013 1822
 use sky130_fd_io__gpio_ovtv2_amux_nand4  sky130_fd_io__gpio_ovtv2_amux_nand4_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 2195 0 -1 834
 box -44 33 1013 1822
 << labels >>
 flabel metal3 s -528 -820 -500 -792 3 FreeSans 280 0 0 0 VCCD
+port 1 nsew
 flabel comment s 629 -114 629 -114 0 FreeSans 280 0 0 0 OUT_I_N
 flabel comment s -2049 674 -2049 674 0 FreeSans 280 90 0 0 ANA_SEL_I
 flabel comment s 1244 618 1244 618 0 FreeSans 280 0 0 0 INT_AMUXB_ON
@@ -5570,38 +5569,71 @@ flabel comment s 4802 -1410 4802 -1410 0 FreeSans 280 0 0 0 NMIDA_ON_N
 flabel comment s 478 -950 478 -950 0 FreeSans 280 0 0 0 LV_NET
 flabel comment s -2343 -1703 -2343 -1703 0 FreeSans 280 0 0 0 NGA_PAD_VSWITCH_H
 flabel metal1 s 262 -666 290 -638 3 FreeSans 280 0 0 0 VSSD
+port 2 nsew
 flabel metal1 s 646 773 674 801 3 FreeSans 280 0 0 0 VSSD
+port 2 nsew
 flabel metal1 s -26 -266 2 -238 3 FreeSans 280 0 0 0 AMUXBUSA_ON_N
+port 3 nsew
 flabel metal1 s -213 -391 -185 -363 3 FreeSans 280 0 0 0 AMUXBUSA_ON
+port 4 nsew
 flabel metal1 s 262 -3 290 25 3 FreeSans 280 0 0 0 VCCD
+port 1 nsew
 flabel metal1 s -2522 465 -2494 493 3 FreeSans 280 0 0 0 ANALOG_SEL
+port 5 nsew
 flabel metal1 s 1030 482 1058 510 3 FreeSans 280 0 0 0 ANALOG_POL
+port 6 nsew
 flabel metal1 s -1370 -361 -1342 -333 3 FreeSans 280 0 0 0 ANALOG_EN
+port 7 nsew
 flabel metal1 s 646 -382 674 -354 3 FreeSans 280 0 0 0 OUT
+port 8 nsew
 flabel metal1 s -2042 -210 -2014 -182 3 FreeSans 280 0 0 0 AMUXBUSB_ON_N
+port 9 nsew
 flabel metal1 s -2234 -361 -2206 -333 3 FreeSans 280 0 0 0 AMUXBUSB_ON
+port 10 nsew
 flabel metal1 s -1466 -295 -1438 -267 3 FreeSans 280 0 0 0 PU_ON_N
+port 11 nsew
 flabel metal1 s -1658 -361 -1630 -333 3 FreeSans 280 0 0 0 PU_ON
+port 12 nsew
 flabel metal1 s -602 -321 -574 -293 3 FreeSans 280 0 0 0 PD_ON_N
+port 13 nsew
 flabel metal1 s -794 -361 -766 -333 3 FreeSans 280 0 0 0 PD_ON
+port 14 nsew
 flabel metal1 s -217 -1646 -189 -1618 3 FreeSans 280 90 0 0 NGA_PAD_VSWITCH_H
+port 15 nsew
 flabel metal1 s -460 -1034 -432 -1006 3 FreeSans 280 0 0 0 VCCD
+port 1 nsew
 flabel metal1 s -429 -1857 -401 -1829 3 FreeSans 280 0 0 0 VSSD
+port 2 nsew
 flabel metal1 s -991 -1315 -963 -1287 3 FreeSans 280 90 0 0 PGA_PAD_VDDIOQ_H_N
+port 16 nsew
 flabel metal1 s -1156 -1414 -1128 -1386 3 FreeSans 280 90 0 0 PGA_AMX_VDDA_H_N
+port 17 nsew
 flabel metal1 s -513 -1420 -485 -1392 3 FreeSans 280 90 0 0 PGB_PAD_VDDIOQ_H_N
+port 18 nsew
 flabel metal1 s -698 -1366 -670 -1338 3 FreeSans 280 270 0 0 PGB_AMX_VDDA_H_N
+port 19 nsew
 flabel metal1 s -1621 -1612 -1593 -1584 3 FreeSans 280 0 0 0 D_B
+port 20 nsew
 flabel metal1 s -1971 -1361 -1943 -1333 3 FreeSans 280 0 0 0 NMIDA_ON_N
+port 21 nsew
 flabel metal1 s 410 -1228 438 -1200 3 FreeSans 280 180 0 0 NGB_PAD_VSWITCH_H
+port 22 nsew
 flabel metal1 s 1741 697 1769 725 3 FreeSans 280 0 0 0 D_B
+port 20 nsew
 flabel metal1 s 1429 697 1457 725 3 FreeSans 280 0 0 0 PU_VDDIOQ_H_N
+port 23 nsew
 flabel metal1 s 4561 -1662 4589 -1634 3 FreeSans 280 0 0 0 NGB_PAD_VSWITCH_H_N
+port 24 nsew
 flabel metal1 s 2143 457 2171 485 3 FreeSans 280 0 0 0 VSSD
+port 2 nsew
 flabel metal1 s 1770 -957 1798 -929 3 FreeSans 280 0 0 0 VCCD
+port 1 nsew
 flabel metal1 s 4571 -1506 4599 -1478 3 FreeSans 280 0 0 0 NGA_PAD_VSWITCH_H_N
+port 25 nsew
 flabel metal1 s 1585 697 1613 725 3 FreeSans 280 0 0 0 PD_VSWITCH_H_N
+port 26 nsew
 flabel metal1 s 2673 697 2701 725 3 FreeSans 280 0 0 0 NMIDA_VCCD_N
+port 27 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string GDS_END 48972706

@@ -1,13 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -1468 6172 3911
+timestamp 1640697850
 << nwell >>
 rect 4305 -208 4839 64
 << pwell >>
-rect 1530 28 1564 2097
+rect 72 1803 424 2217
+rect 1105 2123 1357 2661
+rect 1105 955 1590 2123
+rect 1106 10 1590 955
+rect 1504 2 1590 10
 << mvnmos >>
 rect 98 2038 398 2138
 rect 98 1882 398 1982
@@ -1268,37 +1270,37 @@ rect 1261 394 1273 446
 rect 1325 394 4245 446
 tri 4245 394 4297 446 nw
 use sky130_fd_pr__nfet_01v8__example_55959141808503  sky130_fd_pr__nfet_01v8__example_55959141808503_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1132 1 0 526
 box -28 0 284 131
 use sky130_fd_pr__nfet_01v8__example_55959141808503  sky130_fd_pr__nfet_01v8__example_55959141808503_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1132 1 0 89
 box -28 0 284 131
 use sky130_fd_pr__nfet_01v8__example_55959141808503  sky130_fd_pr__nfet_01v8__example_55959141808503_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 398 -1 0 2138
 box -28 0 284 131
 use sky130_fd_pr__nfet_01v8__example_55959141808497  sky130_fd_pr__nfet_01v8__example_55959141808497_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 1331 1 0 1627
 box -28 0 444 97
 use sky130_fd_pr__nfet_01v8__example_55959141808496  sky130_fd_pr__nfet_01v8__example_55959141808496_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1131 1 0 1034
 box -28 0 444 97
 use sky130_fd_pr__nfet_01v8__example_55959141808502  sky130_fd_pr__nfet_01v8__example_55959141808502_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 1331 1 0 2294
 box -28 0 316 97
 use sky130_fd_pr__pfet_01v8__example_55959141808500  sky130_fd_pr__pfet_01v8__example_55959141808500_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4424 0 1 -142
 box -28 0 324 63
 << labels >>
 flabel comment s 1060 2348 1060 2348 0 FreeSans 400 90 0 0 IN_H
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 48406890
-string GDS_START 48388326
+string GDS_END 48467734
+string GDS_START 48449170
 << end >>

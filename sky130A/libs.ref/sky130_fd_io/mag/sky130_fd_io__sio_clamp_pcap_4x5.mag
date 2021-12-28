@@ -1,14 +1,9 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1232 -1230 2490 2580
+timestamp 1640697850
 << pwell >>
-rect 36 1280 1222 1314
-rect 36 70 70 1280
-rect 1188 70 1222 1280
-rect 36 36 1222 70
+rect 10 10 1248 1340
 << mvnmos >>
 rect 229 144 1029 1144
 << mvndiff >>
@@ -828,11 +823,11 @@ rect 1052 36 1090 70
 rect 1124 36 1228 70
 rect 30 30 1228 36
 use sky130_fd_pr__model__nfet_highvoltage__example_55959141808664  sky130_fd_pr__model__nfet_highvoltage__example_55959141808664_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 229 0 1 144
 box -28 0 828 471
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 22223316
-string GDS_START 22210458
+string GDS_END 11342884
+string GDS_START 11330026
 << end >>

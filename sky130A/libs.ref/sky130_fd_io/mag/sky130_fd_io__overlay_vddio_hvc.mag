@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -853 16260 41260
+timestamp 1640697850
 << metal3 >>
 rect 99 18950 4018 18953
 rect 99 18886 162 18950
@@ -14457,135 +14455,247 @@ rect 14746 1797 15000 2687
 rect 0 427 254 1477
 rect 14746 427 15000 1477
 use sky130_fd_io__com_bus_hookup  sky130_fd_io__com_bus_hookup_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 0 0 1 549
 box 0 -142 15000 39451
 << labels >>
 flabel metal5 s 14746 35157 15000 40000 3 FreeSans 520 180 0 0 VSSIO
-port 44 nsew signal default
-flabel metal5 s 14746 7368 15000 8017 3 FreeSans 520 180 0 0 VSSA
-port 28 nsew signal default
-flabel metal5 s 0 3007 193 3657 3 FreeSans 520 0 0 0 VDDA
-port 12 nsew signal default
-flabel metal5 s 14746 14007 15000 18997 3 FreeSans 520 180 0 0 VDDIO
-port 16 nsew signal default
-flabel metal5 s 14746 3977 15000 4867 3 FreeSans 520 180 0 0 VDDIO
-port 17 nsew signal default
-flabel metal5 s 0 14007 254 18997 3 FreeSans 520 0 0 0 VDDIO
-port 18 nsew signal default
-flabel metal5 s 0 3977 254 4867 3 FreeSans 520 0 0 0 VDDIO
-port 19 nsew signal default
-flabel metal5 s 14746 427 15000 1477 3 FreeSans 520 180 0 0 VCCHIB
-port 8 nsew signal default
-flabel metal5 s 14746 12837 15000 13687 3 FreeSans 520 180 0 0 VDDIO_Q
-port 24 nsew signal default
-flabel metal5 s 0 12837 254 13687 3 FreeSans 520 0 0 0 VDDIO_Q
-port 25 nsew signal default
-flabel metal5 s 14746 9547 15000 11347 3 FreeSans 520 180 0 0 VSSA
-port 29 nsew signal default
-flabel metal5 s 14746 1797 15000 2687 3 FreeSans 520 180 0 0 VCCD
-port 4 nsew signal default
-flabel metal5 s 0 1797 254 2687 3 FreeSans 520 0 0 0 VCCD
-port 5 nsew signal default
-flabel metal5 s 0 427 254 1477 3 FreeSans 520 0 0 0 VCCHIB
-port 9 nsew signal default
-flabel metal5 s 14746 5187 15000 6077 3 FreeSans 520 180 0 0 VSSIO
-port 45 nsew signal default
-flabel metal5 s 0 35157 254 40000 3 FreeSans 520 0 0 0 VSSIO
-port 46 nsew signal default
-flabel metal5 s 0 5187 254 6077 3 FreeSans 520 0 0 0 VSSIO
-port 47 nsew signal default
-flabel metal5 s 14746 11667 15000 12517 3 FreeSans 520 180 0 0 VSSIO_Q
-port 52 nsew signal default
-flabel metal5 s 0 11667 254 12517 3 FreeSans 520 0 0 0 VSSIO_Q
-port 53 nsew signal default
-flabel metal5 s 14746 6397 15000 7047 3 FreeSans 520 180 0 0 VSWITCH
-port 56 nsew signal default
-flabel metal5 s 0 6397 254 7047 3 FreeSans 520 0 0 0 VSWITCH
-port 57 nsew signal default
-flabel metal5 s 0 9547 254 11347 3 FreeSans 520 0 0 0 VSSA
-port 30 nsew signal default
-flabel metal5 s 0 7368 254 8017 3 FreeSans 520 0 0 0 VSSA
-port 31 nsew signal default
-flabel metal5 s 14746 8337 15000 9227 3 FreeSans 520 180 0 0 VSSD
-port 40 nsew signal default
-flabel metal5 s 0 8337 254 9227 3 FreeSans 520 0 0 0 VSSD
-port 41 nsew signal default
-flabel metal5 s 14807 3007 15000 3657 3 FreeSans 520 180 0 0 VDDA
-port 13 nsew signal default
-flabel metal4 s 14746 5167 15000 6097 3 FreeSans 520 180 0 0 VSSIO
-port 48 nsew signal default
-flabel metal4 s 14746 3957 15000 4887 3 FreeSans 520 180 0 0 VDDIO
-port 20 nsew signal default
-flabel metal4 s 14746 10625 15000 11221 3 FreeSans 520 180 0 0 AMUXBUS_A
-port 0 nsew signal default
-flabel metal4 s 14746 14007 15000 19000 3 FreeSans 520 180 0 0 VDDIO
-port 21 nsew signal default
-flabel metal4 s 14746 1777 15000 2707 3 FreeSans 520 180 0 0 VCCD
-port 6 nsew signal default
-flabel metal4 s 0 3957 254 4887 3 FreeSans 520 0 0 0 VDDIO
-port 22 nsew signal default
-flabel metal4 s 0 14007 254 19000 3 FreeSans 520 0 0 0 VDDIO
-port 23 nsew signal default
-flabel metal4 s 14746 12817 15000 13707 3 FreeSans 520 180 0 0 VDDIO_Q
-port 26 nsew signal default
-flabel metal4 s 0 12817 254 13707 3 FreeSans 520 0 0 0 VDDIO_Q
-port 27 nsew signal default
-flabel metal4 s 0 9673 254 10269 3 FreeSans 520 0 0 0 AMUXBUS_B
-port 2 nsew signal default
-flabel metal4 s 14746 7347 15000 8037 3 FreeSans 520 180 0 0 VSSA
-port 32 nsew signal default
-flabel metal4 s 14746 9547 15000 9613 3 FreeSans 520 180 0 0 VSSA
-port 33 nsew signal default
-flabel metal4 s 14746 10329 15000 10565 3 FreeSans 520 180 0 0 VSSA
-port 34 nsew signal default
-flabel metal4 s 14746 11281 15000 11347 3 FreeSans 520 180 0 0 VSSA
-port 35 nsew signal default
-flabel metal4 s 0 10625 254 11221 3 FreeSans 520 0 0 0 AMUXBUS_A
 port 1 nsew signal default
-flabel metal4 s 14746 9673 15000 10269 3 FreeSans 520 180 0 0 AMUXBUS_B
+flabel metal5 s 14746 7368 15000 8017 3 FreeSans 520 180 0 0 VSSA
+port 2 nsew signal default
+flabel metal5 s 0 3007 193 3657 3 FreeSans 520 0 0 0 VDDA
 port 3 nsew signal default
+flabel metal5 s 14746 14007 15000 18997 3 FreeSans 520 180 0 0 VDDIO
+port 4 nsew signal default
+flabel metal5 s 14746 3977 15000 4867 3 FreeSans 520 180 0 0 VDDIO
+port 4 nsew signal default
+flabel metal5 s 0 14007 254 18997 3 FreeSans 520 0 0 0 VDDIO
+port 4 nsew signal default
+flabel metal5 s 0 3977 254 4867 3 FreeSans 520 0 0 0 VDDIO
+port 4 nsew signal default
+flabel metal5 s 14746 427 15000 1477 3 FreeSans 520 180 0 0 VCCHIB
+port 5 nsew signal default
+flabel metal5 s 14746 12837 15000 13687 3 FreeSans 520 180 0 0 VDDIO_Q
+port 6 nsew signal default
+flabel metal5 s 0 12837 254 13687 3 FreeSans 520 0 0 0 VDDIO_Q
+port 6 nsew signal default
+flabel metal5 s 14746 9547 15000 11347 3 FreeSans 520 180 0 0 VSSA
+port 2 nsew signal default
+flabel metal5 s 14746 1797 15000 2687 3 FreeSans 520 180 0 0 VCCD
+port 7 nsew signal default
+flabel metal5 s 0 1797 254 2687 3 FreeSans 520 0 0 0 VCCD
+port 7 nsew signal default
+flabel metal5 s 0 427 254 1477 3 FreeSans 520 0 0 0 VCCHIB
+port 5 nsew signal default
+flabel metal5 s 14746 5187 15000 6077 3 FreeSans 520 180 0 0 VSSIO
+port 1 nsew signal default
+flabel metal5 s 0 35157 254 40000 3 FreeSans 520 0 0 0 VSSIO
+port 1 nsew signal default
+flabel metal5 s 0 5187 254 6077 3 FreeSans 520 0 0 0 VSSIO
+port 1 nsew signal default
+flabel metal5 s 14746 11667 15000 12517 3 FreeSans 520 180 0 0 VSSIO_Q
+port 8 nsew signal default
+flabel metal5 s 0 11667 254 12517 3 FreeSans 520 0 0 0 VSSIO_Q
+port 8 nsew signal default
+flabel metal5 s 14746 6397 15000 7047 3 FreeSans 520 180 0 0 VSWITCH
+port 9 nsew signal default
+flabel metal5 s 0 6397 254 7047 3 FreeSans 520 0 0 0 VSWITCH
+port 9 nsew signal default
+flabel metal5 s 0 9547 254 11347 3 FreeSans 520 0 0 0 VSSA
+port 2 nsew signal default
+flabel metal5 s 0 7368 254 8017 3 FreeSans 520 0 0 0 VSSA
+port 2 nsew signal default
+flabel metal5 s 14746 8337 15000 9227 3 FreeSans 520 180 0 0 VSSD
+port 10 nsew signal default
+flabel metal5 s 0 8337 254 9227 3 FreeSans 520 0 0 0 VSSD
+port 10 nsew signal default
+flabel metal5 s 14807 3007 15000 3657 3 FreeSans 520 180 0 0 VDDA
+port 3 nsew signal default
+flabel metal4 s 14746 5167 15000 6097 3 FreeSans 520 180 0 0 VSSIO
+port 1 nsew signal default
+flabel metal4 s 14746 3957 15000 4887 3 FreeSans 520 180 0 0 VDDIO
+port 4 nsew signal default
+flabel metal4 s 14746 10625 15000 11221 3 FreeSans 520 180 0 0 AMUXBUS_A
+port 11 nsew signal default
+flabel metal4 s 14746 14007 15000 19000 3 FreeSans 520 180 0 0 VDDIO
+port 4 nsew signal default
+flabel metal4 s 14746 1777 15000 2707 3 FreeSans 520 180 0 0 VCCD
+port 7 nsew signal default
+flabel metal4 s 0 3957 254 4887 3 FreeSans 520 0 0 0 VDDIO
+port 4 nsew signal default
+flabel metal4 s 0 14007 254 19000 3 FreeSans 520 0 0 0 VDDIO
+port 4 nsew signal default
+flabel metal4 s 14746 12817 15000 13707 3 FreeSans 520 180 0 0 VDDIO_Q
+port 6 nsew signal default
+flabel metal4 s 0 12817 254 13707 3 FreeSans 520 0 0 0 VDDIO_Q
+port 6 nsew signal default
+flabel metal4 s 0 9673 254 10269 3 FreeSans 520 0 0 0 AMUXBUS_B
+port 12 nsew signal default
+flabel metal4 s 14746 7347 15000 8037 3 FreeSans 520 180 0 0 VSSA
+port 2 nsew signal default
+flabel metal4 s 14746 9547 15000 9613 3 FreeSans 520 180 0 0 VSSA
+port 2 nsew signal default
+flabel metal4 s 14746 10329 15000 10565 3 FreeSans 520 180 0 0 VSSA
+port 2 nsew signal default
+flabel metal4 s 14746 11281 15000 11347 3 FreeSans 520 180 0 0 VSSA
+port 2 nsew signal default
+flabel metal4 s 0 10625 254 11221 3 FreeSans 520 0 0 0 AMUXBUS_A
+port 11 nsew signal default
+flabel metal4 s 14746 9673 15000 10269 3 FreeSans 520 180 0 0 AMUXBUS_B
+port 12 nsew signal default
 flabel metal4 s 0 1777 254 2707 3 FreeSans 520 0 0 0 VCCD
 port 7 nsew signal default
 flabel metal4 s 14746 407 15000 1497 3 FreeSans 520 180 0 0 VCCHIB
-port 10 nsew signal default
+port 5 nsew signal default
 flabel metal4 s 0 407 254 1497 3 FreeSans 520 0 0 0 VCCHIB
-port 11 nsew signal default
+port 5 nsew signal default
 flabel metal4 s 0 35157 254 40000 3 FreeSans 520 0 0 0 VSSIO
-port 49 nsew signal default
+port 1 nsew signal default
 flabel metal4 s 0 5167 254 6097 3 FreeSans 520 0 0 0 VSSIO
-port 50 nsew signal default
+port 1 nsew signal default
 flabel metal4 s 14746 11647 15000 12537 3 FreeSans 520 180 0 0 VSSIO_Q
-port 54 nsew signal default
+port 8 nsew signal default
 flabel metal4 s 0 11647 254 12537 3 FreeSans 520 0 0 0 VSSIO_Q
-port 55 nsew signal default
+port 8 nsew signal default
 flabel metal4 s 14746 6377 15000 7067 3 FreeSans 520 180 0 0 VSWITCH
-port 58 nsew signal default
+port 9 nsew signal default
 flabel metal4 s 0 6377 254 7067 3 FreeSans 520 0 0 0 VSWITCH
-port 59 nsew signal default
+port 9 nsew signal default
 flabel metal4 s 0 9547 254 9613 3 FreeSans 520 0 0 0 VSSA
-port 36 nsew signal default
+port 2 nsew signal default
 flabel metal4 s 0 10329 254 10565 3 FreeSans 520 0 0 0 VSSA
-port 37 nsew signal default
+port 2 nsew signal default
 flabel metal4 s 0 11281 254 11347 3 FreeSans 520 0 0 0 VSSA
-port 38 nsew signal default
+port 2 nsew signal default
 flabel metal4 s 0 7347 254 8037 3 FreeSans 520 0 0 0 VSSA
-port 39 nsew signal default
+port 2 nsew signal default
 flabel metal4 s 14746 8317 15000 9247 3 FreeSans 520 180 0 0 VSSD
-port 42 nsew signal default
+port 10 nsew signal default
 flabel metal4 s 0 8317 254 9247 3 FreeSans 520 0 0 0 VSSD
-port 43 nsew signal default
+port 10 nsew signal default
 flabel metal4 s 14746 35157 15000 40000 3 FreeSans 520 180 0 0 VSSIO
-port 51 nsew signal default
+port 1 nsew signal default
 flabel metal4 s 14807 2987 15000 3677 3 FreeSans 520 180 0 0 VDDA
-port 14 nsew signal default
+port 3 nsew signal default
 flabel metal4 s 0 2987 193 3677 3 FreeSans 520 0 0 0 VDDA
-port 15 nsew signal default
+port 3 nsew signal default
+rlabel metal4 s 14746 10625 15000 11221 1 AMUXBUS_A
+port 11 nsew signal default
+rlabel metal4 s 14746 9673 15000 10269 1 AMUXBUS_B
+port 12 nsew signal default
+rlabel metal4 s 14746 1777 15000 2707 1 VCCD
+port 7 nsew signal default
+rlabel metal5 s 0 1797 254 2687 1 VCCD
+port 7 nsew signal default
+rlabel metal5 s 14746 1797 15000 2687 1 VCCD
+port 7 nsew signal default
+rlabel metal4 s 14746 407 15000 1497 1 VCCHIB
+port 5 nsew signal default
+rlabel metal5 s 0 427 254 1477 1 VCCHIB
+port 5 nsew signal default
+rlabel metal5 s 14746 427 15000 1477 1 VCCHIB
+port 5 nsew signal default
+rlabel metal4 s 14807 2987 15000 3677 1 VDDA
+port 3 nsew signal default
+rlabel metal5 s 0 3007 193 3657 1 VDDA
+port 3 nsew signal default
+rlabel metal5 s 14807 3007 15000 3657 1 VDDA
+port 3 nsew signal default
+rlabel metal4 s 0 18954 254 19000 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 0 18126 3948 18954 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 0 18087 254 18126 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 0 14012 4880 18087 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 0 14007 254 14012 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 10083 3957 15000 4887 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 14746 18954 15000 19000 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 14746 18087 15000 18126 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 14746 14007 15000 14012 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 11064 18126 15000 18954 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 10132 14012 15000 18087 1 VDDIO
+port 4 nsew signal default
+rlabel metal5 s 0 3977 254 4867 1 VDDIO
+port 4 nsew signal default
+rlabel metal5 s 0 14007 254 18997 1 VDDIO
+port 4 nsew signal default
+rlabel metal5 s 14746 3977 15000 4867 1 VDDIO
+port 4 nsew signal default
+rlabel metal5 s 14746 14007 15000 18997 1 VDDIO
+port 4 nsew signal default
+rlabel metal4 s 10083 12817 15000 13707 1 VDDIO_Q
+port 6 nsew signal default
+rlabel metal5 s 0 12837 254 13687 1 VDDIO_Q
+port 6 nsew signal default
+rlabel metal5 s 14746 12837 15000 13687 1 VDDIO_Q
+port 6 nsew signal default
+rlabel metal4 s 0 9547 254 9613 1 VSSA
+port 2 nsew signal default
+rlabel metal4 s 0 10329 254 10565 1 VSSA
+port 2 nsew signal default
+rlabel metal4 s 0 11281 254 11347 1 VSSA
+port 2 nsew signal default
+rlabel metal4 s 14746 7347 15000 8037 1 VSSA
+port 2 nsew signal default
+rlabel metal4 s 14746 9547 15000 9613 1 VSSA
+port 2 nsew signal default
+rlabel metal4 s 14746 10329 15000 10565 1 VSSA
+port 2 nsew signal default
+rlabel metal4 s 14746 11281 15000 11347 1 VSSA
+port 2 nsew signal default
+rlabel metal5 s 0 7368 254 8017 1 VSSA
+port 2 nsew signal default
+rlabel metal5 s 0 9547 254 11347 1 VSSA
+port 2 nsew signal default
+rlabel metal5 s 14746 7368 15000 8017 1 VSSA
+port 2 nsew signal default
+rlabel metal5 s 14746 9547 15000 11347 1 VSSA
+port 2 nsew signal default
+rlabel metal4 s 14746 8317 15000 9247 1 VSSD
+port 10 nsew signal default
+rlabel metal5 s 0 8337 254 9227 1 VSSD
+port 10 nsew signal default
+rlabel metal5 s 14746 8337 15000 9227 1 VSSD
+port 10 nsew signal default
+rlabel metal4 s 0 5167 254 6097 1 VSSIO
+port 1 nsew signal default
+rlabel metal4 s 14746 35157 15000 40000 1 VSSIO
+port 1 nsew signal default
+rlabel metal4 s 14746 5167 15000 6097 1 VSSIO
+port 1 nsew signal default
+rlabel metal5 s 0 35157 254 40000 1 VSSIO
+port 1 nsew signal default
+rlabel metal5 s 0 5187 254 6077 1 VSSIO
+port 1 nsew signal default
+rlabel metal5 s 14746 35157 15000 40000 1 VSSIO
+port 1 nsew signal default
+rlabel metal5 s 14746 5187 15000 6077 1 VSSIO
+port 1 nsew signal default
+rlabel metal4 s 14746 11647 15000 12537 1 VSSIO_Q
+port 8 nsew signal default
+rlabel metal5 s 0 11667 254 12517 1 VSSIO_Q
+port 8 nsew signal default
+rlabel metal5 s 14746 11667 15000 12517 1 VSSIO_Q
+port 8 nsew signal default
+rlabel metal4 s 14746 6377 15000 7067 1 VSWITCH
+port 9 nsew signal default
+rlabel metal5 s 0 6397 254 7047 1 VSWITCH
+port 9 nsew signal default
+rlabel metal5 s 14746 6397 15000 7047 1 VSWITCH
+port 9 nsew signal default
 << properties >>
 string LEFclass PAD
 string FIXED_BBOX 0 0 15000 40000
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string LEFsymmetry X Y R90
-string GDS_END 1262564
-string GDS_START 637876
+string GDS_END 1300728
+string GDS_START 676040
 << end >>

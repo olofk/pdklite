@@ -1,13 +1,16 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 1482 1852
+timestamp 1640697977
 << nwell >>
 rect -38 261 222 582
 << pwell >>
-rect 29 -17 63 17
+rect 5 13 183 203
+rect 29 -17 63 13
+<< pdiff >>
+rect 31 305 157 505
+<< ndiode >>
+rect 31 39 157 177
 << locali >>
 rect 0 527 29 561
 rect 63 527 121 561
@@ -34,45 +37,45 @@ rect 155 -17 184 17
 rect 0 -48 184 -17
 << labels >>
 flabel locali s 121 85 155 119 0 FreeSans 200 0 0 0 DIODE
-port 0 nsew signal input
+port 1 nsew signal input
 flabel locali s 121 357 155 391 0 FreeSans 200 0 0 0 DIODE
 port 1 nsew signal input
 flabel locali s 29 357 63 391 0 FreeSans 200 0 0 0 DIODE
-port 2 nsew signal input
+port 1 nsew signal input
 flabel locali s 121 425 155 459 0 FreeSans 200 0 0 0 DIODE
-port 3 nsew signal input
+port 1 nsew signal input
 flabel locali s 29 425 63 459 0 FreeSans 200 0 0 0 DIODE
-port 4 nsew signal input
+port 1 nsew signal input
 flabel locali s 29 289 63 323 0 FreeSans 200 0 0 0 DIODE
-port 5 nsew signal input
+port 1 nsew signal input
 flabel locali s 121 289 155 323 0 FreeSans 200 0 0 0 DIODE
-port 6 nsew signal input
+port 1 nsew signal input
 flabel locali s 29 221 63 255 0 FreeSans 200 0 0 0 DIODE
-port 7 nsew signal input
+port 1 nsew signal input
 flabel locali s 121 221 155 255 0 FreeSans 200 0 0 0 DIODE
-port 8 nsew signal input
+port 1 nsew signal input
 flabel locali s 121 153 155 187 0 FreeSans 200 0 0 0 DIODE
-port 9 nsew signal input
+port 1 nsew signal input
 flabel locali s 29 153 63 187 0 FreeSans 200 0 0 0 DIODE
-port 10 nsew signal input
+port 1 nsew signal input
 flabel locali s 29 85 63 119 0 FreeSans 200 0 0 0 DIODE
-port 11 nsew signal input
-flabel pwell s 29 -17 63 17 0 FreeSans 200 0 0 0 VNB
-port 13 nsew ground bidirectional
-flabel nwell s 29 527 63 561 0 FreeSans 200 0 0 0 VPB
-port 14 nsew power bidirectional
+port 1 nsew signal input
 flabel metal1 s 29 -17 63 17 0 FreeSans 200 0 0 0 VGND
-port 12 nsew ground bidirectional abutment
+port 2 nsew ground bidirectional abutment
 flabel metal1 s 29 527 63 561 0 FreeSans 200 0 0 0 VPWR
-port 15 nsew power bidirectional abutment
+port 3 nsew power bidirectional abutment
+flabel nwell s 29 527 63 561 0 FreeSans 200 0 0 0 VPB
+port 4 nsew power bidirectional
+flabel pwell s 29 -17 63 17 0 FreeSans 200 0 0 0 VNB
+port 5 nsew ground bidirectional
 rlabel comment s 0 0 0 0 4 diode_2
 << properties >>
 string LEFsite unithd
 string LEFclass CORE SPACER
 string FIXED_BBOX 0 0 184 544
-string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_ef_sc_hd__fakediode_2.gds
+string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 3204
-string GDS_START 134
-string path 0.000 0.000 0.920 0.000 
+string GDS_END 3954310
+string GDS_START 3951072
+string path 0.000 0.000 4.600 0.000 
 << end >>

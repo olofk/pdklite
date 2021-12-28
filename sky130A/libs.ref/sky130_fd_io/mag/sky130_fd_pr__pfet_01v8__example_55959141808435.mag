@@ -1,15 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1288 -1260 1388 1323
+timestamp 1640697850
 use sky130_fd_pr__hvdfl1sd__example_55959141808434  sky130_fd_pr__hvdfl1sd__example_55959141808434_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 0 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdfl1sd__example_55959141808434  sky130_fd_pr__hvdfl1sd__example_55959141808434_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 100 0 1 0
 box 0 0 1 1
 << labels >>
@@ -17,6 +15,6 @@ flabel comment s 128 63 128 63 0 FreeSans 300 0 0 0 D
 flabel comment s -28 63 -28 63 0 FreeSans 300 0 0 0 S
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 17246092
-string GDS_START 17245038
+string GDS_END 6755978
+string GDS_START 6754924
 << end >>

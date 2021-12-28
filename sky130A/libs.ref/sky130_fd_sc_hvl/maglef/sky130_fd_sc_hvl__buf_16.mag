@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729579
+timestamp 1640697996
 << nwell >>
 rect -66 377 3618 897
 << pwell >>
-rect 0 -17 3552 17
+rect 4 43 3538 317
+rect -26 -43 3578 43
 << locali >>
 rect 0 797 31 831
 rect 65 797 127 831
@@ -550,42 +551,14 @@ rect 3106 310 3236 316
 << labels >>
 rlabel locali s 44 316 926 363 6 A
 port 1 nsew signal input
-rlabel metal1 s 3302 498 3360 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 3302 458 3360 464 6 X
-port 6 nsew signal output
-rlabel metal1 s 2990 498 3048 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 2990 458 3048 464 6 X
-port 6 nsew signal output
-rlabel metal1 s 2678 498 2736 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 2678 458 2736 464 6 X
-port 6 nsew signal output
-rlabel metal1 s 2366 498 2424 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 2366 458 2424 464 6 X
-port 6 nsew signal output
-rlabel metal1 s 2054 498 2112 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 2054 458 2112 464 6 X
-port 6 nsew signal output
-rlabel metal1 s 1742 498 1800 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 1742 458 1800 464 6 X
-port 6 nsew signal output
-rlabel metal1 s 1430 498 1488 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 1430 458 1488 464 6 X
-port 6 nsew signal output
-rlabel metal1 s 1118 498 1176 504 6 X
-port 6 nsew signal output
-rlabel metal1 s 1118 464 3360 498 6 X
-port 6 nsew signal output
-rlabel metal1 s 1118 458 1176 464 6 X
-port 6 nsew signal output
 rlabel metal1 s 0 51 3552 125 6 VGND
 port 2 nsew ground bidirectional
+rlabel metal1 s 0 -23 3552 23 8 VNB
+port 3 nsew ground bidirectional
+rlabel pwell s -26 -43 3578 43 8 VNB
+port 3 nsew ground bidirectional
+rlabel pwell s 4 43 3538 317 6 VNB
+port 3 nsew ground bidirectional
 rlabel viali s 3487 -17 3521 17 8 VNB
 port 3 nsew ground bidirectional
 rlabel viali s 3391 -17 3425 17 8 VNB
@@ -662,10 +635,10 @@ rlabel viali s 31 -17 65 17 8 VNB
 port 3 nsew ground bidirectional
 rlabel locali s 0 -17 3552 17 8 VNB
 port 3 nsew ground bidirectional
-rlabel pwell s 0 -17 3552 17 8 VNB
-port 3 nsew ground bidirectional
-rlabel metal1 s 0 -23 3552 23 8 VNB
-port 3 nsew ground bidirectional
+rlabel metal1 s 0 791 3552 837 6 VPB
+port 4 nsew power bidirectional
+rlabel nwell s -66 377 3618 897 6 VPB
+port 4 nsew power bidirectional
 rlabel viali s 3487 797 3521 831 6 VPB
 port 4 nsew power bidirectional
 rlabel viali s 3391 797 3425 831 6 VPB
@@ -742,12 +715,42 @@ rlabel viali s 31 797 65 831 6 VPB
 port 4 nsew power bidirectional
 rlabel locali s 0 797 3552 831 6 VPB
 port 4 nsew power bidirectional
-rlabel nwell s -66 377 3618 897 6 VPB
-port 4 nsew power bidirectional
-rlabel metal1 s 0 791 3552 837 6 VPB
-port 4 nsew power bidirectional
 rlabel metal1 s 0 689 3552 763 6 VPWR
 port 5 nsew power bidirectional
+rlabel metal1 s 3302 458 3360 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 2990 458 3048 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 2678 458 2736 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 2366 458 2424 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 2054 458 2112 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 1742 458 1800 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 1430 458 1488 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 1118 458 1176 464 6 X
+port 6 nsew signal output
+rlabel metal1 s 1118 464 3360 498 6 X
+port 6 nsew signal output
+rlabel metal1 s 3302 498 3360 504 6 X
+port 6 nsew signal output
+rlabel metal1 s 2990 498 3048 504 6 X
+port 6 nsew signal output
+rlabel metal1 s 2678 498 2736 504 6 X
+port 6 nsew signal output
+rlabel metal1 s 2366 498 2424 504 6 X
+port 6 nsew signal output
+rlabel metal1 s 2054 498 2112 504 6 X
+port 6 nsew signal output
+rlabel metal1 s 1742 498 1800 504 6 X
+port 6 nsew signal output
+rlabel metal1 s 1430 498 1488 504 6 X
+port 6 nsew signal output
+rlabel metal1 s 1118 498 1176 504 6 X
+port 6 nsew signal output
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
@@ -755,6 +758,6 @@ string FIXED_BBOX 0 0 3552 814
 string LEFsymmetry X Y
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
-string GDS_END 570018
-string GDS_START 530742
+string GDS_END 1130684
+string GDS_START 1091408
 << end >>

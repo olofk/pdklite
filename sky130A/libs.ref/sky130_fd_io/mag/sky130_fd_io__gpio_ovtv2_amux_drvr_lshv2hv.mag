@@ -1,14 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1266 -1186 16237 4224
+timestamp 1640697850
 << nwell >>
 rect 6571 2023 7265 2239
 rect 14401 1739 14733 2233
 << pwell >>
-rect 790 78 824 1341
+rect 868 1853 1120 2267
+rect 86 1367 738 1376
+rect 86 58 850 1367
+rect 764 52 850 58
 << mvnmos >>
 rect 894 2088 1094 2188
 rect 894 1932 1094 2032
@@ -1327,37 +1328,37 @@ tri 3146 1801 3189 1844 nw
 rect 314 1796 1268 1801
 tri 1268 1796 1273 1801 nw
 use sky130_fd_pr__nfet_01v8__example_55959141808485  sky130_fd_pr__nfet_01v8__example_55959141808485_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 894 -1 0 2188
 box -28 0 284 97
 use sky130_fd_pr__nfet_01v8__example_55959141808513  sky130_fd_pr__nfet_01v8__example_55959141808513_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 712 1 0 417
 box -28 0 440 267
 use sky130_fd_pr__nfet_01v8__example_55959141808513  sky130_fd_pr__nfet_01v8__example_55959141808513_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 712 -1 0 1297
 box -28 0 440 267
 use sky130_fd_pr__nfet_01v8__example_55959141808484  sky130_fd_pr__nfet_01v8__example_55959141808484_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 712 1 0 137
 box -28 0 128 267
 use sky130_fd_pr__pfet_01v8__example_55959141808482  sky130_fd_pr__pfet_01v8__example_55959141808482_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 6946 0 -1 2173
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808482  sky130_fd_pr__pfet_01v8__example_55959141808482_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 6690 0 -1 2173
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808512  sky130_fd_pr__pfet_01v8__example_55959141808512_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 14467 1 0 1858
 box -28 0 284 97
 << labels >>
 flabel comment s 7808 2309 7808 2309 0 FreeSans 280 0 0 0 PGB_AMX_VDDA_H_N(I105 DECODER)
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 48362502
-string GDS_START 48342826
+string GDS_END 48423346
+string GDS_START 48403670
 << end >>

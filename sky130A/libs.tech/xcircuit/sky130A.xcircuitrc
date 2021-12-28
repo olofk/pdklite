@@ -1,5 +1,7 @@
 set XCOps(liboverride) 1
-config search libraries .:/home/olof/projects/edalasic/pdks/sky130A/libs.tech/xcircuit:$XCIRCUIT_LIB_DIR
+set PDK_ROOT /home/olof/projects/edalasic/mpw4/openlane/pdks
+global PDK_ROOT
+config search libraries .:$PDK_ROOT/sky130A/libs.tech/xcircuit:$XCIRCUIT_LIB_DIR
 library make generic
 library 1 load generic
 library make ngspice

@@ -1,13 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 8046 2157
+timestamp 1640697995
 << nwell >>
 rect -66 377 6786 897
 << pwell >>
-rect 0 -17 6720 17
+rect 4 43 6706 317
+rect -26 -43 6746 43
 << mvnmos >>
 rect 83 141 183 291
 rect 239 141 339 291
@@ -3738,11 +3737,13 @@ port 3 nsew ground bidirectional
 flabel metal1 s 1790 458 6528 504 0 FreeSans 340 0 0 0 X
 port 6 nsew signal output
 flabel metal1 s 5049 11 5049 11 0 FreeSans 340 0 0 0 VNB
+port 3 nsew
 flabel metal1 s 0 689 6720 763 0 FreeSans 340 0 0 0 VPWR
 port 5 nsew power bidirectional
 flabel metal1 s 0 791 6720 814 0 FreeSans 340 0 0 0 VPB
 port 4 nsew power bidirectional
 flabel metal1 s 5049 802 5049 802 0 FreeSans 340 0 0 0 VPB
+port 4 nsew
 flabel locali s 127 316 161 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
 flabel locali s 223 316 257 350 0 FreeSans 340 0 0 0 A
@@ -3757,20 +3758,12 @@ flabel locali s 607 316 641 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
 flabel locali s 703 316 737 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
-rlabel pwell s 0 -17 6720 17 1 VNB
-port 3 nsew ground bidirectional
-rlabel metal1 s 0 -23 6720 23 1 VNB
-port 3 nsew ground bidirectional
-rlabel nwell s -66 377 6786 897 1 VPB
-port 4 nsew power bidirectional
-rlabel metal1 s 0 791 6720 837 1 VPB
-port 4 nsew power bidirectional
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
 string FIXED_BBOX 0 0 6720 814
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 629830
-string GDS_START 570074
+string GDS_END 1091352
+string GDS_START 1031596
 << end >>

@@ -1,13 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1333 3342 2157
+timestamp 1640697995
 << nwell >>
 rect -66 377 1986 897
 << pwell >>
-rect 0 -17 1920 17
+rect 23 43 1901 317
+rect -26 -43 1946 43
 << mvnmos >>
 rect 106 141 206 291
 rect 314 141 414 291
@@ -1160,9 +1159,11 @@ port 5 nsew power bidirectional
 flabel metal1 s 0 791 1920 814 0 FreeSans 340 0 0 0 VPB
 port 4 nsew power bidirectional
 flabel metal1 s 960 802 960 802 0 FreeSans 340 0 0 0 VPB
+port 4 nsew
 flabel metal1 s 0 51 1920 125 0 FreeSans 340 0 0 0 VGND
 port 2 nsew ground bidirectional
 flabel metal1 s 960 11 960 11 0 FreeSans 340 0 0 0 VNB
+port 3 nsew
 flabel locali s 127 316 161 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
 flabel locali s 223 316 257 350 0 FreeSans 340 0 0 0 A
@@ -1171,19 +1172,63 @@ flabel locali s 319 316 353 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
 flabel locali s 415 316 449 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
+rlabel metal1 s 1112 381 1242 433 1 X
+port 6 nsew signal output
+rlabel metal2 s 1088 379 1242 435 1 X
+port 6 nsew signal output
+rlabel metal3 s 567 375 723 439 1 X
+port 6 nsew signal output
+rlabel metal3 s 1087 374 1243 440 1 X
+port 6 nsew signal output
+rlabel metal4 s 482 289 718 525 1 X
+port 6 nsew signal output
+rlabel metal4 s 1002 289 1238 525 1 X
+port 6 nsew signal output
 rlabel metal5 s 942 567 1262 887 1 X
 port 6 nsew signal output
 rlabel metal5 s 942 -73 1262 247 1 X
 port 6 nsew signal output
 rlabel metal5 s 458 247 1262 567 1 X
 port 6 nsew signal output
+rlabel metal1 s 0 113 1920 125 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal1 s 0 61 1984 113 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal1 s 0 51 1920 61 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal2 s 1843 57 1997 113 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal3 s 1842 52 1998 118 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal4 s 1802 -31 2038 205 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal5 s 1582 -73 2082 247 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal1 s 0 -23 1920 23 1 VNB
+port 3 nsew ground bidirectional
+rlabel metal1 s 0 791 1920 837 1 VPB
+port 4 nsew power bidirectional
+rlabel metal1 s 0 753 1920 763 1 VPWR
+port 5 nsew power bidirectional
+rlabel metal1 s 0 701 1984 753 1 VPWR
+port 5 nsew power bidirectional
+rlabel metal1 s 0 689 1920 701 1 VPWR
+port 5 nsew power bidirectional
+rlabel metal2 s 1843 701 1997 757 1 VPWR
+port 5 nsew power bidirectional
+rlabel metal3 s 1842 696 1998 762 1 VPWR
+port 5 nsew power bidirectional
+rlabel metal4 s 1802 609 2038 845 1 VPWR
+port 5 nsew power bidirectional
+rlabel metal5 s 1582 567 2082 887 1 VPWR
+port 5 nsew power bidirectional
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
 string FIXED_BBOX 0 0 1920 814
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 28356
-string GDS_START 5390
+string GDS_END 336350
+string GDS_START 313384
 string path 27.800 10.175 31.050 10.175 
 << end >>

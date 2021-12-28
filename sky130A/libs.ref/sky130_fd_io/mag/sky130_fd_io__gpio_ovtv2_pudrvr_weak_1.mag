@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -25770 -4648 3730 18180
+timestamp 1640697850
 << dnwell >>
 rect -23658 7540 -22197 14448
 << nwell >>
@@ -16,10 +14,13 @@ rect -22303 7082 -21999 7444
 rect -23283 2932 -22789 3664
 rect -1000 0 1132 1118
 << pwell >>
-rect -23355 14054 -22629 14156
-rect -23355 7955 -23253 14054
-rect -22731 7955 -22629 14054
-rect -23355 7853 -22629 7955
+rect -23381 14028 -22603 14182
+rect -23381 9446 -23227 14028
+rect -22757 9446 -22603 14028
+rect -23381 8794 -22603 9446
+rect -23381 7981 -23227 8794
+rect -22757 7981 -22603 8794
+rect -23381 7827 -22603 7981
 << mvnmos >>
 rect -23120 8820 -23020 9420
 rect -22964 8820 -22864 9420
@@ -6371,35 +6372,44 @@ rect 127 861 128 862
 rect 1004 861 1005 862
 rect 127 860 1005 861
 use sky130_fd_pr__pfet_01v8__example_5595914180845  sky130_fd_pr__pfet_01v8__example_5595914180845_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 1066 1 0 119
 box -28 0 908 985
 use sky130_fd_pr__pfet_01v8__example_5595914180837  sky130_fd_pr__pfet_01v8__example_5595914180837_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -23164 0 -1 3598
 box -28 0 284 267
 use sky130_fd_io__tk_em2o_cdns_5595914180844  sky130_fd_io__tk_em2o_cdns_5595914180844_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 1005 1 0 808
 box 0 24 168 28
 use sky130_fd_io__gpio_ovtv2_hotswap_guardrings  sky130_fd_io__gpio_ovtv2_hotswap_guardrings_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -24510 0 1 -3388
 box 0 0 26980 8664
 use sky130_fd_pr__nfet_01v8__example_5595914180834  sky130_fd_pr__nfet_01v8__example_5595914180834_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -23120 0 1 8820
 box -28 0 284 265
 << labels >>
 flabel metal1 s -23358 -1858 -23213 -1692 3 FreeSans 520 0 0 0 VPB_DRVR
+port 1 nsew
 flabel metal1 s -23751 -2818 -23626 -2686 3 FreeSans 520 0 0 0 VSSD
+port 2 nsew
 flabel metal1 s -22716 8796 -22642 8884 3 FreeSans 520 0 0 0 VSSIO
+port 3 nsew
 flabel metal1 s -22782 3214 -22739 3246 3 FreeSans 520 0 0 0 PUG_H
+port 4 nsew
 flabel metal2 s -22928 3712 -22876 3763 3 FreeSans 520 0 0 0 PU_H_N
+port 5 nsew
 flabel metal2 s -628 561 -396 660 3 FreeSans 520 0 0 0 VDDIO
+port 6 nsew
 flabel metal2 s 416 590 605 664 3 FreeSans 520 0 0 0 PAD
+port 7 nsew
 flabel locali s -23015 9462 -22971 9510 3 FreeSans 520 0 0 0 NGHS_H
+port 8 nsew
 flabel locali s -23089 3646 -23054 3680 3 FreeSans 520 0 0 0 PGHS_H
+port 9 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string GDS_END 43955184

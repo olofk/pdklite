@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -1260 3716 3645
+timestamp 1640697850
 << dnwell >>
 rect 80 80 2376 2305
 << nwell >>
@@ -14,8 +12,12 @@ rect 1420 1144 2456 1652
 rect 1738 286 2456 1144
 rect 0 0 2456 286
 << pwell >>
-rect 379 418 413 1690
-rect 1282 418 1316 1425
+rect 353 1706 439 1716
+rect 353 1451 1119 1706
+rect 353 1084 1342 1451
+rect 353 402 1616 1084
+rect 353 392 439 402
+rect 1256 392 1342 402
 << mvnmos >>
 rect 493 1527 1093 1627
 rect 493 1261 1093 1361
@@ -2245,57 +2247,65 @@ rect 1328 261 1386 313
 rect 1438 261 1439 313
 rect 413 255 1439 261
 use sky130_fd_pr__nfet_01v8__example_55959141808480  sky130_fd_pr__nfet_01v8__example_55959141808480_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 1093 1 0 949
 box -28 0 440 267
 use sky130_fd_pr__nfet_01v8__example_55959141808480  sky130_fd_pr__nfet_01v8__example_55959141808480_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 1093 -1 0 893
 box -28 0 440 267
 use sky130_fd_pr__nfet_01v8__example_55959141808479  sky130_fd_pr__nfet_01v8__example_55959141808479_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 1093 -1 0 1627
 box -28 0 128 267
 use sky130_fd_pr__nfet_01v8__example_55959141808478  sky130_fd_pr__nfet_01v8__example_55959141808478_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1390 -1 0 581
 box -28 0 128 97
 use sky130_fd_pr__nfet_01v8__example_55959141808478  sky130_fd_pr__nfet_01v8__example_55959141808478_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1390 1 0 637
 box -28 0 128 97
 use sky130_fd_pr__nfet_01v8__example_55959141808478  sky130_fd_pr__nfet_01v8__example_55959141808478_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1390 1 0 905
 box -28 0 128 97
 use sky130_fd_pr__pfet_01v8__example_55959141808477  sky130_fd_pr__pfet_01v8__example_55959141808477_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 2013 -1 0 1463
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808477  sky130_fd_pr__pfet_01v8__example_55959141808477_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1486 1 0 1263
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808475  sky130_fd_pr__pfet_01v8__example_55959141808475_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 2104 -1 0 581
 box -28 0 128 131
 use sky130_fd_pr__pfet_01v8__example_55959141808475  sky130_fd_pr__pfet_01v8__example_55959141808475_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 2104 1 0 637
 box -28 0 128 131
 << labels >>
 flabel metal1 s 2072 965 2299 1399 3 FreeSans 520 0 0 0 VPWR_HV
+port 1 nsew
 flabel metal1 s 235 1266 338 1612 3 FreeSans 520 0 0 0 VGND
+port 2 nsew
 flabel metal2 s 1646 2072 1681 2121 3 FreeSans 520 0 0 0 RST_H
+port 3 nsew
 flabel metal2 s 1536 2066 1566 2125 3 FreeSans 520 90 0 0 OUT_H
+port 4 nsew
 flabel metal2 s 1931 2074 1970 2114 3 FreeSans 520 0 0 0 OUT_H_N
+port 5 nsew
 flabel metal2 s 1352 2062 1390 2118 3 FreeSans 520 90 0 0 IN
+port 6 nsew
 flabel metal2 s 1250 2055 1284 2118 3 FreeSans 520 90 0 0 IN_B
+port 7 nsew
 flabel metal2 s 1137 2062 1179 2118 3 FreeSans 520 90 0 0 HLD_H
+port 8 nsew
 flabel comment s 329 1121 329 1121 0 FreeSans 440 270 0 0 CONDIODE
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 48745402
-string GDS_START 48703622
+string GDS_END 48764816
+string GDS_START 48723036
 << end >>

@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1116 -2839 29471 26288
+timestamp 1640697850
 << nwell >>
 rect 1231 8984 28211 9406
 rect 1231 1044 1653 8984
@@ -11,10 +9,10 @@ rect 2067 2147 27387 8584
 rect 27789 1044 28211 8984
 rect 1231 742 28211 1044
 << pwell >>
-rect 1805 8673 27682 8843
-rect 1805 1996 1975 8673
-rect 27512 1996 27682 8673
-rect 1805 1302 27682 1996
+rect 1779 8647 27708 8869
+rect 1779 2022 2001 8647
+rect 27486 2022 27708 8647
+rect 1779 1276 27708 2022
 << mvpsubdiff >>
 rect 1805 8775 1873 8843
 rect 1839 8741 1873 8775
@@ -17628,19 +17626,19 @@ tri 7904 742 7984 822 ne
 rect 7984 742 8189 822
 rect 18347 717 18587 1160
 use sky130_fd_io__gpio_ovtv2_vpbdrvr_tswitch  sky130_fd_io__gpio_ovtv2_vpbdrvr_tswitch_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -2712 0 1 7443
 box 4295 -5902 26973 17585
 use sky130_fd_io__gpio_ovtv2_pudrvr_strong_slow  sky130_fd_io__gpio_ovtv2_pudrvr_strong_slow_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 24145 0 -1 3742
 box -4066 -17308 22914 3000
 use sky130_fd_io__gpio_ovtv2_pudrvr_weak_1  sky130_fd_io__gpio_ovtv2_pudrvr_weak_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 25741 0 1 4130
 box -24510 -3388 2470 16920
 use sky130_fd_io__gpio_ovtv2_pudrvr_strong  sky130_fd_io__gpio_ovtv2_pudrvr_strong_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4173 0 1 4091
 box -2942 -3816 24038 16959
 << labels >>

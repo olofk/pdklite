@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -1236 1428 1288
+timestamp 1640697850
 << labels >>
 flabel comment s 62 25 62 25 2 FreeSans 50 0 0 0 EM1O
 flabel comment s 118 27 118 27 0 FreeSans 50 0 0 0 B

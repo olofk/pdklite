@@ -1,12 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect 1671 -151 7189 3469
+timestamp 1640697850
 << nwell >>
 rect 2931 1501 5929 2209
 rect 2931 1500 4697 1501
+<< pwell >>
+rect 2971 1203 5892 1395
 << mvnmos >>
 rect 3050 1229 3170 1369
 rect 3226 1229 3346 1369
@@ -1583,163 +1583,168 @@ rect 5503 1206 5821 1240
 rect 5855 1206 5861 1240
 rect 2999 1109 5861 1206
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4763 0 -1 1486
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5011 0 -1 1744
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_2
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4659 0 -1 1744
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_3
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5363 0 -1 1744
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_4
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4307 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_5
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3955 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_6
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3251 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_7
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3603 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_8
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5679 0 -1 1744
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_9
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5011 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_10
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3039 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_11
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4659 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_12
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5363 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_13
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5715 0 -1 1392
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_14
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5855 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_15
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5539 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_16
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4835 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_17
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5187 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_18
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3112 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_19
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3779 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_20
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3427 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_21
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4131 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_22
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4483 0 -1 1895
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_23
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 5503 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_24
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 5855 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_25
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3391 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_26
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 5151 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_27
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 4095 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_28
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3743 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_29
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 4447 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_30
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 4271 1 0 1957
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_31
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 4799 -1 0 1312
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_32
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3919 1 0 1957
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_33
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3567 1 0 1957
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_34
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3215 1 0 1957
 box 0 0 1 1
 use sky130_fd_pr__model__pfet_highvoltage__example_55959141808443  sky130_fd_pr__model__pfet_highvoltage__example_55959141808443_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3050 0 1 1835
 box -28 0 2788 97
 use sky130_fd_pr__model__pfet_highvoltage__example_55959141808443  sky130_fd_pr__model__pfet_highvoltage__example_55959141808443_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3050 0 1 1567
 box -28 0 2788 97
 use sky130_fd_pr__model__nfet_highvoltage__example_55959141808442  sky130_fd_pr__model__nfet_highvoltage__example_55959141808442_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3050 0 -1 1369
 box -28 0 2788 63
 << labels >>
 flabel metal1 s 4132 1456 4173 1477 3 FreeSans 520 0 0 0 IN0
+port 1 nsew
 flabel metal1 s 4685 1456 4734 1480 3 FreeSans 520 0 0 0 IN1
+port 2 nsew
 flabel metal1 s 4083 1157 4209 1270 3 FreeSans 520 0 0 0 VGND
+port 3 nsew
 flabel metal1 s 3973 2003 4147 2113 3 FreeSans 520 0 0 0 VPWR
+port 4 nsew
 flabel metal1 s 4928 1717 4971 1742 3 FreeSans 520 0 0 0 OUT
+port 5 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string GDS_END 35741588

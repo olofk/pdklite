@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729579
+timestamp 1640697996
 << nwell >>
 rect -66 377 2754 897
 << pwell >>
-rect 0 -17 2688 17
+rect 6 43 2605 317
+rect -26 -43 2714 43
 << obsli1 >>
 rect 0 797 31 831
 rect 65 797 127 831
@@ -508,82 +509,84 @@ rect 2561 -17 2623 17
 rect 2657 -17 2688 17
 rect 0 -23 2688 -17
 << labels >>
-rlabel metal1 s 2177 350 2307 356 6 A
-port 1 nsew signal input
 rlabel metal1 s 2177 310 2307 316 6 A
-port 1 nsew signal input
-rlabel metal1 s 1865 350 1995 356 6 A
 port 1 nsew signal input
 rlabel metal1 s 1865 310 1995 316 6 A
 port 1 nsew signal input
-rlabel metal1 s 1553 350 1683 356 6 A
-port 1 nsew signal input
 rlabel metal1 s 1553 310 1683 316 6 A
-port 1 nsew signal input
-rlabel metal1 s 1241 350 1371 356 6 A
 port 1 nsew signal input
 rlabel metal1 s 1241 310 1371 316 6 A
 port 1 nsew signal input
-rlabel metal1 s 929 350 1059 356 6 A
-port 1 nsew signal input
 rlabel metal1 s 929 310 1059 316 6 A
-port 1 nsew signal input
-rlabel metal1 s 617 350 747 356 6 A
 port 1 nsew signal input
 rlabel metal1 s 617 310 747 316 6 A
 port 1 nsew signal input
-rlabel metal1 s 307 350 437 356 6 A
+rlabel metal1 s 307 310 437 316 6 A
 port 1 nsew signal input
 rlabel metal1 s 307 316 2307 350 6 A
 port 1 nsew signal input
-rlabel metal1 s 307 310 437 316 6 A
+rlabel metal1 s 2177 350 2307 356 6 A
 port 1 nsew signal input
-rlabel metal1 s 2369 498 2427 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 2369 458 2427 464 6 Y
-port 6 nsew signal output
-rlabel metal1 s 2057 498 2115 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 2057 458 2115 464 6 Y
-port 6 nsew signal output
-rlabel metal1 s 1745 498 1803 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 1745 458 1803 464 6 Y
-port 6 nsew signal output
-rlabel metal1 s 1433 498 1491 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 1433 458 1491 464 6 Y
-port 6 nsew signal output
-rlabel metal1 s 1121 498 1179 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 1121 458 1179 464 6 Y
-port 6 nsew signal output
-rlabel metal1 s 809 498 867 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 809 458 867 464 6 Y
-port 6 nsew signal output
-rlabel metal1 s 497 498 555 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 497 458 555 464 6 Y
-port 6 nsew signal output
-rlabel metal1 s 185 498 243 504 6 Y
-port 6 nsew signal output
-rlabel metal1 s 185 464 2427 498 6 Y
-port 6 nsew signal output
-rlabel metal1 s 185 458 243 464 6 Y
-port 6 nsew signal output
+rlabel metal1 s 1865 350 1995 356 6 A
+port 1 nsew signal input
+rlabel metal1 s 1553 350 1683 356 6 A
+port 1 nsew signal input
+rlabel metal1 s 1241 350 1371 356 6 A
+port 1 nsew signal input
+rlabel metal1 s 929 350 1059 356 6 A
+port 1 nsew signal input
+rlabel metal1 s 617 350 747 356 6 A
+port 1 nsew signal input
+rlabel metal1 s 307 350 437 356 6 A
+port 1 nsew signal input
 rlabel metal1 s 0 51 2688 125 6 VGND
 port 2 nsew ground bidirectional
-rlabel pwell s 0 -17 2688 17 8 VNB
-port 3 nsew ground bidirectional
 rlabel metal1 s 0 -23 2688 23 8 VNB
 port 3 nsew ground bidirectional
-rlabel nwell s -66 377 2754 897 6 VPB
-port 4 nsew power bidirectional
+rlabel pwell s -26 -43 2714 43 8 VNB
+port 3 nsew ground bidirectional
+rlabel pwell s 6 43 2605 317 6 VNB
+port 3 nsew ground bidirectional
 rlabel metal1 s 0 791 2688 837 6 VPB
+port 4 nsew power bidirectional
+rlabel nwell s -66 377 2754 897 6 VPB
 port 4 nsew power bidirectional
 rlabel metal1 s 0 689 2688 763 6 VPWR
 port 5 nsew power bidirectional
+rlabel metal1 s 2369 458 2427 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 2057 458 2115 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 1745 458 1803 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 1433 458 1491 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 1121 458 1179 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 809 458 867 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 497 458 555 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 185 458 243 464 6 Y
+port 6 nsew signal output
+rlabel metal1 s 185 464 2427 498 6 Y
+port 6 nsew signal output
+rlabel metal1 s 2369 498 2427 504 6 Y
+port 6 nsew signal output
+rlabel metal1 s 2057 498 2115 504 6 Y
+port 6 nsew signal output
+rlabel metal1 s 1745 498 1803 504 6 Y
+port 6 nsew signal output
+rlabel metal1 s 1433 498 1491 504 6 Y
+port 6 nsew signal output
+rlabel metal1 s 1121 498 1179 504 6 Y
+port 6 nsew signal output
+rlabel metal1 s 809 498 867 504 6 Y
+port 6 nsew signal output
+rlabel metal1 s 497 498 555 504 6 Y
+port 6 nsew signal output
+rlabel metal1 s 185 498 243 504 6 Y
+port 6 nsew signal output
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
@@ -591,6 +594,6 @@ string FIXED_BBOX 0 0 2688 814
 string LEFsymmetry X Y
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
-string GDS_END 921640
-string GDS_START 892000
+string GDS_END 42530
+string GDS_START 12890
 << end >>

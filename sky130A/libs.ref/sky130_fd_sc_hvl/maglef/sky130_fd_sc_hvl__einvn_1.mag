@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729579
+timestamp 1640697996
 << nwell >>
 rect -66 377 738 897
 << pwell >>
-rect 0 -17 672 17
+rect 4 43 662 283
+rect -26 -43 698 43
 << locali >>
 rect 127 405 359 424
 rect 103 365 359 405
@@ -127,24 +128,26 @@ rlabel locali s 501 232 556 345 6 A
 port 1 nsew signal input
 rlabel locali s 455 345 556 508 6 A
 port 1 nsew signal input
-rlabel locali s 127 405 359 424 6 TE_B
-port 2 nsew signal input
 rlabel locali s 103 365 359 405 6 TE_B
 port 2 nsew signal input
-rlabel locali s 590 99 647 751 6 Z
-port 7 nsew signal output
+rlabel locali s 127 405 359 424 6 TE_B
+port 2 nsew signal input
 rlabel metal1 s 0 51 672 125 6 VGND
 port 3 nsew ground bidirectional
-rlabel pwell s 0 -17 672 17 8 VNB
-port 4 nsew ground bidirectional
 rlabel metal1 s 0 -23 672 23 8 VNB
 port 4 nsew ground bidirectional
-rlabel nwell s -66 377 738 897 6 VPB
-port 5 nsew power bidirectional
+rlabel pwell s -26 -43 698 43 8 VNB
+port 4 nsew ground bidirectional
+rlabel pwell s 4 43 662 283 6 VNB
+port 4 nsew ground bidirectional
 rlabel metal1 s 0 791 672 837 6 VPB
+port 5 nsew power bidirectional
+rlabel nwell s -66 377 738 897 6 VPB
 port 5 nsew power bidirectional
 rlabel metal1 s 0 689 672 763 6 VPWR
 port 6 nsew power bidirectional
+rlabel locali s 590 99 647 751 6 Z
+port 7 nsew signal output
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
@@ -152,6 +155,6 @@ string FIXED_BBOX 0 0 672 814
 string LEFsymmetry X Y
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
-string GDS_END 879148
-string GDS_START 869380
+string GDS_END 1229982
+string GDS_START 1220214
 << end >>

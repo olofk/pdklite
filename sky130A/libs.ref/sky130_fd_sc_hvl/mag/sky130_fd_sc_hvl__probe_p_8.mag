@@ -1,13 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 3246 2157
+timestamp 1640697995
 << nwell >>
 rect -66 377 1986 897
 << pwell >>
-rect 0 -17 1920 17
+rect 23 43 1901 317
+rect -26 -43 1946 43
 << mvnmos >>
 rect 106 141 206 291
 rect 314 141 414 291
@@ -1038,14 +1037,11 @@ rect 1173 378 1237 442
 rect 1237 378 1238 442
 rect 1002 271 1238 378
 << metal5 >>
-rect 658 525 1262 567
-rect 658 507 1262 524
+rect 658 507 1262 567
 rect 658 271 682 507
 rect 918 271 1002 507
 rect 1238 271 1262 507
 rect 658 247 1262 271
-<< rm5 >>
-rect 658 524 1262 525
 << labels >>
 flabel metal5 s 658 526 1262 567 0 FreeSans 400 0 0 0 X
 port 6 nsew signal output
@@ -1057,9 +1053,11 @@ port 5 nsew power bidirectional
 flabel metal1 s 0 791 1920 814 0 FreeSans 340 0 0 0 VPB
 port 4 nsew power bidirectional
 flabel metal1 s 960 802 960 802 0 FreeSans 340 0 0 0 VPB
+port 4 nsew
 flabel metal1 s 0 51 1920 125 0 FreeSans 340 0 0 0 VGND
 port 2 nsew ground bidirectional
 flabel metal1 s 960 11 960 11 0 FreeSans 340 0 0 0 VNB
+port 3 nsew
 flabel locali s 127 316 161 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
 flabel locali s 223 316 257 350 0 FreeSans 340 0 0 0 A
@@ -1068,13 +1066,33 @@ flabel locali s 319 316 353 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
 flabel locali s 415 316 449 350 0 FreeSans 340 0 0 0 A
 port 1 nsew signal input
+rlabel metal1 s 1101 401 1463 447 1 X
+port 6 nsew signal output
+rlabel metal1 s 1101 395 1229 401 1 X
+port 6 nsew signal output
+rlabel metal2 s 1097 373 1233 447 1 X
+port 6 nsew signal output
+rlabel metal3 s 1087 377 1243 443 1 X
+port 6 nsew signal output
+rlabel metal4 s 682 271 1238 507 1 X
+port 6 nsew signal output
+rlabel metal5 s 658 247 1262 567 1 X
+port 6 nsew signal output
+rlabel metal1 s 0 51 1920 125 1 VGND
+port 2 nsew ground bidirectional
+rlabel metal1 s 0 -23 1920 23 1 VNB
+port 3 nsew ground bidirectional
+rlabel metal1 s 0 791 1920 837 1 VPB
+port 4 nsew power bidirectional
+rlabel metal1 s 0 689 1920 763 1 VPWR
+port 5 nsew power bidirectional
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
 string FIXED_BBOX 0 0 1920 814
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 502216
-string GDS_START 481458
+string GDS_END 357168
+string GDS_START 336410
 string path 33.325 10.600 36.575 10.600 
 << end >>

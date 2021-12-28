@@ -1,6 +1,6 @@
-v {xschem version=2.9.8 file_version=1.2
+v {xschem version=2.9.9 file_version=1.2 
 
-* Copyright 2020 Stefan Frederik Schippers
+* Copyright 2021 Stefan Frederik Schippers
 * 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -17,10 +17,10 @@ v {xschem version=2.9.8 file_version=1.2
 }
 G {}
 K {type=high_precision_poly_p-_resistor
-format="@spiceprefix@name @pinlist sky130_fd_pr__@model W=@W L=@L mult=@mult m=@mult"
+format="@spiceprefix@name @pinlist sky130_fd_pr__@model L=@L mult=@mult m=@mult"
 template="name=R1
 W=1.41
-L=1
+L=5
 model=res_xhigh_po_1p41
 spiceprefix=X
 mult=1"

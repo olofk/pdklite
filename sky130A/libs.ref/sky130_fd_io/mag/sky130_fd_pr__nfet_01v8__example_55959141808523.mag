@@ -1,31 +1,29 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1288 -1260 2012 2241
+timestamp 1640697850
 use sky130_fd_pr__dfl1sd2__example_55959141808521  sky130_fd_pr__dfl1sd2__example_55959141808521_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 100 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__dfl1sd2__example_55959141808521  sky130_fd_pr__dfl1sd2__example_55959141808521_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 256 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__dfl1sd2__example_55959141808521  sky130_fd_pr__dfl1sd2__example_55959141808521_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 412 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__dfl1sd2__example_55959141808521  sky130_fd_pr__dfl1sd2__example_55959141808521_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 568 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__dfl1sd__example_55959141808520  sky130_fd_pr__dfl1sd__example_55959141808520_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 0 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__dfl1sd__example_55959141808520  sky130_fd_pr__dfl1sd__example_55959141808520_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 724 0 1 0
 box 0 0 1 1
 << labels >>

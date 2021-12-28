@@ -1,13 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 4334 1852
+timestamp 1640697977
 << nwell >>
 rect -38 261 3074 582
 << pwell >>
-rect 29 -17 63 17
+rect 2398 201 3035 203
+rect 1241 157 1695 201
+rect 2016 157 3035 201
+rect 1 21 3035 157
+rect 29 -17 63 21
 << scnmos >>
 rect 79 47 109 131
 rect 163 47 193 131
@@ -1329,12 +1331,12 @@ port 10 nsew power bidirectional abutment
 flabel nwell s 29 527 63 561 3 FreeSans 400 0 0 0 VPB
 port 9 nsew power bidirectional
 flabel nwell s 46 544 46 544 0 FreeSans 200 0 0 0 VPB
+port 9 nsew
 flabel pwell s 29 -17 63 17 3 FreeSans 400 0 0 0 VNB
 port 8 nsew ground bidirectional
 flabel pwell s 46 0 46 0 0 FreeSans 200 0 0 0 VNB
+port 8 nsew
 rlabel comment s 0 0 0 0 4 sdfbbn_2
-rlabel viali s 1961 153 1995 187 1 SET_B
-port 6 nsew signal input
 rlabel locali s 1951 147 2026 213 1 SET_B
 port 6 nsew signal input
 rlabel metal1 s 1949 184 2007 193 1 SET_B
@@ -1347,12 +1349,16 @@ rlabel metal1 s 1213 156 2007 184 1 SET_B
 port 6 nsew signal input
 rlabel metal1 s 1213 147 1271 156 1 SET_B
 port 6 nsew signal input
+rlabel metal1 s 0 -48 3036 48 1 VGND
+port 7 nsew ground bidirectional abutment
+rlabel metal1 s 0 496 3036 592 1 VPWR
+port 10 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
 string FIXED_BBOX 0 0 3036 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 1961866
-string GDS_START 1938492
+string GDS_END 78206
+string GDS_START 54832
 << end >>

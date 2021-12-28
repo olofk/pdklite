@@ -1,13 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 3506 1852
+timestamp 1640697977
 << nwell >>
 rect -38 261 2246 582
 << pwell >>
-rect 29 -17 63 17
+rect 273 157 457 201
+rect 1572 181 2198 203
+rect 1386 157 2198 181
+rect 1 21 2198 157
+rect 29 -17 63 21
 << scnmos >>
 rect 79 47 109 131
 rect 163 47 193 131
@@ -1031,20 +1033,24 @@ port 4 nsew ground bidirectional abutment
 flabel nwell s 29 527 63 561 0 FreeSans 200 0 0 0 VPB
 port 6 nsew power bidirectional
 flabel nwell s 46 544 46 544 0 FreeSans 200 0 0 0 VPB
+port 6 nsew
 flabel nwell s 46 544 46 544 3 FreeSans 400 0 0 0 VPB
+port 6 nsew
 flabel pwell s 29 -17 63 17 0 FreeSans 200 0 0 0 VNB
 port 5 nsew ground bidirectional
 flabel pwell s 46 0 46 0 0 FreeSans 200 0 0 0 VNB
+port 5 nsew
 flabel pwell s 46 0 46 0 3 FreeSans 400 0 0 0 VNB
+port 5 nsew
 flabel metal1 s 29 -17 63 17 0 FreeSans 200 0 0 0 VGND
 port 4 nsew ground bidirectional abutment
 flabel metal1 s 29 527 63 561 0 FreeSans 200 0 0 0 VPWR
 port 7 nsew power bidirectional abutment
 flabel metal1 s 46 544 46 544 0 FreeSans 200 0 0 0 VPWR
+port 7 nsew
 flabel metal1 s 46 0 46 0 0 FreeSans 200 0 0 0 VGND
+port 4 nsew
 rlabel comment s 0 0 0 0 4 dfsbp_2
-rlabel viali s 1409 153 1443 187 1 SET_B
-port 3 nsew signal input
 rlabel locali s 1332 201 1398 213 1 SET_B
 port 3 nsew signal input
 rlabel locali s 1332 147 1464 201 1 SET_B
@@ -1059,12 +1065,16 @@ rlabel metal1 s 753 156 1455 184 1 SET_B
 port 3 nsew signal input
 rlabel metal1 s 753 147 811 156 1 SET_B
 port 3 nsew signal input
+rlabel metal1 s 0 -48 2208 48 1 VGND
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 0 496 2208 592 1 VPWR
+port 7 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
 string FIXED_BBOX 0 0 2208 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 510904
-string GDS_START 492036
+string GDS_END 2515242
+string GDS_START 2496374
 << end >>

@@ -1,16 +1,19 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1221 -1401 3122 2398
+timestamp 1640697850
 << nwell >>
 rect 1139 1132 1860 1138
 rect 818 1030 1860 1132
 rect 818 598 1862 1030
 << pwell >>
-rect 39 -70 73 177
-rect 905 -141 1744 -107
+rect 32 677 758 1029
+rect 56 538 758 677
+rect 56 203 1712 538
+rect 13 193 1712 203
+rect 13 -59 1823 193
+rect 13 -96 99 -59
+rect 879 -167 1770 -59
 << mvnmos >>
 rect 111 703 211 1003
 rect 267 703 367 1003
@@ -1520,76 +1523,88 @@ rect 357 -71 495 -37
 rect 529 -71 535 -37
 rect 68 -83 535 -71
 use sky130_fd_pr__nfet_01v8__example_55959141808498  sky130_fd_pr__nfet_01v8__example_55959141808498_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 484 0 1 -33
 box -28 0 144 97
 use sky130_fd_pr__nfet_01v8__example_55959141808498  sky130_fd_pr__nfet_01v8__example_55959141808498_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 312 0 1 -33
 box -28 0 144 97
 use sky130_fd_pr__nfet_01v8__example_55959141808497  sky130_fd_pr__nfet_01v8__example_55959141808497_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 1151 0 1 -33
 box -28 0 444 97
 use sky130_fd_pr__nfet_01v8__example_55959141808496  sky130_fd_pr__nfet_01v8__example_55959141808496_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 1744 0 -1 167
 box -28 0 444 97
 use sky130_fd_pr__nfet_01v8__example_55959141808495  sky130_fd_pr__nfet_01v8__example_55959141808495_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 526 -1 0 459
 box -28 0 128 131
 use sky130_fd_pr__nfet_01v8__example_55959141808495  sky130_fd_pr__nfet_01v8__example_55959141808495_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 956 -1 0 459
 box -28 0 128 131
 use sky130_fd_pr__nfet_01v8__example_55959141808495  sky130_fd_pr__nfet_01v8__example_55959141808495_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 1386 -1 0 459
 box -28 0 128 131
 use sky130_fd_pr__nfet_01v8__example_55959141808495  sky130_fd_pr__nfet_01v8__example_55959141808495_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 82 -1 0 459
 box -28 0 128 131
 use sky130_fd_pr__nfet_01v8__example_55959141808494  sky130_fd_pr__nfet_01v8__example_55959141808494_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 679 0 -1 1003
 box -28 0 128 131
 use sky130_fd_pr__nfet_01v8__example_55959141808493  sky130_fd_pr__nfet_01v8__example_55959141808493_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 523 0 -1 1003
 box -28 0 440 131
 use sky130_fd_pr__pfet_01v8__example_55959141808492  sky130_fd_pr__pfet_01v8__example_55959141808492_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 884 -1 0 837
 box -28 0 148 63
 use sky130_fd_pr__pfet_01v8__example_55959141808492  sky130_fd_pr__pfet_01v8__example_55959141808492_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 884 1 0 893
 box -28 0 148 63
 use sky130_fd_pr__pfet_01v8__example_55959141808490  sky130_fd_pr__pfet_01v8__example_55959141808490_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1175 0 -1 964
 box -28 0 440 131
 use sky130_fd_pr__pfet_01v8__example_55959141808489  sky130_fd_pr__pfet_01v8__example_55959141808489_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1643 0 -1 964
 box -28 0 128 131
 << labels >>
 flabel metal1 s 726 733 754 773 3 FreeSans 280 180 0 0 OUT_H
+port 1 nsew
 flabel metal1 s 1309 587 1337 615 3 FreeSans 280 0 0 0 RST2_H_N
+port 2 nsew
 flabel metal1 s 73 961 101 989 3 FreeSans 280 0 0 0 VGND
+port 3 nsew
 flabel metal1 s 1800 666 1828 795 3 FreeSans 280 180 0 0 OUT_H_N
+port 4 nsew
 flabel metal1 s 1626 212 1654 240 3 FreeSans 280 0 0 0 VPWR_LV
+port 5 nsew
 flabel metal1 s 159 396 187 424 3 FreeSans 280 0 0 0 RST_H_N
+port 6 nsew
 flabel metal1 s 232 227 260 255 3 FreeSans 280 0 0 0 IN
+port 7 nsew
 flabel metal1 s 417 220 445 248 3 FreeSans 280 0 0 0 IN_B
+port 8 nsew
 flabel metal1 s 73 -17 101 11 3 FreeSans 280 0 0 0 VGND
+port 3 nsew
 flabel metal1 s 1505 998 1505 998 3 FreeSans 280 0 0 0 VPWR_HV
+port 9 nsew
 flabel metal1 s 623 618 664 657 3 FreeSans 520 0 0 0 RST_H
+port 10 nsew
 flabel metal1 s 343 616 408 658 3 FreeSans 520 0 0 0 RST2_H
+port 11 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 48518720
-string GDS_START 48492488
+string GDS_END 48349932
+string GDS_START 48323700
 << end >>

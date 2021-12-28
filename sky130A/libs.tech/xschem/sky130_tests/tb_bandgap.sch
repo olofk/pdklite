@@ -1,6 +1,6 @@
-v {xschem version=2.9.9 file_version=1.2 
+v {xschem version=3.0.0 file_version=1.2 
 
-* Copyright 2020 Stefan Frederik Schippers
+* Copyright 2021 Stefan Frederik Schippers
 * 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,6 +20,47 @@ K {}
 V {}
 S {}
 E {}
+B 2 690 -700 1150 -600 {flags=1
+y1 = 0
+y2 = 2
+divy = 5
+x1=0
+x2=0.00015
+divx=5
+node="v(vbg) v(en_n) v(start)"
+color="4 5 9" subdivx=4}
+B 2 690 -840 1150 -710 {flags=1
+y1 = 1.02751
+y2 = 1.27786
+divy = 5
+subdivy=1
+x1=0
+x2=0.00015
+divx=4
+subdivx=4
+node="v(vbg)"
+color="4 5"}
+B 2 690 -980 1150 -850 {flags=1
+y1 = 1.14681
+y2 = 1.17695
+divy = 5
+subdivy=1
+x1=0
+x2=0.00015
+divx=4
+subdivx=4
+node="v(vbg)"
+color="4 5"}
+T {Example of Mismatch simulation of a 
+bandgap reference. 
+Variations are generated also on Vcc and
+temperature between -40C and 125C
+
+Plot shows bandgap varying outputs before
+and after the offset cancellation.
+} 660 -560 0 0 0.4 0.4 {}
+T {Select one or more graphs (and no other objects)
+and use arrow keys to zoom / pan waveforms} 190 -600 0 0 0.3 0.3 {}
 N 240 -340 240 -320 { lab=EN_N}
 N 740 -340 740 -320 { lab=VCC}
 N 480 -340 480 -320 { lab=VSS}
@@ -28,8 +69,7 @@ N 480 -220 480 -200 { lab=START}
 N 740 -220 740 -200 { lab=CLK}
 C {devices/code.sym} 10 -450 0 0 {name=NGSPICE
 only_toplevel=true
-value=".option seed=13
-
+value="
 * this experimental option enables mos model bin 
 * selection based on W/NF instead of W
 .options wnflag=1 XMU=0.49 METHOD=GEAR ITL4=100 CHGTOL=1e-15 TRTOL=1 RELTOL=0.0001 VNTOL=0.1u
@@ -38,22 +78,11 @@ value=".option seed=13
 .param VCC=VCCGAUSS
 * .param VCC=1.8
 ** variation marameters:
-.param sky130_fd_pr__nfet_01v8_lvt__vth0_slope_spectre='agauss(0, ABSVAR, 3)/sky130_fd_pr__nfet_01v8_lvt__vth0_slope'
-.param sky130_fd_pr__pfet_01v8_lvt__vth0_slope_spectre='agauss(0, ABSVAR, 3)/sky130_fd_pr__pfet_01v8_lvt__vth0_slope'
-.param sky130_fd_pr__nfet_01v8__vth0_slope_spectre='agauss(0, ABSVAR, 3)/sky130_fd_pr__nfet_01v8__vth0_slope'
-.param sky130_fd_pr__pfet_01v8__vth0_slope_spectre='agauss(0, ABSVAR, 3)/sky130_fd_pr__pfet_01v8__vth0_slope'
-
-.param sky130_fd_pr__pfet_01v8__toxe_slope_spectre='agauss(0, ABSVAR*2, 3)/sky130_fd_pr__pfet_01v8__toxe_slope'
-.param sky130_fd_pr__nfet_01v8__toxe_slope_spectre='agauss(0, ABSVAR*2, 3)/sky130_fd_pr__nfet_01v8__toxe_slope'
-.param sky130_fd_pr__pfet_01v8_lvt__toxe_slope_spectre='agauss(0, ABSVAR*2, 3)/sky130_fd_pr__pfet_01v8_lvt__toxe_slope'
-.param sky130_fd_pr__nfet_01v8_lvt__toxe_slope_spectre='agauss(0, ABSVAR*2, 3)/sky130_fd_pr__nfet_01v8_lvt__toxe_slope'
-
-.param sky130_fd_pr__res_high_po__var_mult=agauss(0, 'ABSVAR*8', 1)
-
 * .options savecurrents
 .control
+  option seed=12
   let run=1
-  dowhile run <= 40
+  dowhile run <= 14
     if run > 1
       reset
       set appendwrite
@@ -83,45 +112,6 @@ C {devices/lab_pin.sym} 560 -530 0 1 {name=p1 lab=VBG}
 C {devices/lab_pin.sym} 260 -490 0 0 {name=p2 lab=EN_N}
 C {devices/vsource.sym} 240 -290 0 0 {name=V1 value=0}
 C {devices/lab_pin.sym} 240 -340 0 1 {name=p3 lab=EN_N}
-C {devices/code.sym} 10 -250 0 0 {name=TT_MODELS
-only_toplevel=true
-format="tcleval( @value )"
-value="
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_01v8/sky130_fd_pr__esd_nfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_pfet_g5v0d10v5/sky130_fd_pr__esd_pfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d16v0/sky130_fd_pr__nfet_g5v0d16v0__tt_discrete.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_g5v0d10v5/sky130_fd_pr__esd_nfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/nonfet.spice
-* Mismatch parameters
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice
-* Resistor\\\\$::SKYWATER_MODELS\\\\/Capacitor
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical__lin.spice
-* Special cells
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/specialized_cells.spice
-* All models
-.include \\\\$::SKYWATER_MODELS\\\\/models/all.spice
-* Corner
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/rf.spice
-"}
 C {devices/vsource.sym} 740 -290 0 0 {name=V2 value="pwl 0 0 1u 0 4u VCC"}
 C {devices/lab_pin.sym} 740 -340 0 1 {name=l29 sig_type=std_logic lab=VCC}
 C {devices/lab_pin.sym} 260 -470 0 0 {name=p4 lab=VCC}
@@ -147,3 +137,19 @@ C {devices/lab_pin.sym} 740 -140 0 0 {name=l6 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} 740 -220 0 1 {name=p6 lab=CLK}
 C {devices/lab_pin.sym} 260 -530 0 0 {name=p8 lab=START}
 C {devices/lab_pin.sym} 260 -510 0 0 {name=p9 lab=CLK}
+C {devices/code.sym} 10 -250 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval( @value )"
+value="
+** opencircuitdesign pdks install
+.lib $::SKYWATER_MODELS/sky130.lib.spice tt_mm
+
+"
+spice_ignore=false}
+C {devices/launcher.sym} 215 -635 0 0 {name=h1 
+descr="Select arrow and 
+Ctrl-Left-Click to load/unload waveforms" 
+tclcommand="
+xschem raw_read $netlist_dir/[file tail [file rootname [xschem get current_name]]].raw
+"
+}

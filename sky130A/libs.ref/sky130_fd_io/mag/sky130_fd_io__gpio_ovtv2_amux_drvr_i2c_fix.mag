@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1522 -1723 25392 4422
+timestamp 1640697850
 << dnwell >>
 rect -56 -102 4164 3162
 << nwell >>
@@ -18,12 +16,22 @@ rect 15799 -263 17119 -97
 rect 6560 -322 6992 -303
 rect 7039 -313 7601 -303
 << pwell >>
-rect 24006 1770 24040 2487
-rect 22627 1151 23844 1239
-rect 22421 1117 23844 1151
-rect 21851 865 23844 1117
-rect 21851 739 22421 865
-rect 21612 213 22421 739
+rect 3772 1847 4024 2654
+rect 22798 2305 23252 2497
+rect 3268 1495 4024 1847
+rect 3772 1481 4024 1495
+rect 3270 1094 3997 1296
+rect 23980 1744 24066 2513
+rect 22746 1265 23024 1502
+rect 23502 1265 23780 1502
+rect 22601 1177 23870 1265
+rect 22395 1143 23870 1177
+rect 3392 871 3742 1094
+rect 3392 531 3990 871
+rect 21825 839 23870 1143
+rect 21825 765 22447 839
+rect 3854 65 3990 531
+rect 21586 187 22447 765
 << mvnmos >>
 rect 3798 2475 3998 2575
 rect 22877 2331 22997 2471
@@ -8527,221 +8535,260 @@ rect 20588 -403 20604 -339
 rect 20668 -403 20671 -339
 rect 20281 -404 20671 -403
 use sky130_fd_io__gpio_ovtv2_amux_drvr_lshv2hv_1  sky130_fd_io__gpio_ovtv2_amux_drvr_lshv2hv_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 6 0 1 0
-box -43 1424 15108 3122
+box -43 1398 15108 3122
 use sky130_fd_io__gpio_ovtv2_amux_drvr_lshv2hv  sky130_fd_io__gpio_ovtv2_amux_drvr_lshv2hv_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 9 0 1 -14
-box -6 74 14977 2964
+box -6 52 14977 2964
 use sky130_fd_io__gpio_ovtv2_amux_drvr_ls_1  sky130_fd_io__gpio_ovtv2_amux_drvr_ls_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1252 0 1 49
-box 0 15 6326 2651
+box 0 10 6326 2677
 use sky130_fd_io__gpio_ovtv2_amux_drvr_ls  sky130_fd_io__gpio_ovtv2_amux_drvr_ls_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1252 0 1 49
-box 0 -208 4912 2651
+box 0 -208 4912 2661
 use sky130_fd_pr__nfet_01v8__example_55959141808511  sky130_fd_pr__nfet_01v8__example_55959141808511_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 3632 -1 0 906
 box -28 0 324 29
 use sky130_fd_pr__nfet_01v8__example_55959141808511  sky130_fd_pr__nfet_01v8__example_55959141808511_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 3418 -1 0 906
 box -28 0 324 29
 use sky130_fd_pr__nfet_01v8__example_55959141808511  sky130_fd_pr__nfet_01v8__example_55959141808511_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 3880 1 0 144
 box -28 0 324 29
 use sky130_fd_pr__nfet_01v8__example_55959141808511  sky130_fd_pr__nfet_01v8__example_55959141808511_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 3880 1 0 496
 box -28 0 324 29
 use sky130_fd_pr__nfet_01v8__example_55959141808509  sky130_fd_pr__nfet_01v8__example_55959141808509_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3349 0 1 1120
 box -28 0 128 63
 use sky130_fd_pr__nfet_01v8__example_55959141808509  sky130_fd_pr__nfet_01v8__example_55959141808509_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3918 0 -1 1270
 box -28 0 128 63
 use sky130_fd_pr__nfet_01v8__example_55959141808509  sky130_fd_pr__nfet_01v8__example_55959141808509_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3662 0 -1 1270
 box -28 0 128 63
 use sky130_fd_pr__nfet_01v8__example_55959141808503  sky130_fd_pr__nfet_01v8__example_55959141808503_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3347 0 1 1521
 box -28 0 284 131
 use sky130_fd_pr__nfet_01v8__example_55959141808485  sky130_fd_pr__nfet_01v8__example_55959141808485_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 3798 1 0 1560
 box -28 0 284 97
 use sky130_fd_pr__nfet_01v8__example_55959141808485  sky130_fd_pr__nfet_01v8__example_55959141808485_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3998 -1 0 2296
 box -28 0 284 97
 use sky130_fd_pr__nfet_01v8__example_55959141808474  sky130_fd_pr__nfet_01v8__example_55959141808474_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3998 -1 0 2575
 box -28 0 128 97
 use sky130_fd_pr__nfet_01v8__example_55959141808472  sky130_fd_pr__nfet_01v8__example_55959141808472_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 22877 0 -1 2471
 box -28 0 148 63
 use sky130_fd_pr__nfet_01v8__example_55959141808472  sky130_fd_pr__nfet_01v8__example_55959141808472_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 23173 0 -1 2471
 box -28 0 148 63
 use sky130_fd_pr__nfet_01v8__example_55959141808472  sky130_fd_pr__nfet_01v8__example_55959141808472_2
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 22945 0 1 1336
 box -28 0 148 63
 use sky130_fd_pr__nfet_01v8__example_55959141808472  sky130_fd_pr__nfet_01v8__example_55959141808472_3
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 23701 0 1 1336
 box -28 0 148 63
 use sky130_fd_pr__pfet_01v8__example_55959141808470  sky130_fd_pr__pfet_01v8__example_55959141808470_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 6411 1 0 -184
 box -28 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808470  sky130_fd_pr__pfet_01v8__example_55959141808470_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 6411 1 0 168
 box -28 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808470  sky130_fd_pr__pfet_01v8__example_55959141808470_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 5258 1 0 -184
 box -28 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808470  sky130_fd_pr__pfet_01v8__example_55959141808470_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 5258 1 0 168
 box -28 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808481  sky130_fd_pr__pfet_01v8__example_55959141808481_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6626 1 0 233
 box -28 0 128 131
 use sky130_fd_pr__pfet_01v8__example_55959141808481  sky130_fd_pr__pfet_01v8__example_55959141808481_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6626 1 0 -47
 box -28 0 128 131
 use sky130_fd_pr__pfet_01v8__example_55959141808481  sky130_fd_pr__pfet_01v8__example_55959141808481_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6626 -1 0 -103
 box -28 0 128 131
 use sky130_fd_pr__pfet_01v8__example_55959141808508  sky130_fd_pr__pfet_01v8__example_55959141808508_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 7385 -1 0 206
 box -28 0 428 63
 use sky130_fd_pr__pfet_01v8__example_55959141808508  sky130_fd_pr__pfet_01v8__example_55959141808508_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 7105 -1 0 206
 box -28 0 428 63
 use sky130_fd_pr__pfet_01v8__example_55959141808469  sky130_fd_pr__pfet_01v8__example_55959141808469_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 22997 0 1 1959
 box -28 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808469  sky130_fd_pr__pfet_01v8__example_55959141808469_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 23053 0 1 1959
 box -28 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808507  sky130_fd_pr__pfet_01v8__example_55959141808507_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 23405 0 1 1647
 box -130 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808505  sky130_fd_pr__pfet_01v8__example_55959141808505_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 22825 0 1 1647
 box -28 0 450 97
 use sky130_fd_io__hvsbt_inv_x2  sky130_fd_io__hvsbt_inv_x2_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 16550 0 -1 865
 box 0 24 534 1116
 use sky130_fd_io__hvsbt_inv_x2  sky130_fd_io__hvsbt_inv_x2_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 16902 0 -1 865
 box 0 24 534 1116
 use sky130_fd_io__hvsbt_inv_x1  sky130_fd_io__hvsbt_inv_x1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 16720 0 -1 865
 box -46 24 399 1116
 use sky130_fd_io__hvsbt_inv_x1  sky130_fd_io__hvsbt_inv_x1_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 16198 0 -1 865
 box -46 24 399 1116
 use sky130_fd_io__gpio_ovtv2_amux_drvr_ls_2  sky130_fd_io__gpio_ovtv2_amux_drvr_ls_2_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 2826 0 1 51
-box -31 -4 3247 2649
+box -31 -4 3247 2661
 use sky130_fd_io__gpio_ovtv2_amux_guardring  sky130_fd_io__gpio_ovtv2_amux_guardring_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -142 0 1 -188
 box -120 -120 4512 3350
 use sky130_fd_io__gpio_ovtv2_amux_drvr_ls_i2c_fix_3  sky130_fd_io__gpio_ovtv2_amux_drvr_ls_i2c_fix_3_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 21208 0 -1 2725
-box 56 -141 1862 1132
+box 32 -167 1862 1132
 use sky130_fd_io__gpio_ovtv2_amux_drvr_ls_i2c_fix_3  sky130_fd_io__gpio_ovtv2_amux_drvr_ls_i2c_fix_3_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 17440 0 -1 2725
-box 56 -141 1862 1132
+box 32 -167 1862 1132
 use sky130_fd_io__gpio_ovtv2_amux_inv4_i2c_fix  sky130_fd_io__gpio_ovtv2_amux_inv4_i2c_fix_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 22586 0 1 1099
-box 50 12 584 869
+box 50 -8 584 869
 use sky130_fd_io__gpio_ovtv2_amux_inv4_i2c_fix  sky130_fd_io__gpio_ovtv2_amux_inv4_i2c_fix_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 22234 0 1 1099
-box 50 12 584 869
+box 50 -8 584 869
 use sky130_fd_io__gpio_ovtv2_amux_drvr_ls_i2c_fix_4  sky130_fd_io__gpio_ovtv2_amux_drvr_ls_i2c_fix_4_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 17440 0 1 533
-box 39 -141 1862 1138
+box 13 -167 1862 1138
 use sky130_fd_io__gpio_ovtv2_amx_pucsd_buf_i2c_fix  sky130_fd_io__gpio_ovtv2_amx_pucsd_buf_i2c_fix_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 21239 0 1 1876
 box 1 -294 1490 797
 << labels >>
 flabel metal2 s 4632 617 4732 667 3 FreeSans 400 0 0 0 NGB_AMX_VSWITCH_H
+port 1 nsew
 flabel metal2 s 4078 787 4159 839 3 FreeSans 400 0 0 0 NGB_PAD_VSWITCH_H
+port 2 nsew
 flabel metal2 s 4072 951 4160 1003 3 FreeSans 400 0 0 0 NGB_PAD_VSWITCH_H_N
+port 3 nsew
 flabel metal2 s 4629 264 4718 316 3 FreeSans 400 0 0 0 NGA_AMX_VSWITCH_H
+port 4 nsew
 flabel metal2 s 4642 705 4734 754 3 FreeSans 400 0 0 0 NGA_PAD_VSWITCH_H
+port 5 nsew
 flabel metal2 s 4629 181 4718 230 3 FreeSans 400 0 0 0 NGA_PAD_VSWITCH_H_N
+port 6 nsew
 flabel metal2 s 4629 92 4717 144 3 FreeSans 400 0 0 0 PD_CSD_VSWITCH_H
+port 7 nsew
 flabel metal2 s 4628 10 4711 62 3 FreeSans 400 0 0 0 PD_CSD_VSWITCH_H_N
+port 8 nsew
 flabel metal2 s 6593 2584 6692 2633 3 FreeSans 400 0 0 0 AMUXBUSA_ON
+port 9 nsew
 flabel metal2 s 6596 2499 6681 2549 3 FreeSans 400 0 0 0 AMUXBUSA_ON_N
+port 10 nsew
 flabel metal2 s 6589 2349 6683 2387 3 FreeSans 400 0 0 0 AMUXBUSB_ON
+port 11 nsew
 flabel metal2 s 6596 2417 6682 2466 3 FreeSans 400 0 0 0 AMUXBUSB_ON_N
+port 12 nsew
 flabel metal2 s 9566 2673 9647 2725 3 FreeSans 400 0 0 0 PD_ON
+port 13 nsew
 flabel metal2 s 9574 2755 9652 2798 3 FreeSans 400 0 0 0 PD_ON_N
+port 14 nsew
 flabel metal2 s 16264 450 16301 495 3 FreeSans 400 90 0 0 NMIDA_VCCD
+port 15 nsew
 flabel metal2 s 15756 708 15798 742 3 FreeSans 400 0 0 0 NMIDA_VCCD_N
+port 16 nsew
 flabel metal2 s 16622 363 16646 403 3 FreeSans 400 90 0 0 D_B
+port 17 nsew
 flabel metal2 s 15756 772 15798 806 3 FreeSans 400 0 0 0 D_B
+port 17 nsew
 flabel metal2 s 875 1609 918 1642 3 FreeSans 400 0 0 0 AMUX_EN_VDDA_H_N
+port 18 nsew
 flabel metal2 s 21745 733 21788 769 3 FreeSans 400 0 0 0 VSSD
+port 19 nsew
 flabel metal1 s 1262 1934 1308 1980 3 FreeSans 400 90 0 0 AMUX_EN_VSWITCH_H_N
+port 20 nsew
 flabel metal1 s 2255 88 2297 144 3 FreeSans 400 90 0 0 AMUX_EN_VSWITCH_H
+port 21 nsew
 flabel metal1 s 18915 -23 18991 29 3 FreeSans 400 0 0 0 AMUX_EN_VDDIO_H
+port 22 nsew
 flabel metal1 s -31 2105 2 2150 3 FreeSans 400 90 0 0 AMUX_EN_VDDA_H
+port 23 nsew
 flabel metal1 s 16175 320 16203 363 3 FreeSans 400 90 0 0 NMIDA_ON_N
+port 24 nsew
 flabel metal1 s 16523 192 16558 241 3 FreeSans 400 90 0 0 D_B
+port 17 nsew
 flabel metal1 s 20746 2462 20780 2509 3 FreeSans 400 90 0 0 PU_ON
+port 25 nsew
 flabel metal1 s 20898 2467 20936 2509 3 FreeSans 400 90 0 0 PU_ON_N
+port 26 nsew
 flabel metal1 s 15873 -105 15915 -69 3 FreeSans 400 0 0 0 VCCD
+port 27 nsew
 flabel metal1 s 5278 1973 5313 2013 3 FreeSans 400 90 0 0 VDDA
+port 28 nsew
 flabel metal1 s 21309 1749 21347 1789 3 FreeSans 400 90 0 0 VDDIO_Q
+port 29 nsew
 flabel metal1 s 798 1437 834 1476 3 FreeSans 400 90 0 0 VSSA
+port 30 nsew
 flabel metal1 s 6839 475 6878 515 3 FreeSans 400 0 0 0 VSWITCH
+port 31 nsew
 flabel metal1 s 978 2629 1024 2684 3 FreeSans 400 90 0 0 PGA_AMX_VDDA_H_N
+port 32 nsew
 flabel metal1 s 22246 1435 22290 1496 3 FreeSans 400 90 0 0 PGA_PAD_VDDIOQ_H_N
+port 33 nsew
 flabel metal1 s 890 1978 942 2040 3 FreeSans 400 90 0 0 PGB_AMX_VDDA_H_N
+port 34 nsew
 flabel metal1 s 21890 1452 21944 1515 3 FreeSans 400 90 0 0 PGB_PAD_VDDIOQ_H_N
+port 35 nsew
 flabel metal1 s 22360 2135 22413 2196 3 FreeSans 400 90 0 0 PU_CSD_VDDIOQ_H_N
+port 36 nsew
 flabel metal1 s 8208 1678 8244 1720 3 FreeSans 400 90 0 0 VCCD
+port 27 nsew
 flabel comment s 4307 650 4307 650 0 FreeSans 400 0 0 0 NGB_AMX_VSWITCH_H
 flabel comment s 7845 817 7845 817 0 FreeSans 400 0 0 0 NGB_PAD_VSWITCH_H
 flabel comment s 7843 901 7843 901 0 FreeSans 400 0 0 0 NGB_PAD_VSWITCH_H_N

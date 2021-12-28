@@ -1,14 +1,16 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1303 164 16368 4382
+timestamp 1640697850
 << nwell >>
 rect 5190 2009 5884 2225
 rect 13942 1725 14274 2219
 << pwell >>
-rect 789 1433 823 1714
+rect 89 2703 741 2716
+rect 89 2289 1123 2703
+rect 89 1740 741 2289
+rect 89 1407 849 1740
+rect 89 1398 741 1407
 << mvnmos >>
 rect 115 2537 715 2637
 rect 897 2524 1097 2624
@@ -1209,27 +1211,27 @@ tri 1289 2085 1326 2122 nw
 rect 436 2058 488 2079
 rect 436 2000 488 2006
 use sky130_fd_pr__nfet_01v8__example_55959141808484  sky130_fd_pr__nfet_01v8__example_55959141808484_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 715 -1 0 2637
 box -28 0 128 267
 use sky130_fd_pr__nfet_01v8__example_55959141808483  sky130_fd_pr__nfet_01v8__example_55959141808483_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 715 -1 0 2357
 box -28 0 908 267
 use sky130_fd_pr__nfet_01v8__example_55959141808485  sky130_fd_pr__nfet_01v8__example_55959141808485_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 897 1 0 2368
 box -28 0 284 97
 use sky130_fd_pr__pfet_01v8__example_55959141808482  sky130_fd_pr__pfet_01v8__example_55959141808482_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5765 0 -1 2159
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808482  sky130_fd_pr__pfet_01v8__example_55959141808482_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5509 0 -1 2159
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808512  sky130_fd_pr__pfet_01v8__example_55959141808512_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 14008 -1 0 2100
 box -28 0 284 97
 << labels >>
@@ -1237,6 +1239,6 @@ flabel comment s 57 2394 57 2394 0 FreeSans 280 90 0 0 IN_B
 flabel comment s 115 2434 115 2434 0 FreeSans 280 90 0 0 IN
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 48340712
-string GDS_START 48323498
+string GDS_END 48401556
+string GDS_START 48384342
 << end >>

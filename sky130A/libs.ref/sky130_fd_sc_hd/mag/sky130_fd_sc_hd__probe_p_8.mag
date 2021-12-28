@@ -1,13 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 2402 1852
+timestamp 1640697977
 << nwell >>
 rect -38 261 1142 582
 << pwell >>
-rect 30 -17 64 17
+rect 1 21 1027 203
+rect 30 -17 64 21
 << scnmos >>
 rect 79 47 109 177
 rect 163 47 193 177
@@ -569,14 +568,11 @@ rect 765 206 829 270
 rect 829 206 830 270
 rect 594 136 830 206
 << metal5 >>
-rect 250 390 854 432
-rect 250 372 854 389
+rect 250 372 854 432
 rect 250 136 274 372
 rect 510 136 594 372
 rect 830 136 854 372
 rect 250 112 854 136
-<< rm5 >>
-rect 250 389 854 390
 << labels >>
 flabel metal5 s 250 391 854 432 0 FreeSans 400 0 0 0 X
 port 6 nsew signal output
@@ -599,13 +595,51 @@ port 2 nsew ground bidirectional abutment
 flabel metal1 s 30 527 64 561 0 FreeSans 200 0 0 0 VPWR
 port 5 nsew power bidirectional abutment
 rlabel comment s 0 0 0 0 4 probe_p_8
+rlabel via4 s 632 174 792 334 1 X
+port 6 nsew signal output
+rlabel via4 s 312 174 472 334 1 X
+port 6 nsew signal output
+rlabel via3 s 777 218 817 258 1 X
+port 6 nsew signal output
+rlabel via3 s 697 218 737 258 1 X
+port 6 nsew signal output
+rlabel via2 s 777 218 817 258 1 X
+port 6 nsew signal output
+rlabel via2 s 697 218 737 258 1 X
+port 6 nsew signal output
+rlabel via1 s 774 223 804 253 1 X
+port 6 nsew signal output
+rlabel via1 s 710 223 740 253 1 X
+port 6 nsew signal output
+rlabel viali s 936 221 970 255 1 X
+port 6 nsew signal output
+rlabel viali s 864 221 898 255 1 X
+port 6 nsew signal output
+rlabel metal1 s 693 261 821 264 1 X
+port 6 nsew signal output
+rlabel metal1 s 693 215 982 261 1 X
+port 6 nsew signal output
+rlabel metal1 s 693 212 821 215 1 X
+port 6 nsew signal output
+rlabel metal2 s 689 201 825 275 1 X
+port 6 nsew signal output
+rlabel metal3 s 679 205 835 271 1 X
+port 6 nsew signal output
+rlabel metal4 s 274 136 830 372 1 X
+port 6 nsew signal output
+rlabel metal5 s 250 112 854 432 1 X
+port 6 nsew signal output
+rlabel metal1 s 0 -48 1104 48 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal1 s 0 496 1104 592 1 VPWR
+port 5 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
 string FIXED_BBOX 0 0 1104 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 2082288
-string GDS_START 2072328
-string path 17.325 5.950 20.525 5.950 
+string GDS_END 18906
+string GDS_START 8946
+string path 3.465 1.190 4.105 1.190 
 << end >>

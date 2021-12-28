@@ -1,11 +1,9 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1234 -1234 9268 4892
+timestamp 1640697850
 << pwell >>
-rect 4010 26 4024 3414
+rect 3984 0 4050 3440
 << locali >>
 rect 4010 26 4024 3414
 << metal1 >>
@@ -60,27 +58,38 @@ rect 7569 1681 7769 1781
 rect 3971 171 4054 254
 rect 4010 154 4024 171
 use sky130_fd_io__gnd2gnd_sub_dnwl  sky130_fd_io__gnd2gnd_sub_dnwl_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 0 0 1 0
-box 26 26 4010 3414
+box 0 0 4036 3440
 use sky130_fd_io__gnd2gnd_sub_dnwl  sky130_fd_io__gnd2gnd_sub_dnwl_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 8034 0 1 0
-box 26 26 4010 3414
+box 0 0 4036 3440
 << labels >>
 flabel metal1 s 3562 3494 3762 3594 0 FreeSans 300 0 0 0 VSSI
+port 1 nsew
 flabel metal1 s 681 1681 881 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 1507 1681 1707 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 2334 1681 2534 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 3161 1681 3361 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 4269 1681 4469 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 5093 1681 5293 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 5917 1681 6117 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 6740 1681 6940 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 7569 1681 7769 1781 0 FreeSans 300 0 0 0 VSS_N
+port 2 nsew
 flabel metal1 s 3971 171 4054 254 0 FreeSans 400 0 0 0 VSUB
+port 3 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 9287332
-string GDS_START 9284944
+string GDS_END 15529290
+string GDS_START 15526902
 << end >>

@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729579
+timestamp 1640697996
 << nwell >>
 rect -66 377 1122 897
 << pwell >>
-rect 0 -17 1056 17
+rect 4 43 998 283
+rect -26 -43 1082 43
 << locali >>
 rect 112 355 302 411
 rect 409 355 647 430
@@ -191,32 +192,34 @@ rect 0 -23 1056 -17
 << labels >>
 rlabel locali s 409 355 647 430 6 A
 port 1 nsew signal input
+rlabel locali s 268 285 717 301 6 B
+port 2 nsew signal input
+rlabel locali s 268 301 743 319 6 B
+port 2 nsew signal input
 rlabel locali s 683 319 743 367 6 B
 port 2 nsew signal input
 rlabel locali s 268 319 302 355 6 B
 port 2 nsew signal input
-rlabel locali s 268 301 743 319 6 B
-port 2 nsew signal input
-rlabel locali s 268 285 717 301 6 B
-port 2 nsew signal input
 rlabel locali s 112 355 302 411 6 B
 port 2 nsew signal input
-rlabel locali s 793 265 874 485 6 X
-port 7 nsew signal output
-rlabel locali s 770 99 874 265 6 X
-port 7 nsew signal output
 rlabel metal1 s 0 51 1056 125 6 VGND
 port 3 nsew ground bidirectional
-rlabel pwell s 0 -17 1056 17 8 VNB
-port 4 nsew ground bidirectional
 rlabel metal1 s 0 -23 1056 23 8 VNB
 port 4 nsew ground bidirectional
-rlabel nwell s -66 377 1122 897 6 VPB
-port 5 nsew power bidirectional
+rlabel pwell s -26 -43 1082 43 8 VNB
+port 4 nsew ground bidirectional
+rlabel pwell s 4 43 998 283 6 VNB
+port 4 nsew ground bidirectional
 rlabel metal1 s 0 791 1056 837 6 VPB
+port 5 nsew power bidirectional
+rlabel nwell s -66 377 1122 897 6 VPB
 port 5 nsew power bidirectional
 rlabel metal1 s 0 689 1056 763 6 VPWR
 port 6 nsew power bidirectional
+rlabel locali s 770 99 874 265 6 X
+port 7 nsew signal output
+rlabel locali s 793 265 874 485 6 X
+port 7 nsew signal output
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
@@ -224,6 +227,6 @@ string FIXED_BBOX 0 0 1056 814
 string LEFsymmetry X Y
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
-string GDS_END 849528
-string GDS_START 837468
+string GDS_END 743414
+string GDS_START 731354
 << end >>

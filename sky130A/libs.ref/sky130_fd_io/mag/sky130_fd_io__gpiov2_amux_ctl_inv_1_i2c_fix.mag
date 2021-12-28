@@ -1,13 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1279 -1309 1606 1964
+timestamp 1640697850
 << nwell >>
 rect -19 332 346 704
 << pwell >>
-rect -1 0 262 49
+rect 95 49 305 248
+rect -1 48 305 49
+rect -1 0 262 48
 << scnmos >>
 rect 192 74 222 222
 << scpmoshvt >>
@@ -130,17 +130,29 @@ rect -1 -49 244 15
 << labels >>
 rlabel comment s 19 0 19 0 4 SKY130_FD_IO__INV_1
 flabel pwell s -1 0 262 49 0 FreeSans 200 0 0 0 VNB
+port 1 nsew
 flabel nwell s 15 617 308 666 0 FreeSans 200 0 0 0 VPB
+port 2 nsew
 flabel metal1 s 15 617 308 666 0 FreeSans 340 0 0 0 VPWR
+port 3 nsew
 flabel metal1 s -1 0 244 49 0 FreeSans 340 0 0 0 VGND
+port 4 nsew
 flabel locali s 243 94 277 128 0 FreeSans 340 0 0 0 OUT
+port 5 nsew
 flabel locali s 243 168 277 202 0 FreeSans 340 0 0 0 OUT
+port 5 nsew
 flabel locali s 243 242 277 276 0 FreeSans 340 0 0 0 OUT
+port 5 nsew
 flabel locali s 243 316 277 350 0 FreeSans 340 0 0 0 OUT
+port 5 nsew
 flabel locali s 243 390 277 424 0 FreeSans 340 0 0 0 OUT
+port 5 nsew
 flabel locali s 243 464 277 498 0 FreeSans 340 0 0 0 OUT
+port 5 nsew
 flabel locali s 243 538 277 572 0 FreeSans 340 0 0 0 OUT
+port 5 nsew
 flabel locali s 50 316 84 350 0 FreeSans 340 0 0 0 IN
+port 6 nsew
 << properties >>
 string FIXED_BBOX -1 0 308 666
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds

@@ -1,13 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -377 -2585 17268 4614
+timestamp 1640697850
 << nwell >>
 rect 15552 2653 15925 3354
 << pwell >>
-rect 14694 862 14816 1220
+rect 14668 836 14842 1246
 << psubdiff >>
 rect 14694 1196 14816 1220
 rect 14728 1162 14782 1196
@@ -1328,156 +1326,184 @@ rect 15027 154 15029 155
 rect 15028 104 15029 154
 rect 15027 103 15029 104
 use sky130_fd_io__tk_em1s_cdns_5595914180881  sky130_fd_io__tk_em1s_cdns_5595914180881_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 14130 0 1 361
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180881  sky130_fd_io__tk_em1s_cdns_5595914180881_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 6666 1 0 280
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180881  sky130_fd_io__tk_em1s_cdns_5595914180881_2
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 10120 0 1 411
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180881  sky130_fd_io__tk_em1s_cdns_5595914180881_3
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5966 0 1 411
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180881  sky130_fd_io__tk_em1s_cdns_5595914180881_4
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 2500 0 1 411
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180882  sky130_fd_io__tk_em1s_cdns_5595914180882_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6420 -1 0 597
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180882  sky130_fd_io__tk_em1s_cdns_5595914180882_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 10354 -1 0 410
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180882  sky130_fd_io__tk_em1s_cdns_5595914180882_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 6200 -1 0 410
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180882  sky130_fd_io__tk_em1s_cdns_5595914180882_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 2266 -1 0 410
 box 0 24 144 28
 use sky130_fd_io__tk_em1s_cdns_5595914180882  sky130_fd_io__tk_em1s_cdns_5595914180882_4
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 14508 -1 0 714
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180879  sky130_fd_io__tk_em1o_cdns_5595914180879_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 14308 -1 0 708
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180879  sky130_fd_io__tk_em1o_cdns_5595914180879_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 6654 0 1 411
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180879  sky130_fd_io__tk_em1o_cdns_5595914180879_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 10108 1 0 280
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180879  sky130_fd_io__tk_em1o_cdns_5595914180879_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 5954 1 0 280
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180879  sky130_fd_io__tk_em1o_cdns_5595914180879_4
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 2512 1 0 280
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180880  sky130_fd_io__tk_em1o_cdns_5595914180880_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 14508 1 0 377
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180880  sky130_fd_io__tk_em1o_cdns_5595914180880_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 14910 -1 0 600
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180880  sky130_fd_io__tk_em1o_cdns_5595914180880_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6420 -1 0 410
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180880  sky130_fd_io__tk_em1o_cdns_5595914180880_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 10354 -1 0 597
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180880  sky130_fd_io__tk_em1o_cdns_5595914180880_4
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 6200 -1 0 597
 box 0 24 144 28
 use sky130_fd_io__tk_em1o_cdns_5595914180880  sky130_fd_io__tk_em1o_cdns_5595914180880_5
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 2266 -1 0 597
 box 0 24 144 28
 use sky130_fd_io__com_ctl_lsv2  sky130_fd_io__com_ctl_lsv2_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 20585 0 -1 2028
 box 4577 -1281 6166 3353
 use sky130_fd_io__com_ctl_ls_1v2  sky130_fd_io__com_ctl_ls_1v2_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 12541 0 -1 2028
 box -71 10 2077 2019
 use sky130_fd_io__tk_em2s_cdns_55959141808438  sky130_fd_io__tk_em2s_cdns_55959141808438_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 14890 0 -1 461
 box 0 24 144 28
 use sky130_fd_io__tk_em2s_cdns_55959141808438  sky130_fd_io__tk_em2s_cdns_55959141808438_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 15141 1 0 275
 box 0 24 144 28
 use sky130_fd_io__tk_em2o_cdns_55959141808439  sky130_fd_io__tk_em2o_cdns_55959141808439_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 14937 0 -1 155
 box 0 24 144 28
 use sky130_fd_io__com_ctl_ls_v2  sky130_fd_io__com_ctl_ls_v2_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 8387 0 -1 2028
 box -71 10 2077 2019
 use sky130_fd_io__com_ctl_ls_v2  sky130_fd_io__com_ctl_ls_v2_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 8387 0 -1 2028
 box -71 10 2077 2019
 use sky130_fd_io__com_ctl_ls_v2  sky130_fd_io__com_ctl_ls_v2_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4233 0 -1 2028
 box -71 10 2077 2019
 use sky130_fd_io__com_ctl_ls_en_1_v2  sky130_fd_io__com_ctl_ls_en_1_v2_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4233 0 -1 2028
 box -71 -1302 2077 2019
 << labels >>
 flabel metal2 s 12995 9 13047 61 3 FreeSans 520 90 0 0 VTRIP_SEL_H
+port 1 nsew
 flabel metal2 s 14184 1946 14236 1998 3 FreeSans 520 270 0 0 VTRIP_SEL
+port 2 nsew
 flabel metal2 s 12901 9 12953 61 3 FreeSans 520 90 0 0 VTRIP_SEL_H_N
+port 3 nsew
 flabel metal2 s 6702 1946 6754 1998 3 FreeSans 520 270 0 0 INP_DIS
+port 4 nsew
 flabel metal2 s 7967 9 8019 61 3 FreeSans 520 90 0 0 INP_DIS_H
+port 5 nsew
 flabel metal2 s 8061 9 8113 61 3 FreeSans 520 90 0 0 INP_DIS_H_N
+port 6 nsew
 flabel metal2 s 5902 1946 5954 1998 3 FreeSans 520 270 0 0 DM[0]
+port 7 nsew
 flabel metal2 s 4601 9 4653 61 3 FreeSans 520 90 0 0 DM_H[0]
+port 8 nsew
 flabel metal2 s 4507 9 4559 61 3 FreeSans 520 90 0 0 DM_H_N[0]
+port 9 nsew
 flabel metal2 s 3813 9 3865 61 3 FreeSans 520 90 0 0 DM_H[1]
+port 10 nsew
 flabel metal2 s 3907 9 3959 61 3 FreeSans 520 90 0 0 DM_H_N[1]
+port 11 nsew
 flabel metal2 s 10031 1946 10083 1998 3 FreeSans 520 270 0 0 DM[2]
+port 12 nsew
 flabel metal2 s 8755 9 8807 61 3 FreeSans 520 90 0 0 DM_H[2]
+port 13 nsew
 flabel metal2 s 8661 9 8713 61 3 FreeSans 520 90 0 0 DM_H_N[2]
+port 14 nsew
 flabel metal1 s 2639 1550 2682 1673 3 FreeSans 520 0 0 0 VPWR
+port 15 nsew
 flabel metal1 s 2649 2823 2726 2855 3 FreeSans 520 0 0 0 DM[1]
+port 16 nsew
 flabel metal1 s 2162 9 2205 210 3 FreeSans 520 0 0 0 VPWR
+port 15 nsew
 flabel metal1 s 2639 1702 2682 1904 3 FreeSans 520 0 0 0 VCC_IO
+port 17 nsew
 flabel metal1 s 2638 1544 2681 1674 3 FreeSans 520 0 0 0 VPWR
+port 15 nsew
 flabel metal1 s 4346 238 4430 286 3 FreeSans 520 0 0 0 STARTUP_ST_H
+port 18 nsew
 flabel metal1 s 2162 707 2205 906 3 FreeSans 520 0 0 0 VGND
+port 19 nsew
 flabel metal1 s 9377 2017 9470 2069 3 FreeSans 520 0 0 0 STARTUP_RST_H
+port 20 nsew
 flabel metal1 s 14191 2103 14243 2143 3 FreeSans 520 180 0 0 HLD_I_H_N
+port 21 nsew
 flabel metal1 s 14110 2025 14173 2062 3 FreeSans 520 0 0 0 OD_I_H
+port 22 nsew
 flabel metal1 s 15452 520 15523 558 3 FreeSans 520 270 0 0 IB_MODE_SEL_H_N
+port 23 nsew
 flabel metal1 s 15842 550 15873 608 3 FreeSans 520 180 0 0 IB_MODE_SEL_H
+port 24 nsew
 flabel metal1 s 14674 2027 14735 2056 3 FreeSans 520 0 0 0 IB_MODE_SEL
+port 25 nsew
 flabel metal1 s 14734 12 14774 64 3 FreeSans 520 270 0 0 HLD_I_H_N
+port 21 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 18155524
-string GDS_START 18123748
+string GDS_END 7943940
+string GDS_START 7912164
 << end >>

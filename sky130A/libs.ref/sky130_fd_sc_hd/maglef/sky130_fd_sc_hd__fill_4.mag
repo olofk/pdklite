@@ -1,12 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729575
+timestamp 1640697980
 << nwell >>
 rect -38 261 406 582
 << pwell >>
 rect 35 -12 57 12
-<< obsli1 >>
+<< locali >>
 rect 0 527 29 561
 rect 63 527 121 561
 rect 155 527 213 561
@@ -17,7 +17,7 @@ rect 63 -17 121 17
 rect 155 -17 213 17
 rect 247 -17 305 17
 rect 339 -17 368 17
-<< obsli1c >>
+<< viali >>
 rect 29 527 63 561
 rect 121 527 155 561
 rect 213 527 247 561
@@ -44,11 +44,31 @@ rect 0 -48 368 -17
 << labels >>
 rlabel metal1 s 0 -48 368 48 8 VGND
 port 1 nsew ground bidirectional abutment
+rlabel viali s 305 -17 339 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 213 -17 247 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 121 -17 155 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 29 -17 63 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel locali s 0 -17 368 17 8 VGND
+port 1 nsew ground bidirectional abutment
 rlabel pwell s 35 -12 57 12 8 VNB
 port 2 nsew ground bidirectional
 rlabel nwell s -38 261 406 582 6 VPB
 port 3 nsew power bidirectional
 rlabel metal1 s 0 496 368 592 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 305 527 339 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 213 527 247 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 121 527 155 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 29 527 63 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel locali s 0 527 368 561 6 VPWR
 port 4 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
@@ -57,6 +77,6 @@ string FIXED_BBOX 0 0 368 544
 string LEFsymmetry X Y R90
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
-string GDS_END 4092970
-string GDS_START 4091358
+string GDS_END 2156036
+string GDS_START 2154424
 << end >>

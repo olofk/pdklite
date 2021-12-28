@@ -1,18 +1,24 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729575
+timestamp 1640697980
 << nwell >>
 rect -38 261 2706 582
 << pwell >>
+rect 3 21 273 203
+rect 293 21 735 203
+rect 757 21 1195 203
+rect 1473 21 1911 203
+rect 1933 21 2375 203
+rect 2395 21 2665 203
 rect 29 -17 63 17
-rect 213 -17 247 17
-rect 672 -17 706 17
-rect 1132 -17 1166 17
+rect 213 -17 247 21
+rect 672 -17 706 21
+rect 1132 -17 1166 21
 rect 1225 -17 1259 17
-rect 1502 -17 1536 17
-rect 1962 -17 1996 17
-rect 2421 -17 2455 17
+rect 1502 -17 1536 21
+rect 1962 -17 1996 21
+rect 2421 -17 2455 21
 << locali >>
 rect 0 527 29 561
 rect 63 527 121 561
@@ -367,48 +373,8 @@ rect 2309 215 2367 224
 rect 2406 215 2464 224
 rect 2494 215 2567 261
 << labels >>
-rlabel viali s 955 221 989 255 6 LO
-port 5 nsew signal output
-rlabel locali s 843 215 993 265 6 LO
-port 5 nsew signal output
-rlabel viali s 1141 221 1175 255 6 LO
-port 5 nsew signal output
-rlabel locali s 1027 215 1179 265 6 LO
-port 5 nsew signal output
-rlabel viali s 1353 221 1387 255 6 LO
-port 5 nsew signal output
-rlabel locali s 1351 183 1455 493 6 LO
-port 5 nsew signal output
-rlabel viali s 1525 221 1559 255 6 LO
-port 5 nsew signal output
-rlabel locali s 1489 215 1641 265 6 LO
-port 5 nsew signal output
-rlabel viali s 1697 221 1731 255 6 LO
-port 5 nsew signal output
-rlabel locali s 1675 215 1825 265 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1685 252 1743 261 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1685 215 1743 224 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1513 252 1571 261 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1513 215 1571 224 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1341 252 1399 261 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1341 215 1399 224 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1129 252 1187 261 6 LO
-port 5 nsew signal output
-rlabel metal1 s 1129 215 1187 224 6 LO
-port 5 nsew signal output
-rlabel metal1 s 943 252 1001 261 6 LO
-port 5 nsew signal output
-rlabel metal1 s 943 224 1743 252 6 LO
-port 5 nsew signal output
-rlabel metal1 s 943 215 1001 224 6 LO
-port 5 nsew signal output
+rlabel metal1 s 0 -48 2668 48 8 VGND
+port 1 nsew ground bidirectional abutment
 rlabel viali s 2605 -17 2639 17 8 VGND
 port 1 nsew ground bidirectional abutment
 rlabel viali s 2513 -17 2547 17 8 VGND
@@ -467,6 +433,8 @@ rlabel viali s 121 -17 155 17 8 VGND
 port 1 nsew ground bidirectional abutment
 rlabel viali s 29 -17 63 17 8 VGND
 port 1 nsew ground bidirectional abutment
+rlabel locali s 0 -17 2668 17 8 VGND
+port 1 nsew ground bidirectional abutment
 rlabel locali s 2597 17 2639 181 6 VGND
 port 1 nsew ground bidirectional abutment
 rlabel locali s 2417 17 2463 181 6 VGND
@@ -493,14 +461,12 @@ rlabel locali s 205 17 251 181 6 VGND
 port 1 nsew ground bidirectional abutment
 rlabel locali s 29 17 71 181 6 VGND
 port 1 nsew ground bidirectional abutment
-rlabel locali s 0 -17 2668 17 8 VGND
-port 1 nsew ground bidirectional abutment
-rlabel metal1 s 0 -48 2668 48 8 VGND
-port 1 nsew ground bidirectional abutment
 rlabel pwell s 29 -17 63 17 8 VNB
 port 2 nsew ground bidirectional
 rlabel nwell s -38 261 2706 582 6 VPB
 port 3 nsew power bidirectional
+rlabel metal1 s 0 496 2668 592 6 VPWR
+port 4 nsew power bidirectional abutment
 rlabel viali s 2605 527 2639 561 6 VPWR
 port 4 nsew power bidirectional abutment
 rlabel viali s 2513 527 2547 561 6 VPWR
@@ -587,8 +553,48 @@ rlabel locali s 29 299 71 527 6 VPWR
 port 4 nsew power bidirectional abutment
 rlabel locali s 0 527 2668 561 6 VPWR
 port 4 nsew power bidirectional abutment
-rlabel metal1 s 0 496 2668 592 6 VPWR
-port 4 nsew power bidirectional abutment
+rlabel metal1 s 1685 215 1743 224 6 LO
+port 5 nsew signal output
+rlabel metal1 s 1513 215 1571 224 6 LO
+port 5 nsew signal output
+rlabel metal1 s 1341 215 1399 224 6 LO
+port 5 nsew signal output
+rlabel metal1 s 1129 215 1187 224 6 LO
+port 5 nsew signal output
+rlabel metal1 s 943 215 1001 224 6 LO
+port 5 nsew signal output
+rlabel metal1 s 943 224 1743 252 6 LO
+port 5 nsew signal output
+rlabel metal1 s 1685 252 1743 261 6 LO
+port 5 nsew signal output
+rlabel metal1 s 1513 252 1571 261 6 LO
+port 5 nsew signal output
+rlabel metal1 s 1341 252 1399 261 6 LO
+port 5 nsew signal output
+rlabel metal1 s 1129 252 1187 261 6 LO
+port 5 nsew signal output
+rlabel metal1 s 943 252 1001 261 6 LO
+port 5 nsew signal output
+rlabel viali s 1697 221 1731 255 6 LO
+port 5 nsew signal output
+rlabel locali s 1675 215 1825 265 6 LO
+port 5 nsew signal output
+rlabel viali s 1525 221 1559 255 6 LO
+port 5 nsew signal output
+rlabel locali s 1489 215 1641 265 6 LO
+port 5 nsew signal output
+rlabel viali s 1353 221 1387 255 6 LO
+port 5 nsew signal output
+rlabel locali s 1351 183 1455 493 6 LO
+port 5 nsew signal output
+rlabel viali s 1141 221 1175 255 6 LO
+port 5 nsew signal output
+rlabel locali s 1027 215 1179 265 6 LO
+port 5 nsew signal output
+rlabel viali s 955 221 989 255 6 LO
+port 5 nsew signal output
+rlabel locali s 843 215 993 265 6 LO
+port 5 nsew signal output
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
@@ -596,6 +602,6 @@ string FIXED_BBOX 0 0 2668 544
 string LEFsymmetry X Y R90
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
-string GDS_END 3162164
-string GDS_START 3158238
+string GDS_END 1656842
+string GDS_START 1652916
 << end >>

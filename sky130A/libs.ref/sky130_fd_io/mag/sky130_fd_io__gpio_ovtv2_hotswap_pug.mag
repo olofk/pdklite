@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -1260 4578 1767
+timestamp 1640697850
 << nwell >>
 rect 0 0 3132 494
 << mvpmos >>
@@ -1005,34 +1003,38 @@ rect 2751 144 2752 194
 rect 2688 143 2690 144
 rect 2750 143 2752 144
 use sky130_fd_io__tk_em2s_cdns_5595914180841  sky130_fd_io__tk_em2s_cdns_5595914180841_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 2804 0 -1 195
 box 0 24 168 28
 use sky130_fd_io__tk_em2s_cdns_55959141808181  sky130_fd_io__tk_em2s_cdns_55959141808181_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 2340 0 1 143
 box 0 24 168 28
 use sky130_fd_io__tk_em2o_cdns_55959141808167  sky130_fd_io__tk_em2o_cdns_55959141808167_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3003 0 1 286
 box 0 24 168 28
 use sky130_fd_io__tk_em2o_cdns_55959141808180  sky130_fd_io__tk_em2o_cdns_55959141808180_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 2044 0 1 143
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808179  sky130_fd_io__tk_em1s_cdns_55959141808179_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3190 -1 0 486
 box 0 24 168 28
 use sky130_fd_pr__pfet_01v8__example_55959141808177  sky130_fd_pr__pfet_01v8__example_55959141808177_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 66 -1 0 375
 box -28 0 284 1491
 << labels >>
 flabel metal1 s 3128 471 3174 500 3 FreeSans 520 0 0 0 PADLO
+port 1 nsew
 flabel metal1 s 2824 224 2952 270 3 FreeSans 520 0 0 0 PUG_H
+port 2 nsew
 flabel metal2 s 1904 382 2044 429 3 FreeSans 520 0 0 0 PAD
+port 3 nsew
 flabel metal2 s 2508 323 2636 369 3 FreeSans 520 180 0 0 TIE_HI
+port 4 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string GDS_END 38348762

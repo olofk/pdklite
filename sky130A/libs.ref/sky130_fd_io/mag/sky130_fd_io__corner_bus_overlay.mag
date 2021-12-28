@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -1260 41260 41993
+timestamp 1640697850
 << metal4 >>
 rect 0 40559 25423 40733
 rect 0 40323 287 40559
@@ -3240,9 +3238,7 @@ rect 4965 12176 5220 12295
 tri 4965 12080 5061 12176 ne
 rect 5061 12080 5220 12176
 rect 0 12014 4635 12080
-tri 4607 12008 4613 12014 ne
-rect 4613 12008 4635 12014
-tri 4635 12008 4707 12080 sw
+tri 4635 12014 4701 12080 sw
 tri 5061 12014 5127 12080 ne
 rect 5127 12059 5220 12080
 rect 5456 12242 5581 12295
@@ -3352,6 +3348,9 @@ rect 6615 12176 6795 12289
 rect 5456 12074 6227 12176
 rect 5456 12059 5985 12074
 rect 5127 12014 5985 12059
+tri 4607 12008 4613 12014 ne
+rect 4613 12008 4701 12014
+tri 4701 12008 4707 12014 sw
 tri 5127 12008 5133 12014 ne
 rect 5133 12008 5985 12014
 tri 4613 11954 4667 12008 ne
@@ -16206,20 +16205,8 @@ rect 6709 10455 7565 10479
 tri 6709 10280 6884 10455 ne
 rect 6884 10351 7565 10455
 rect 6884 10280 7161 10351
-rect 0 9944 3754 9960
-tri 3754 9944 3770 9960 sw
-rect 0 9920 3770 9944
-rect 0 9684 295 9920
-rect 531 9684 830 9920
-rect 1066 9684 1365 9920
-rect 1601 9684 1900 9920
-rect 2136 9684 2434 9920
-rect 2670 9684 2968 9920
-rect 3204 9684 3502 9920
-rect 3738 9827 3770 9920
-tri 3770 9827 3887 9944 sw
-tri 3887 9827 4340 10280 ne
-rect 4340 9992 6431 10280
+tri 3887 9992 4175 10280 ne
+rect 4175 9992 6431 10280
 tri 6431 9992 6719 10280 sw
 tri 6884 10091 7073 10280 ne
 rect 7073 10115 7161 10280
@@ -16283,11 +16270,27 @@ rect 7073 10091 8256 10112
 tri 7073 9992 7172 10091 ne
 rect 7172 10088 8256 10091
 rect 7172 9992 7971 10088
-rect 4340 9960 6719 9992
+tri 4175 9960 4207 9992 ne
+rect 4207 9960 6719 9992
 tri 6719 9960 6751 9992 sw
 tri 7172 9960 7204 9992 ne
 rect 7204 9960 7971 9992
-rect 4340 9827 6751 9960
+rect 0 9944 3754 9960
+tri 3754 9944 3770 9960 sw
+tri 4207 9944 4223 9960 ne
+rect 4223 9944 6751 9960
+rect 0 9920 3770 9944
+rect 0 9684 295 9920
+rect 531 9684 830 9920
+rect 1066 9684 1365 9920
+rect 1601 9684 1900 9920
+rect 2136 9684 2434 9920
+rect 2670 9684 2968 9920
+rect 3204 9684 3502 9920
+rect 3738 9827 3770 9920
+tri 3770 9827 3887 9944 sw
+tri 4223 9827 4340 9944 ne
+rect 4340 9827 6751 9944
 rect 3738 9684 3887 9827
 rect 0 9565 3887 9684
 tri 3887 9565 4149 9827 sw
@@ -19180,225 +19183,133 @@ rect 39828 167 40000 403
 rect 35157 0 40000 167
 << labels >>
 flabel metal5 s 0 10280 254 12080 3 FreeSans 520 0 0 0 VSSA
-port 28 nsew signal bidirectional
+port 1 nsew signal bidirectional
 flabel metal5 s 127 11138 127 11138 3 FreeSans 520 180 0 0 VSSA
+port 1 nsew
 flabel metal5 s 0 35890 254 40733 3 FreeSans 520 180 0 0 VSSIO
-port 44 nsew signal bidirectional
+port 2 nsew signal bidirectional
 flabel metal5 s 0 7130 254 7780 3 FreeSans 520 180 0 0 VSWITCH
-port 56 nsew signal bidirectional
+port 3 nsew signal bidirectional
 flabel metal5 s 0 5920 254 6810 3 FreeSans 520 180 0 0 VSSIO
-port 45 nsew signal bidirectional
+port 2 nsew signal bidirectional
 flabel metal5 s 0 9070 254 9960 3 FreeSans 520 180 0 0 VSSD
-port 40 nsew signal bidirectional
-flabel metal5 s 0 8101 254 8750 3 FreeSans 520 180 0 0 VSSA
-port 29 nsew signal bidirectional
-flabel metal5 s 0 12400 254 13250 3 FreeSans 520 180 0 0 VSSIO_Q
-port 52 nsew signal bidirectional
-flabel metal5 s 0 13570 254 14420 3 FreeSans 520 180 0 0 VDDIO_Q
-port 24 nsew signal bidirectional
-flabel metal5 s 0 14740 254 19730 3 FreeSans 520 180 0 0 VDDIO
-port 16 nsew signal bidirectional
-flabel metal5 s 0 3740 251 4390 3 FreeSans 520 180 0 0 VDDA
-port 12 nsew signal bidirectional
-flabel metal5 s 0 1160 254 2210 3 FreeSans 520 180 0 0 VCCHIB
-port 8 nsew signal bidirectional
-flabel metal5 s 0 2530 254 3420 3 FreeSans 520 180 0 0 VCCD
 port 4 nsew signal bidirectional
-flabel metal5 s 0 4710 254 5600 3 FreeSans 520 180 0 0 VDDIO
-port 17 nsew signal bidirectional
-flabel metal5 s 3977 0 4867 254 3 FreeSans 520 270 0 0 VDDIO
-port 18 nsew signal bidirectional
-flabel metal5 s 1797 0 2687 254 3 FreeSans 520 270 0 0 VCCD
+flabel metal5 s 0 8101 254 8750 3 FreeSans 520 180 0 0 VSSA
+port 1 nsew
+flabel metal5 s 0 12400 254 13250 3 FreeSans 520 180 0 0 VSSIO_Q
 port 5 nsew signal bidirectional
+flabel metal5 s 0 13570 254 14420 3 FreeSans 520 180 0 0 VDDIO_Q
+port 6 nsew signal bidirectional
+flabel metal5 s 0 14740 254 19730 3 FreeSans 520 180 0 0 VDDIO
+port 7 nsew signal bidirectional
+flabel metal5 s 0 3740 251 4390 3 FreeSans 520 180 0 0 VDDA
+port 8 nsew signal bidirectional
+flabel metal5 s 0 1160 254 2210 3 FreeSans 520 180 0 0 VCCHIB
+port 9 nsew signal bidirectional
+flabel metal5 s 0 2530 254 3420 3 FreeSans 520 180 0 0 VCCD
+port 10 nsew signal bidirectional
+flabel metal5 s 0 4710 254 5600 3 FreeSans 520 180 0 0 VDDIO
+port 7 nsew signal bidirectional
+flabel metal5 s 3977 0 4867 254 3 FreeSans 520 270 0 0 VDDIO
+port 7 nsew signal bidirectional
+flabel metal5 s 1797 0 2687 254 3 FreeSans 520 270 0 0 VCCD
+port 10 nsew signal bidirectional
 flabel metal5 s 427 0 1477 254 3 FreeSans 520 270 0 0 VCCHIB
 port 9 nsew signal bidirectional
 flabel metal5 s 3007 0 3657 251 3 FreeSans 520 270 0 0 VDDA
-port 13 nsew signal bidirectional
+port 8 nsew signal bidirectional
 flabel metal5 s 14007 0 18997 254 3 FreeSans 520 270 0 0 VDDIO
-port 19 nsew signal bidirectional
+port 7 nsew signal bidirectional
 flabel metal5 s 12837 0 13687 254 3 FreeSans 520 270 0 0 VDDIO_Q
-port 25 nsew signal bidirectional
-flabel metal5 s 11667 0 12517 254 3 FreeSans 520 270 0 0 VSSIO_Q
-port 53 nsew signal bidirectional
-flabel metal5 s 7368 0 8017 254 3 FreeSans 520 270 0 0 VSSA
-port 30 nsew signal bidirectional
-flabel metal5 s 8337 0 9227 254 3 FreeSans 520 270 0 0 VSSD
-port 41 nsew signal bidirectional
-flabel metal5 s 5187 0 6077 254 3 FreeSans 520 270 0 0 VSSIO
-port 46 nsew signal bidirectional
-flabel metal5 s 6397 0 7047 254 3 FreeSans 520 270 0 0 VSWITCH
-port 57 nsew signal bidirectional
-flabel metal5 s 35157 0 40000 254 3 FreeSans 520 270 0 0 VSSIO
-port 47 nsew signal bidirectional
-flabel metal5 s 9547 0 11347 254 3 FreeSans 520 270 0 0 VSSA
-port 31 nsew signal bidirectional
-flabel metal5 s 10258 127 10258 127 3 FreeSans 520 90 0 0 VSSA
-flabel metal4 s 0 11358 100 11954 3 FreeSans 520 0 0 0 AMUXBUS_A
-port 0 nsew signal bidirectional
-flabel metal4 s 0 10406 115 11002 3 FreeSans 520 0 0 0 AMUXBUS_B
-port 2 nsew signal bidirectional
-flabel metal4 s 0 10280 254 10346 3 FreeSans 520 0 0 0 VSSA
-port 32 nsew signal bidirectional
-flabel metal4 s 0 1140 254 2230 3 FreeSans 520 180 0 0 VCCHIB
-port 10 nsew signal bidirectional
-flabel metal4 s 0 2510 254 3440 3 FreeSans 520 180 0 0 VCCD
 port 6 nsew signal bidirectional
+flabel metal5 s 11667 0 12517 254 3 FreeSans 520 270 0 0 VSSIO_Q
+port 5 nsew signal bidirectional
+flabel metal5 s 7368 0 8017 254 3 FreeSans 520 270 0 0 VSSA
+port 1 nsew
+flabel metal5 s 8337 0 9227 254 3 FreeSans 520 270 0 0 VSSD
+port 4 nsew signal bidirectional
+flabel metal5 s 5187 0 6077 254 3 FreeSans 520 270 0 0 VSSIO
+port 2 nsew signal bidirectional
+flabel metal5 s 6397 0 7047 254 3 FreeSans 520 270 0 0 VSWITCH
+port 3 nsew signal bidirectional
+flabel metal5 s 35157 0 40000 254 3 FreeSans 520 270 0 0 VSSIO
+port 2 nsew signal bidirectional
+flabel metal5 s 9547 0 11347 254 3 FreeSans 520 270 0 0 VSSA
+port 1 nsew
+flabel metal5 s 10258 127 10258 127 3 FreeSans 520 90 0 0 VSSA
+port 1 nsew
+flabel metal4 s 0 11358 100 11954 3 FreeSans 520 0 0 0 AMUXBUS_A
+port 11 nsew signal bidirectional
+flabel metal4 s 0 10406 115 11002 3 FreeSans 520 0 0 0 AMUXBUS_B
+port 12 nsew signal bidirectional
+flabel metal4 s 0 10280 254 10346 3 FreeSans 520 0 0 0 VSSA
+port 1 nsew
+flabel metal4 s 0 1140 254 2230 3 FreeSans 520 180 0 0 VCCHIB
+port 9 nsew signal bidirectional
+flabel metal4 s 0 2510 254 3440 3 FreeSans 520 180 0 0 VCCD
+port 10 nsew signal bidirectional
 flabel metal4 s 0 3720 251 4410 3 FreeSans 520 180 0 0 VDDA
-port 14 nsew signal bidirectional
+port 8 nsew signal bidirectional
 flabel metal4 s 0 4690 254 5620 3 FreeSans 520 180 0 0 VDDIO
-port 20 nsew signal bidirectional
+port 7 nsew signal bidirectional
 flabel metal4 s 0 5900 254 6830 3 FreeSans 520 180 0 0 VSSIO
-port 48 nsew signal bidirectional
+port 2 nsew signal bidirectional
 flabel metal4 s 0 7110 254 7800 3 FreeSans 520 180 0 0 VSWITCH
-port 58 nsew signal bidirectional
+port 3 nsew signal bidirectional
 flabel metal4 s 0 8080 254 8770 3 FreeSans 520 180 0 0 VSSA
-port 33 nsew signal bidirectional
+port 1 nsew
 flabel metal4 s 0 9050 254 9980 3 FreeSans 520 180 0 0 VSSD
-port 42 nsew signal bidirectional
+port 4 nsew signal bidirectional
 flabel metal4 s 0 11062 254 11298 3 FreeSans 520 0 0 0 VSSA
-port 34 nsew signal bidirectional
+port 1 nsew
 flabel metal4 s 0 12014 254 12080 3 FreeSans 520 0 0 0 VSSA
-port 35 nsew signal bidirectional
+port 1 nsew
 flabel metal4 s 0 12380 254 13270 3 FreeSans 520 180 0 0 VSSIO_Q
-port 54 nsew signal bidirectional
+port 5 nsew signal bidirectional
 flabel metal4 s 0 13550 254 14440 3 FreeSans 520 180 0 0 VDDIO_Q
-port 26 nsew signal bidirectional
+port 6 nsew signal bidirectional
 flabel metal4 s 0 14741 254 19733 3 FreeSans 520 180 0 0 VDDIO
-port 21 nsew signal bidirectional
+port 7 nsew signal bidirectional
 flabel metal4 s 0 35890 254 40733 3 FreeSans 520 180 0 0 VSSIO
-port 49 nsew signal bidirectional
+port 2 nsew signal bidirectional
 flabel metal4 s 127 38907 127 38907 3 FreeSans 520 180 0 0 VSSIO
+port 2 nsew
 flabel metal4 s 35157 0 40000 254 3 FreeSans 520 270 0 0 VSSIO
-port 50 nsew signal bidirectional
+port 2 nsew
 flabel metal4 s 38174 127 38174 127 3 FreeSans 520 270 0 0 VSSIO
+port 2 nsew
 flabel metal4 s 14008 0 19000 254 3 FreeSans 520 270 0 0 VDDIO
-port 22 nsew signal bidirectional
+port 7 nsew signal bidirectional
 flabel metal4 s 12817 0 13707 254 3 FreeSans 520 270 0 0 VDDIO_Q
-port 27 nsew signal bidirectional
+port 6 nsew signal bidirectional
 flabel metal4 s 11647 0 12537 254 3 FreeSans 520 270 0 0 VSSIO_Q
-port 55 nsew signal bidirectional
+port 5 nsew signal bidirectional
 flabel metal4 s 11281 0 11347 254 3 FreeSans 520 90 0 0 VSSA
-port 36 nsew signal bidirectional
+port 1 nsew
 flabel metal4 s 10329 0 10565 254 3 FreeSans 520 90 0 0 VSSA
-port 37 nsew signal bidirectional
+port 1 nsew
 flabel metal4 s 8317 0 9247 254 3 FreeSans 520 270 0 0 VSSD
-port 43 nsew signal bidirectional
+port 4 nsew signal bidirectional
 flabel metal4 s 7347 0 8037 254 3 FreeSans 520 270 0 0 VSSA
-port 38 nsew signal bidirectional
+port 1 nsew
 flabel metal4 s 6377 0 7067 254 3 FreeSans 520 270 0 0 VSWITCH
-port 59 nsew signal bidirectional
+port 3 nsew signal bidirectional
 flabel metal4 s 5167 0 6097 254 3 FreeSans 520 270 0 0 VSSIO
-port 51 nsew signal bidirectional
+port 2 nsew
 flabel metal4 s 3957 0 4887 254 3 FreeSans 520 270 0 0 VDDIO
-port 23 nsew signal bidirectional
+port 7 nsew signal bidirectional
 flabel metal4 s 2987 0 3677 251 3 FreeSans 520 270 0 0 VDDA
-port 15 nsew signal bidirectional
+port 8 nsew signal bidirectional
 flabel metal4 s 1777 0 2707 254 3 FreeSans 520 270 0 0 VCCD
-port 7 nsew signal bidirectional
+port 10 nsew signal bidirectional
 flabel metal4 s 407 0 1497 254 3 FreeSans 520 270 0 0 VCCHIB
-port 11 nsew signal bidirectional
+port 9 nsew signal bidirectional
 flabel metal4 s 9547 0 9613 254 3 FreeSans 520 90 0 0 VSSA
-port 39 nsew signal bidirectional
+port 1 nsew
 flabel metal4 s 10625 0 11221 100 3 FreeSans 520 90 0 0 AMUXBUS_A
-port 1 nsew signal bidirectional
+port 11 nsew signal bidirectional
 flabel metal4 s 9673 0 10269 115 3 FreeSans 520 90 0 0 AMUXBUS_B
-port 3 nsew signal bidirectional
-rlabel metal4 s 10625 0 11221 3695 1 AMUXBUS_A
-port 1 nsew signal bidirectional
-rlabel metal4 s 9673 0 10269 4175 1 AMUXBUS_B
-port 3 nsew signal bidirectional
-rlabel metal4 s 1777 0 2707 254 1 VCCD
-port 7 nsew signal bidirectional
-rlabel metal5 s 0 2530 757 3420 1 VCCD
-port 7 nsew signal bidirectional
-rlabel metal5 s 1797 0 2687 254 1 VCCD
-port 7 nsew signal bidirectional
-rlabel metal4 s 407 0 1497 254 1 VCCHIB
-port 11 nsew signal bidirectional
-rlabel metal5 s 0 1160 470 2210 1 VCCHIB
-port 11 nsew signal bidirectional
-rlabel metal5 s 427 0 1477 254 1 VCCHIB
-port 11 nsew signal bidirectional
-rlabel metal4 s 2987 0 3677 251 1 VDDA
-port 15 nsew signal bidirectional
-rlabel metal5 s 0 3740 294 4390 1 VDDA
-port 15 nsew signal bidirectional
-rlabel metal5 s 3007 0 3657 251 1 VDDA
-port 15 nsew signal bidirectional
-rlabel metal4 s 0 14740 529 19733 1 VDDIO
-port 23 nsew signal bidirectional
-rlabel metal4 s 3957 0 4887 254 1 VDDIO
-port 23 nsew signal bidirectional
-rlabel metal4 s 14007 0 19000 304 1 VDDIO
-port 23 nsew signal bidirectional
-rlabel metal5 s 0 4710 305 5600 1 VDDIO
-port 23 nsew signal bidirectional
-rlabel metal5 s 0 14740 529 19730 1 VDDIO
-port 23 nsew signal bidirectional
-rlabel metal5 s 3977 0 4867 254 1 VDDIO
-port 23 nsew signal bidirectional
-rlabel metal5 s 14007 0 18997 304 1 VDDIO
-port 23 nsew signal bidirectional
-rlabel metal4 s 12817 0 13707 254 1 VDDIO_Q
-port 27 nsew signal bidirectional
-rlabel metal5 s 0 13570 296 14420 1 VDDIO_Q
-port 27 nsew signal bidirectional
-rlabel metal5 s 12837 0 13687 254 1 VDDIO_Q
-port 27 nsew signal bidirectional
-rlabel metal4 s 0 12014 4635 12080 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal4 s 7347 0 8037 254 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal4 s 9547 0 9613 4648 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal4 s 10329 0 10565 4311 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal4 s 11281 0 11347 5368 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal5 s 0 8100 267 8750 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal5 s 0 10280 4631 12080 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal5 s 126 11137 128 11139 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal5 s 7368 0 8017 254 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal5 s 9547 0 11347 5364 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal5 s 10257 126 10259 128 1 VSSA
-port 39 nsew signal bidirectional
-rlabel metal4 s 8317 0 9247 254 1 VSSD
-port 43 nsew signal bidirectional
-rlabel metal5 s 0 9070 295 9960 1 VSSD
-port 43 nsew signal bidirectional
-rlabel metal5 s 8337 0 9227 254 1 VSSD
-port 43 nsew signal bidirectional
-rlabel metal4 s 35157 0 40000 254 1 VSSIO
-port 51 nsew signal bidirectional
-rlabel metal4 s 38173 126 38175 128 1 VSSIO
-port 51 nsew signal bidirectional
-rlabel metal4 s 5167 0 6097 254 1 VSSIO
-port 51 nsew signal bidirectional
-rlabel metal5 s 0 35890 287 40733 1 VSSIO
-port 51 nsew signal bidirectional
-rlabel metal5 s 0 5920 320 6810 1 VSSIO
-port 51 nsew signal bidirectional
-rlabel metal5 s 35157 0 40000 254 1 VSSIO
-port 51 nsew signal bidirectional
-rlabel metal5 s 5187 0 6077 254 1 VSSIO
-port 51 nsew signal bidirectional
-rlabel metal4 s 11647 0 12537 254 1 VSSIO_Q
-port 55 nsew signal bidirectional
-rlabel metal5 s 0 12400 325 13250 1 VSSIO_Q
-port 55 nsew signal bidirectional
-rlabel metal5 s 11667 0 12517 254 1 VSSIO_Q
-port 55 nsew signal bidirectional
-rlabel metal4 s 6377 0 7067 254 1 VSWITCH
-port 59 nsew signal bidirectional
-rlabel metal5 s 0 7130 277 7780 1 VSWITCH
-port 59 nsew signal bidirectional
-rlabel metal5 s 6397 0 7047 254 1 VSWITCH
-port 59 nsew signal bidirectional
+port 12 nsew signal bidirectional
 << properties >>
 string LEFclass PAD
 string FIXED_BBOX 0 0 40000 40733

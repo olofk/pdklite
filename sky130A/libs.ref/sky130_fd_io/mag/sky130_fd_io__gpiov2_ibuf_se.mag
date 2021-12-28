@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1727 -1480 14185 5260
+timestamp 1640697850
 << nwell >>
 rect 4002 3832 4811 4000
 rect 4041 3288 4811 3832
@@ -11,9 +9,9 @@ rect 9960 3225 10663 4000
 rect 10137 2534 11093 2700
 rect 10027 1997 10139 2431
 << pwell >>
-rect 3370 2813 4657 2847
-rect 10229 1616 11001 1650
-<< psubdiff >>
+rect 3344 2787 4683 2873
+rect 10203 1590 11027 1676
+<< mvpsubdiff >>
 rect 3370 2813 3394 2847
 rect 3428 2813 3465 2847
 rect 3499 2813 3536 2847
@@ -24,6 +22,15 @@ rect 3783 2813 3820 2847
 rect 3854 2813 3891 2847
 rect 3925 2813 3962 2847
 rect 3996 2813 4033 2847
+rect 4067 2813 4104 2847
+rect 4138 2813 4175 2847
+rect 4209 2813 4246 2847
+rect 4280 2813 4317 2847
+rect 4351 2813 4388 2847
+rect 4422 2813 4459 2847
+rect 4493 2813 4529 2847
+rect 4563 2813 4599 2847
+rect 4633 2813 4657 2847
 rect 10229 1616 10253 1650
 rect 10287 1616 10322 1650
 rect 10356 1616 10391 1650
@@ -36,16 +43,6 @@ rect 10770 1616 10805 1650
 rect 10839 1616 10874 1650
 rect 10908 1616 10943 1650
 rect 10977 1616 11001 1650
-<< mvpsubdiff >>
-rect 4067 2813 4104 2847
-rect 4138 2813 4175 2847
-rect 4209 2813 4246 2847
-rect 4280 2813 4317 2847
-rect 4351 2813 4388 2847
-rect 4422 2813 4459 2847
-rect 4493 2813 4529 2847
-rect 4563 2813 4599 2847
-rect 4633 2813 4657 2847
 << mvnsubdiff >>
 rect 4069 3899 4103 3933
 rect 4137 3899 4171 3933
@@ -69,7 +66,7 @@ rect 10781 2600 10821 2634
 rect 10855 2600 10895 2634
 rect 10929 2600 10969 2634
 rect 11003 2600 11027 2634
-<< psubdiffcont >>
+<< mvpsubdiffcont >>
 rect 3394 2813 3428 2847
 rect 3465 2813 3499 2847
 rect 3536 2813 3570 2847
@@ -79,7 +76,15 @@ rect 3749 2813 3783 2847
 rect 3820 2813 3854 2847
 rect 3891 2813 3925 2847
 rect 3962 2813 3996 2847
-rect 4033 2813 4037 2847
+rect 4033 2813 4067 2847
+rect 4104 2813 4138 2847
+rect 4175 2813 4209 2847
+rect 4246 2813 4280 2847
+rect 4317 2813 4351 2847
+rect 4388 2813 4422 2847
+rect 4459 2813 4493 2847
+rect 4529 2813 4563 2847
+rect 4599 2813 4633 2847
 rect 10253 1616 10287 1650
 rect 10322 1616 10356 1650
 rect 10391 1616 10425 1650
@@ -91,16 +96,6 @@ rect 10736 1616 10770 1650
 rect 10805 1616 10839 1650
 rect 10874 1616 10908 1650
 rect 10943 1616 10977 1650
-<< mvpsubdiffcont >>
-rect 4037 2813 4067 2847
-rect 4104 2813 4138 2847
-rect 4175 2813 4209 2847
-rect 4246 2813 4280 2847
-rect 4317 2813 4351 2847
-rect 4388 2813 4422 2847
-rect 4459 2813 4493 2847
-rect 4529 2813 4563 2847
-rect 4599 2813 4633 2847
 << mvnsubdiffcont >>
 rect 4103 3899 4137 3933
 rect 4171 3899 4205 3933
@@ -1050,60 +1045,72 @@ rect 10358 6 10371 58
 rect 10423 6 10437 58
 rect 10358 0 10437 6
 use sky130_fd_io__hvsbt_inv_x1  sky130_fd_io__hvsbt_inv_x1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4344 0 1 2873
 box -46 24 399 1116
 use sky130_fd_io__hvsbt_inv_x1  sky130_fd_io__hvsbt_inv_x1_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4526 0 1 2873
 box -46 24 399 1116
 use sky130_fd_io__gpiov2_in_buf  sky130_fd_io__gpiov2_in_buf_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 0 0 1 952
 box -467 -1172 5758 3048
 use sky130_fd_io__gpiov2_ipath_hvls  sky130_fd_io__gpiov2_ipath_hvls_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 8860 0 1 -51
 box 536 -169 4076 4051
 use sky130_fd_io__gpiov2_vcchib_in_buf  sky130_fd_io__gpiov2_vcchib_in_buf_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 8210 0 1 355
 box 114 -575 2586 3645
 use sky130_fd_io__gpiov2_ipath_lvls  sky130_fd_io__gpiov2_ipath_lvls_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 12999 0 1 471
 box 74 -691 2336 3529
 use sky130_fd_io__gpiov2_inbuf_lvinv_x1  sky130_fd_io__gpiov2_inbuf_lvinv_x1_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 10609 0 1 2831
 box 0 0 359 1066
 use sky130_fd_io__gpiov2_inbuf_lvinv_x1  sky130_fd_io__gpiov2_inbuf_lvinv_x1_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 10059 0 1 2831
 box 0 0 359 1066
 use sky130_fd_io__hvsbt_nand2  sky130_fd_io__hvsbt_nand2_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 10706 0 1 1582
 box -42 24 569 1116
 use sky130_fd_io__hvsbt_nand2  sky130_fd_io__hvsbt_nand2_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 10524 0 1 1582
 box -42 24 569 1116
 << labels >>
 flabel metal1 s 265 1382 375 1423 3 FreeSans 200 0 0 0 VTRIP_SEL_H_N
+port 1 nsew
 flabel metal1 s 11495 3762 12100 3985 3 FreeSans 200 0 0 0 VCCHIB
+port 2 nsew
 flabel metal1 s 10519 1934 10604 1965 3 FreeSans 200 0 0 0 ENABLE_VDDIO_LV
+port 3 nsew
 flabel metal1 s 99 2628 266 2672 3 FreeSans 200 0 0 0 MODE_NORMAL_N
+port 4 nsew
 flabel metal1 s 1179 -172 1749 33 3 FreeSans 200 0 0 0 VSSD
+port 5 nsew
 flabel metal1 s 954 3782 1636 3954 3 FreeSans 200 0 0 0 VDDIO_Q
+port 6 nsew
 flabel metal1 s 12230 1946 12377 1995 3 FreeSans 200 0 0 0 IBUFMUX_OUT
+port 7 nsew
 flabel metal1 s 397 2393 483 2427 3 FreeSans 200 0 0 0 IN_VT
+port 8 nsew
 flabel metal1 s 384 1293 476 1325 3 FreeSans 200 0 0 0 IN_H
+port 9 nsew
 flabel metal1 s 265 2069 398 2104 3 FreeSans 200 0 0 0 VTRIP_SEL_H
+port 10 nsew
 flabel metal1 s 99 2552 241 2589 3 FreeSans 200 0 0 0 MODE_VCCHIB_N
+port 11 nsew
 flabel metal2 s 5285 2458 5357 2635 3 FreeSans 200 0 0 0 IBUFMUX_OUT_H
+port 12 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 14001516
-string GDS_START 13973604
+string GDS_END 3703954
+string GDS_START 3676042
 << end >>

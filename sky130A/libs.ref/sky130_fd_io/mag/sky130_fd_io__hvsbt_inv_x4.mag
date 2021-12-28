@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1302 -1236 2173 2376
+timestamp 1640697850
 << nwell >>
 rect -42 416 913 1116
+<< pwell >>
+rect 40 118 846 310
 << mvnmos >>
 rect 119 144 239 284
 rect 295 144 415 284
@@ -407,58 +407,60 @@ rect 460 121 778 155
 rect 812 121 847 155
 rect 24 24 847 121
 use sky130_fd_pr__via_pol1__example_55959141808612  sky130_fd_pr__via_pol1__example_55959141808612_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 302 0 1 341
 box 0 0 1 1
 use sky130_fd_pr__via_pol1__example_559591418083  sky130_fd_pr__via_pol1__example_559591418083_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 215 1 0 316
 box 0 0 1 1
 use sky130_fd_pr__via_pol1__example_559591418083  sky130_fd_pr__via_pol1__example_559591418083_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 737 1 0 316
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 812 1 0 872
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 812 -1 0 227
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 108 1 0 872
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 460 1 0 872
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_4
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 460 -1 0 227
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_5
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 108 -1 0 227
 box 0 0 1 1
 use sky130_fd_pr__model__pfet_highvoltage__example_55959141808616  sky130_fd_pr__model__pfet_highvoltage__example_55959141808616_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 119 0 -1 682
 box -28 0 676 97
 use sky130_fd_pr__model__pfet_highvoltage__example_55959141808616  sky130_fd_pr__model__pfet_highvoltage__example_55959141808616_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 119 0 1 750
 box -28 0 676 97
 use sky130_fd_pr__model__nfet_highvoltage__example_55959141808615  sky130_fd_pr__model__nfet_highvoltage__example_55959141808615_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 119 0 -1 284
 box -28 0 676 63
 << labels >>
 flabel metal1 s 149 396 200 437 0 FreeSans 400 0 0 0 IN
+port 1 nsew
 flabel metal1 s 352 488 401 522 0 FreeSans 200 0 0 0 OUT
+port 2 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 2223266
-string GDS_START 2218924
+string GDS_END 7954714
+string GDS_START 7950372
 << end >>

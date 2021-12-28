@@ -1,13 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 3822 2157
+timestamp 1640697995
 << nwell >>
 rect -66 377 2562 897
 << pwell >>
-rect 0 -17 2496 17
+rect 2032 225 2492 301
+rect 1598 217 2492 225
+rect 4 43 2492 217
+rect -26 -43 2522 43
 << mvnmos >>
 rect 83 107 183 191
 rect 239 107 339 191
@@ -1055,6 +1056,6 @@ string LEFclass CORE
 string FIXED_BBOX 0 0 2496 814
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 1186532
-string GDS_START 1161482
+string GDS_END 236664
+string GDS_START 211614
 << end >>

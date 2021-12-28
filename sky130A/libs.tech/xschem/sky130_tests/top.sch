@@ -1,6 +1,6 @@
-v {xschem version=2.9.9 file_version=1.2 
+v {xschem version=3.0.0 file_version=1.2 
 
-* Copyright 2020 Stefan Frederik Schippers
+* Copyright 2021 Stefan Frederik Schippers
 * 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -27,19 +27,17 @@ L 4 1610 -300 2570 -300 {}
 L 4 1610 -95 2570 -95 {}
 L 4 1610 -1380 2570 -1380 {}
 L 4 1610 -1250 2570 -1250 {}
-P 7 3 2330 -700 2100 -700 2100 -710 {}
-P 7 3 2610 -700 2730 -700 2730 -710 {}
+P 4 5 1860 -1910 3050 -1910 3050 -1560 1860 -1560 1860 -1910 {}
 T {Git / Google-Skywater PDK links} 780 -1660 0 0 0.6 0.6 {layer=8}
 T {PFET} 1660 -1040 0 0 1 1 { hcenter=true}
 T {NFET} 1660 -800 0 0 1 1 { hcenter=true}
 T {RES} 1660 -550 0 0 1 1 { hcenter=true}
 T {DIODE} 1660 -195 0 0 1 1 { hcenter=true}
 T {PNP} 1660 -70 0 0 1 1 { hcenter=true}
-T {No Model} 2270 -590 0 0 0.3 0.3 {layer=7}
 T {Digital standard cells} 20 -1060 0 0 0.6 0.6 {layer=8}
 T {Ctrl-Click to open link} 750 -1610 0 0 0.3 0.3 {layer=11}
 T {Ctrl-Click to open link} 780 -950 0 0 0.3 0.3 {layer=11}
-T {* Copyright 2020 Stefan Frederik Schippers
+T {* Copyright 2021 Stefan Frederik Schippers
 * 
 * Licensed under the Apache License, Version 2.0
 * (the "License"); you may not use this file
@@ -96,24 +94,26 @@ NFET} 2820 -860 0 0 1 1 { hcenter=true}
 T {3 PIN
 PFET} 2820 -1070 0 0 1 1 { hcenter=true}
 T {Decred_hash_macro: import of a big RTL design from spice netlist} 430 -720 0 0 0.3 0.3 {layer=11}
-T {Need to include: 
-sky130_fd_pr__nfet_20v0__tt_discrete.corner.spice} 2336.25 -713.75 0 0 0.2 0.2 {layer=7}
-T {Need to include: 
-sky130_fd_pr__pfet_20v0__tt_discrete.corner.spice} 2056.25 -923.75 0 0 0.2 0.2 {layer=7}
 T {Select with a mouse Click then press 'e'
 key to descend into these subcircuits} 60 -1700 0 0 0.3 0.3 {layer=11}
 T {Select with a mouse Click then press 'e'
 key to descend into these subcircuits} 60 -1010 0 0 0.3 0.3 {layer=11}
+T {To simulate with ngspice please create a .spiceinit file
+in the simulation directory (the directory where xschem 
+writes the spice netlist and runs the simulator) with the
+following content:} 1910 -1880 0 0 0.7 0.7 {layer=8}
+T {set ngbehavior=hsa
+set ng_nomodcheck } 2090 -1680 0 0 0.8 0.8 {font=Monospace}
 C {devices/title.sym} 160 -30 0 0 {name=l1 author="Stefan Schippers"}
 C {devices/launcher.sym} 810 -1500 0 0 {name=h1
 descr="Google-Skywater PDK documentation" 
-url="http://skywater-pdk.readthedocs.io/en/latest"}
+url="http://skywater-pdk.readthedocs.io/en/main"}
 C {devices/launcher.sym} 810 -1420 0 0 {name=h2
 descr="Google-Skywater PDK git repo" 
 url="https://foss-eda-tools.googlesource.com/skywater-pdk/libs"}
 C {devices/launcher.sym} 810 -1460 0 0 {name=h3
 descr="Google-Skywater PDK documentation: Device details" 
-url="https://skywater-pdk.readthedocs.io/en/latest/rules/device-details.html"}
+url="https://skywater-pdk.readthedocs.io/en/main/rules/device-details.html"}
 C {sky130_tests/test_nmos.sym} 190 -1400 0 0 {name=x1}
 C {sky130_tests/test_pmos.sym} 190 -1360 0 0 {name=x2}
 C {sky130_tests/test_inv.sym} 190 -1320 0 0 {name=x5}
@@ -152,7 +152,7 @@ L=1
 model=res_generic_pd
 spiceprefix=X
  mult=1}
-C {sky130_fd_pr/res_generic_po.sym} 2310 -630 0 0 {name=R4
+C {sky130_fd_pr/res_generic_po.sym} 2460 -630 0 0 {name=R4
 W=1
 L=1
 model=res_generic_po
@@ -446,86 +446,6 @@ descr="Step-by-step install instructions,
 xschem + skywater-pdk + ngspice" 
 url="https://xschem.sourceforge.io/stefan/xschem_man/video_tutorials/install_xschem_sky130_and_ngspice.mp4"}
 C {sky130_tests/simulate_ff.sym} 190 -590 0 0 {name=x22}
-C {devices/code.sym} 890 -480 0 0 {name=FF_MODELS
-spice_ignore=false
-only_toplevel=true
-format="tcleval( @value )"
-value="
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_01v8/sky130_fd_pr__esd_nfet_01v8__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_pfet_g5v0d10v5/sky130_fd_pr__esd_pfet_g5v0d10v5__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d16v0/sky130_fd_pr__nfet_g5v0d16v0__ff_discrete.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_g5v0d10v5/sky130_fd_pr__esd_nfet_g5v0d10v5__ff.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/ff/nonfet.spice
-* Mismatch parameters
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice
-* Resistor\\\\$::SKYWATER_MODELS\\\\/Capacitor
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical__lin.spice
-* Special cells
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/ff/specialized_cells.spice
-* All models
-.include \\\\$::SKYWATER_MODELS\\\\/models/all.spice
-* Corner
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/ff/rf.spice
-"}
-C {devices/code.sym} 1040 -480 0 0 {name=TT_MODELS
-spice_ignore=false
-only_toplevel=true
-format="tcleval( @value )"
-value="
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_01v8/sky130_fd_pr__esd_nfet_01v8__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_pfet_g5v0d10v5/sky130_fd_pr__esd_pfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d16v0/sky130_fd_pr__nfet_g5v0d16v0__tt_discrete.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/esd_nfet_g5v0d10v5/sky130_fd_pr__esd_nfet_g5v0d10v5__tt.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/nonfet.spice
-* Mismatch parameters
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__mismatch.corner.spice
-.include \\\\$::SKYWATER_MODELS\\\\/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice
-* Resistor\\\\$::SKYWATER_MODELS\\\\/Capacitor
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical.spice
-.include \\\\$::SKYWATER_MODELS\\\\/models/r+c/res_typical__cap_typical__lin.spice
-* Special cells
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/specialized_cells.spice
-* All models
-.include \\\\$::SKYWATER_MODELS\\\\/models/all.spice
-* Corner
-.include \\\\$::SKYWATER_MODELS\\\\/models/corners/tt/rf.spice
-"}
 C {sky130_fd_pr/nfet_20v0.sym} 2130 -750 0 0 {name=M7
 L=2.95
 W=29.41
@@ -565,3 +485,43 @@ spiceprefix=X
 C {sky130_tests/tb_ft_test.sym} 190 -1160 0 0 {name=x23}
 C {sky130_tests/tb_ft_test_2.sym} 190 -1120 0 0 {name=x24}
 C {sky130_tests/tb_bandgap.sym} 490 -1640 0 0 {name=x25}
+C {sky130_fd_pr/res_generic_m1.sym} 2310 -630 0 0 {name=R13
+W=1
+L=1
+model=res_generic_m1
+spiceprefix=X
+mult=1}
+C {sky130_fd_pr/res_high_po_2p85.sym} 2460 -500 0 0 {name=R14
+W=2.85
+L=2.85
+model=res_high_po_2p85
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_high_po_5p73.sym} 2620 -500 0 0 {name=R15
+W=5.73
+L=5.73
+model=res_high_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_2p85.sym} 2460 -370 0 0 {name=R16
+W=2.85
+L=2.85
+model=res_xhigh_po_2p85
+spiceprefix=X
+ mult=1}
+C {sky130_fd_pr/res_xhigh_po_5p73.sym} 2620 -370 0 0 {name=R17
+W=5.73
+L=5.73
+model=res_xhigh_po_5p73
+spiceprefix=X
+ mult=1}
+C {sky130_tests/logic_ngspice.sym} 190 -1080 0 0 {name=x26}
+C {devices/code.sym} 870 -440 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval( @value )"
+value="
+** opencircuitdesign pdks install
+.lib $::SKYWATER_MODELS/sky130.lib.spice tt_mm
+
+"
+spice_ignore=false}

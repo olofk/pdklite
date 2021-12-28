@@ -1,55 +1,53 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1401 -1260 11103 2260
+timestamp 1640697850
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 581 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1501 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 2421 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3341 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_4
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4261 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_5
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 5181 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_6
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 6101 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_7
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 7021 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_8
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 7941 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s2__example_55959141808676  sky130_fd_pr__hvdftpl1s2__example_55959141808676_9
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 8861 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s__example_55959141808675  sky130_fd_pr__hvdftpl1s__example_55959141808675_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 -79 0 1 0
 box 0 0 1 1
 use sky130_fd_pr__hvdftpl1s__example_55959141808675  sky130_fd_pr__hvdftpl1s__example_55959141808675_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 9781 0 1 0
 box 0 0 1 1
 << labels >>
@@ -78,6 +76,6 @@ flabel comment s 251 1000 251 1000 0 FreeSans 300 0 0 0 D
 flabel comment s -141 987 -141 987 0 FreeSans 300 0 0 0 S
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 22086340
-string GDS_START 22074620
+string GDS_END 11221224
+string GDS_START 11209504
 << end >>

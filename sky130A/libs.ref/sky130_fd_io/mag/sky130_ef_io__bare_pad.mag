@@ -1,8 +1,6 @@
 magic
 tech sky130A
-timestamp 1619729480
-<< checkpaint >>
-rect -900 -900 6900 7900
+timestamp 1640697850
 << metal4 >>
 rect -270 7258 6270 7270
 rect -270 7140 -258 7258
@@ -801,10 +799,8 @@ rect -270 -270 6270 -258
 rect 0 0 6000 7000
 << labels >>
 flabel metal5 s -140 -140 6140 7140 0 FreeSans 1000 0 0 0 PAD
-port 0 nsew
+port 1 nsew
 << properties >>
-string LEFclass BLOCK
-string FIXED_BBOX -270 -270 6270 7270
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_ef_io__bare_pad.gds
 string GDS_END 11530
 string GDS_START 134

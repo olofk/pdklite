@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1905 -2853 16678 9275
+timestamp 1640697850
 << nwell >>
 rect 25 4633 324 4865
 rect 376 4576 1284 4770
@@ -4066,111 +4064,202 @@ rect 12309 -1592 12325 -1528
 rect 12389 -1592 12394 -1528
 rect -199 -1593 12394 -1592
 use sky130_fd_io__gpiov2_obpredrvr  sky130_fd_io__gpiov2_obpredrvr_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 288 0 -1 5207
-box -933 -720 12780 4968
+box -958 -720 12780 4968
 use sky130_fd_io__gpiov2_octl  sky130_fd_io__gpiov2_octl_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 8821 0 -1 7867
-box -9346 1177 6467 7634
+box -9346 1177 6467 7642
 use sky130_fd_io__com_opath_datoev2  sky130_fd_io__com_opath_datoev2_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 467 0 -1 6943
-box -349 -1072 12658 2562
+box -349 -1098 12658 2562
 << labels >>
 flabel metal1 s 14854 6410 14989 6527 3 FreeSans 520 180 0 0 VPWR
+port 1 nsew
 flabel metal1 s 12123 2928 12165 3058 7 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 9029 3979 9071 4181 7 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 470 3979 512 4181 3 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 1264 2928 1306 3058 3 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 1264 2312 1306 2442 3 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 12634 1302 12676 1504 7 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 12639 644 12676 790 7 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 12634 3453 12676 3655 7 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 1264 3453 1306 3655 3 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 288 644 325 790 3 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 288 1302 330 1504 3 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 12158 1828 12200 2030 7 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 12258 2312 12300 2442 7 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 12140 2928 12182 3058 7 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 491 4080 491 4080 3 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 1285 2993 1285 2993 3 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 1285 2377 1285 2377 3 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 951 1828 993 2030 3 FreeSans 300 0 0 0 VGND_IO
+port 2 nsew
 flabel metal1 s 12655 1403 12655 1403 7 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 12657 717 12657 717 7 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 12655 3554 12655 3554 7 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 1285 3554 1285 3554 3 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 306 717 306 717 3 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 309 1403 309 1403 3 FreeSans 300 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 5854 6502 5921 6850 3 FreeSans 520 0 0 0 VPWR_KA
+port 4 nsew
 flabel metal1 s 524 4938 564 5068 3 FreeSans 300 180 0 0 VGND
+port 5 nsew
 flabel metal1 s 288 5857 328 6059 3 FreeSans 300 180 0 0 VGND
+port 5 nsew
 flabel metal1 s 288 4708 328 4910 3 FreeSans 300 180 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 12991 4708 13031 4910 3 FreeSans 300 180 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 5900 6502 5967 6850 3 FreeSans 520 0 0 0 VPWR_KA
+port 4 nsew
 flabel metal1 s 544 5003 544 5003 3 FreeSans 300 180 0 0 VGND
+port 5 nsew
 flabel metal1 s 12900 4938 12940 5068 3 FreeSans 300 180 0 0 VGND
+port 5 nsew
 flabel metal1 s 308 5958 308 5958 3 FreeSans 300 180 0 0 VGND
+port 5 nsew
 flabel metal1 s 13102 5787 13142 5989 3 FreeSans 300 180 0 0 VGND
+port 5 nsew
 flabel metal1 s 308 4809 308 4809 3 FreeSans 300 180 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 13011 4809 13011 4809 3 FreeSans 300 180 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 13170 5809 13337 5965 3 FreeSans 520 180 0 0 VGND
+port 5 nsew
 flabel metal1 s 14840 4258 15007 4414 3 FreeSans 520 0 0 0 VGND
+port 5 nsew
 flabel metal1 s 14840 2226 15007 2382 3 FreeSans 520 0 0 0 VGND
+port 5 nsew
 flabel metal1 s 14840 260 15007 416 3 FreeSans 520 0 0 0 VGND
+port 5 nsew
 flabel metal1 s 13251 4812 13562 4987 3 FreeSans 520 180 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 14697 3248 15008 3480 3 FreeSans 520 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 14697 1137 15008 1369 3 FreeSans 520 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 14923 4336 14923 4336 3 FreeSans 520 0 0 0 VGND
+port 5 nsew
 flabel metal1 s 14923 2304 14923 2304 3 FreeSans 520 0 0 0 VGND
+port 5 nsew
 flabel metal1 s 14923 338 14923 338 3 FreeSans 520 0 0 0 VGND
+port 5 nsew
 flabel metal1 s 13406 4899 13406 4899 3 FreeSans 520 180 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 14852 3364 14852 3364 3 FreeSans 520 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 14852 1253 14852 1253 3 FreeSans 520 0 0 0 VCC_IO
+port 3 nsew
 flabel metal1 s 15042 5345 15116 5380 3 FreeSans 520 180 0 0 SLOW
+port 6 nsew
 flabel metal1 s 14478 5304 14522 5348 3 FreeSans 520 180 0 0 HLD_I_H_N
+port 7 nsew
 flabel metal1 s 15079 5362 15079 5362 3 FreeSans 520 180 0 0 SLOW
+port 6 nsew
 flabel metal1 s 14501 5326 14501 5326 3 FreeSans 520 180 0 0 HLD_I_H_N
+port 7 nsew
 flabel metal1 s 5095 6957 5128 6995 3 FreeSans 520 0 0 0 HLD_I_OVR_H
+port 8 nsew
 flabel metal1 s 5111 6976 5111 6976 3 FreeSans 520 0 0 0 HLD_I_OVR_H
+port 8 nsew
 flabel metal1 s 15079 5362 15079 5362 3 FreeSans 520 180 0 0 SLOW
+port 6 nsew
 flabel metal1 s 14824 6126 14868 6164 3 FreeSans 520 180 0 0 OD_H
+port 9 nsew
 flabel metal1 s 14501 5326 14501 5326 3 FreeSans 520 180 0 0 HLD_I_H_N
+port 7 nsew
 flabel metal1 s 13425 5630 13492 5674 3 FreeSans 520 180 0 0 SLOW_H_N
+port 10 nsew
 flabel metal1 s 8283 5096 8333 5148 3 FreeSans 300 180 0 0 DRVHI_H
+port 11 nsew
 flabel metal1 s 8308 5122 8308 5122 3 FreeSans 300 180 0 0 DRVHI_H
+port 11 nsew
 flabel metal1 s 6190 1228 6231 1274 3 FreeSans 300 0 0 0 PU_H_N[3]
+port 12 nsew
 flabel metal1 s 6054 1228 6094 1274 7 FreeSans 300 0 0 0 PU_H_N[2]
+port 13 nsew
 flabel metal1 s 10362 1072 10402 1118 3 FreeSans 300 0 0 0 PU_H_N[1]
+port 14 nsew
 flabel metal1 s 7956 1148 7996 1194 3 FreeSans 300 0 0 0 PU_H_N[0]
+port 15 nsew
 flabel metal1 s 9390 1030 9436 1076 3 FreeSans 300 0 0 0 PD_H[1]
+port 16 nsew
 flabel metal1 s 8148 1030 8194 1076 3 FreeSans 300 0 0 0 PD_H[0]
+port 17 nsew
 flabel metal1 s 11863 2475 11928 2502 3 FreeSans 520 0 0 0 PD_H[4]
+port 18 nsew
 flabel metal1 s 8242 4238 8242 4238 0 FreeSans 440 0 0 0 DRVLO_H_N
+port 19 nsew
 flabel metal2 s 13617 397 13652 442 3 FreeSans 520 90 0 0 DM_H_N[2]
+port 20 nsew
 flabel metal2 s 14263 399 14307 448 3 FreeSans 520 90 0 0 DM_H_N[0]
+port 21 nsew
 flabel metal2 s 12786 514 12812 563 3 FreeSans 520 90 0 0 DM_H[2]
+port 22 nsew
 flabel metal2 s 13425 445 13474 498 3 FreeSans 520 90 0 0 DM_H[1]
+port 23 nsew
 flabel metal2 s 13257 437 13306 500 3 FreeSans 520 90 0 0 DM_H[0]
+port 24 nsew
 flabel metal2 s 13634 419 13634 419 3 FreeSans 520 90 0 0 DM_H_N[2]
+port 20 nsew
 flabel metal2 s 14285 423 14285 423 3 FreeSans 520 90 0 0 DM_H_N[0]
+port 21 nsew
 flabel metal2 s 13449 471 13449 471 3 FreeSans 520 90 0 0 DM_H[1]
+port 23 nsew
 flabel metal2 s 3827 6885 3879 6924 3 FreeSans 520 0 0 0 OUT
+port 25 nsew
 flabel metal2 s 3354 6878 3400 6924 7 FreeSans 300 0 0 0 OE_N
+port 26 nsew
 flabel metal2 s 3848 6898 3848 6898 3 FreeSans 520 0 0 0 OUT
+port 25 nsew
 flabel metal2 s 3377 6901 3377 6901 7 FreeSans 300 0 0 0 OE_N
+port 26 nsew
 flabel metal2 s -367 5535 -318 5598 3 FreeSans 520 90 0 0 DM_H[0]
+port 24 nsew
 flabel metal2 s 13634 419 13634 419 3 FreeSans 520 90 0 0 DM_H_N[2]
+port 20 nsew
 flabel metal2 s 13789 394 13823 443 3 FreeSans 520 90 0 0 DM_H_N[1]
+port 27 nsew
 flabel metal2 s 14285 423 14285 423 3 FreeSans 520 90 0 0 DM_H_N[0]
+port 21 nsew
 flabel metal2 s 13449 471 13449 471 3 FreeSans 520 90 0 0 DM_H[1]
+port 23 nsew
 flabel metal2 s 11401 2065 11449 2117 3 FreeSans 300 0 0 0 PD_H[3]
+port 28 nsew
 flabel metal2 s 1 5402 27 5451 3 FreeSans 520 90 0 0 DM_H[2]
+port 22 nsew
 flabel metal2 s -193 5390 -144 5443 3 FreeSans 520 90 0 0 DM_H[1]
+port 23 nsew
 flabel metal2 s 10919 2470 10967 2522 3 FreeSans 300 0 0 0 PD_H[2]
+port 29 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 17897118
-string GDS_START 17822782
+string GDS_END 7685534
+string GDS_START 7611198
 << end >>

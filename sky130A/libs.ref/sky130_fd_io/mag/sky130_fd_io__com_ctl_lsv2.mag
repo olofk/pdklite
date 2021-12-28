@@ -1,16 +1,25 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect 3317 -2541 7426 4613
+timestamp 1640697850
 << nwell >>
 rect 4577 -193 5282 539
 rect 5775 333 6109 605
 rect 4727 -1281 5065 -650
 << pwell >>
-rect 4856 2473 4890 3211
-rect 4828 2297 5369 2331
+rect 4830 3207 4916 3237
+rect 4830 2357 5202 3207
+rect 4802 2271 5395 2357
+rect 4802 2242 5157 2271
+rect 4799 1915 5157 2242
+rect 4799 1713 5971 1915
+rect 5165 1524 5971 1713
+rect 4674 1263 5971 1524
+rect 4674 942 5720 1263
+rect 4674 612 5484 942
+rect 5373 290 5625 442
+rect 5373 104 6096 290
+rect 5782 38 6096 104
 << nmos >>
 rect 5861 64 5911 264
 rect 5967 64 6017 264
@@ -3271,108 +3280,120 @@ rect 5298 413 5303 469
 rect 5359 413 5364 469
 rect 5298 408 5364 413
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 5959 1 0 526
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5993 0 -1 89
 box 0 0 1 1
 use sky130_fd_pr__nfet_01v8__example_55959141808624  sky130_fd_pr__nfet_01v8__example_55959141808624_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4873 0 1 1298
 box -28 0 148 97
 use sky130_fd_pr__nfet_01v8__example_55959141808624  sky130_fd_pr__nfet_01v8__example_55959141808624_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4929 0 1 1298
 box -28 0 148 97
 use sky130_fd_pr__nfet_01v8__example_55959141808116  sky130_fd_pr__nfet_01v8__example_55959141808116_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 5244 0 1 1289
 box -28 0 148 267
 use sky130_fd_pr__nfet_01v8__example_55959141808116  sky130_fd_pr__nfet_01v8__example_55959141808116_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5540 0 1 1289
 box -28 0 148 267
 use sky130_fd_pr__nfet_01v8__example_55959141808116  sky130_fd_pr__nfet_01v8__example_55959141808116_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 5596 0 1 1289
 box -28 0 148 267
 use sky130_fd_pr__nfet_01v8__example_55959141808116  sky130_fd_pr__nfet_01v8__example_55959141808116_3
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5892 0 1 1289
 box -28 0 148 267
 use sky130_fd_pr__nfet_01v8__example_55959141808623  sky130_fd_pr__nfet_01v8__example_55959141808623_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4878 0 1 1739
 box -28 0 228 63
 use sky130_fd_pr__nfet_01v8__example_55959141808623  sky130_fd_pr__nfet_01v8__example_55959141808623_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4878 0 -1 2216
 box -28 0 228 63
 use sky130_fd_pr__nfet_01v8__example_55959141808622  sky130_fd_pr__nfet_01v8__example_55959141808622_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 4976 1 0 2496
 box -28 0 316 97
 use sky130_fd_pr__nfet_01v8__example_55959141808622  sky130_fd_pr__nfet_01v8__example_55959141808622_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 4976 1 0 2840
 box -28 0 316 97
 use sky130_fd_pr__nfet_01v8__example_55959141808621  sky130_fd_pr__nfet_01v8__example_55959141808621_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5641 0 1 968
 box -28 0 916 97
 use sky130_fd_pr__nfet_01v8__example_55959141808620  sky130_fd_pr__nfet_01v8__example_55959141808620_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5911 0 1 64
 box -28 0 78 97
 use sky130_fd_pr__nfet_01v8__example_55959141808620  sky130_fd_pr__nfet_01v8__example_55959141808620_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 5967 0 1 64
 box -28 0 78 97
 use sky130_fd_pr__nfet_01v8__example_55959141808619  sky130_fd_pr__nfet_01v8__example_55959141808619_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 5405 0 1 638
 box -28 0 680 97
 use sky130_fd_pr__nfet_01v8__example_55959141808618  sky130_fd_pr__nfet_01v8__example_55959141808618_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 5599 -1 0 363
 box -28 0 208 97
 use sky130_fd_pr__pfet_01v8__example_55959141808430  sky130_fd_pr__pfet_01v8__example_55959141808430_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 5864 0 1 369
 box -28 0 184 97
 use sky130_fd_pr__pfet_01v8__example_5595914180822  sky130_fd_pr__pfet_01v8__example_5595914180822_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4946 0 1 -1215
 box -28 0 128 63
 use sky130_fd_pr__pfet_01v8__example_5595914180822  sky130_fd_pr__pfet_01v8__example_5595914180822_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4946 0 1 -866
 box -28 0 128 63
 use sky130_fd_pr__pfet_01v8__example_5595914180813  sky130_fd_pr__pfet_01v8__example_5595914180813_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 5043 0 -1 473
 box -28 0 148 267
 use sky130_fd_pr__pfet_01v8__example_5595914180813  sky130_fd_pr__pfet_01v8__example_5595914180813_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 4987 0 -1 473
 box -28 0 148 267
 << labels >>
 flabel metal1 s 5452 1974 5504 2026 3 FreeSans 200 0 0 0 SET_H
+port 1 nsew
 flabel metal1 s 5811 1973 5852 2025 3 FreeSans 200 0 0 0 HLD_H_N
+port 2 nsew
 flabel metal1 s 5286 1976 5327 2028 3 FreeSans 200 0 0 0 HLD_H_N
+port 2 nsew
 flabel metal1 s 4838 2127 4890 2179 3 FreeSans 200 0 0 0 VGND
+port 3 nsew
 flabel metal1 s 4707 1421 4743 1473 3 FreeSans 200 0 0 0 OUT_H
+port 4 nsew
 flabel metal1 s 4817 372 4858 424 3 FreeSans 200 0 0 0 OUT_H_N
+port 5 nsew
 flabel metal1 s 5623 1970 5669 2022 3 FreeSans 200 0 0 0 RST_H
+port 6 nsew
 flabel metal1 s 4856 2547 4908 2599 3 FreeSans 200 0 0 0 VGND
+port 3 nsew
 flabel metal1 s 5905 -18 5905 -18 3 FreeSans 520 0 0 0 IN
+port 7 nsew
 flabel metal1 s 5931 555 5983 595 3 FreeSans 200 0 0 0 VPWR
+port 8 nsew
 flabel metal1 s 5875 43 5927 95 3 FreeSans 200 0 0 0 VGND
+port 3 nsew
 flabel metal1 s 5137 -1259 5184 -1234 3 FreeSans 520 0 0 0 VCC_IO
+port 9 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 18122064
-string GDS_START 18072882
+string GDS_END 7910480
+string GDS_START 7861298
 << end >>

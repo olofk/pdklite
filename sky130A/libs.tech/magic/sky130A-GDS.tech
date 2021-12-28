@@ -4,7 +4,7 @@ tech
 end
 
 version
-    version 1.0.141-0-gb9ffc1f
+    version 1.0.255-0-g476f742
     description "SkyWater SKY130: Vendor GDS layers and supplementary DRC"
     requires magic-8.3.124
 end

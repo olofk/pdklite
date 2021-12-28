@@ -1,30 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 3966 1852
+timestamp 1640697977
 << nwell >>
 rect 29 527 63 561
 << pwell >>
 rect 29 -17 63 17
-<< locali >>
-rect 1027 255 1179 265
-rect 1027 221 1141 255
-rect 1175 221 1179 255
-rect 1027 215 1179 221
-rect 1351 255 1455 493
-rect 1351 221 1353 255
-rect 1387 221 1455 255
-rect 1351 183 1455 221
-rect 1489 255 1641 265
-rect 1489 221 1525 255
-rect 1559 221 1641 255
-rect 1489 215 1641 221
-rect 1675 255 1825 265
-rect 1675 221 1697 255
-rect 1731 221 1825 255
-rect 1675 215 1825 221
 << viali >>
 rect 113 221 147 255
 rect 217 221 251 255
@@ -44,7 +25,7 @@ rect 2321 221 2355 255
 rect 2418 221 2452 255
 rect 2521 221 2555 255
 << metal1 >>
-rect 0 496 2668 592
+rect 29 527 63 561
 rect 101 255 175 261
 rect 101 221 113 255
 rect 147 221 175 255
@@ -143,33 +124,33 @@ rect 2494 255 2567 261
 rect 2494 221 2521 255
 rect 2555 221 2567 255
 rect 2494 215 2567 221
-rect 0 -48 2668 48
+rect 29 -17 63 17
 use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_0
-timestamp 1619729571
+timestamp 1640697977
 transform 1 0 2392 0 1 0
 box -38 -48 314 592
 use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_1
-timestamp 1619729571
+timestamp 1640697977
 transform -1 0 276 0 1 0
 box -38 -48 314 592
 use sky130_fd_sc_hd__nor2_2  sky130_fd_sc_hd__nor2_2_0
-timestamp 1619729571
+timestamp 1640697977
 transform 1 0 1932 0 1 0
 box -38 -48 498 592
 use sky130_fd_sc_hd__nor2_2  sky130_fd_sc_hd__nor2_2_1
-timestamp 1619729571
+timestamp 1640697977
 transform -1 0 736 0 1 0
 box -38 -48 498 592
 use sky130_fd_sc_hd__nand2_2  sky130_fd_sc_hd__nand2_2_0
-timestamp 1619729571
+timestamp 1640697977
 transform 1 0 1472 0 1 0
 box -38 -48 498 592
 use sky130_fd_sc_hd__nand2_2  sky130_fd_sc_hd__nand2_2_1
-timestamp 1619729571
+timestamp 1640697977
 transform -1 0 1196 0 1 0
 box -38 -48 498 592
 use sky130_fd_sc_hd__conb_1  sky130_fd_sc_hd__conb_1_0
-timestamp 1619729571
+timestamp 1640697977
 transform 1 0 1196 0 1 0
 box -38 -48 314 592
 << labels >>
@@ -179,35 +160,23 @@ port 1 nsew ground bidirectional abutment
 flabel metal1 s 29 527 63 561 0 FreeSans 200 0 0 0 VPWR
 port 4 nsew power bidirectional abutment
 flabel metal1 s 46 0 46 0 0 FreeSans 400 0 0 0 VGND
+port 1 nsew
 flabel metal1 s 46 544 46 544 0 FreeSans 400 0 0 0 VPWR
+port 4 nsew
 flabel metal1 s 1353 221 1387 255 0 FreeSans 200 0 0 0 LO
 port 5 nsew signal output
-flabel metal1 s 0 -48 2668 48 0 FreeSans 200 0 0 0 VGND
-port 1 nsew ground bidirectional abutment
-flabel metal1 s 0 496 2668 592 0 FreeSans 200 0 0 0 VPWR
-port 4 nsew power bidirectional abutment
 flabel metal1 s 46 0 46 0 0 FreeSans 200 0 0 0 VGND
+port 1 nsew
 flabel metal1 s 46 544 46 544 0 FreeSans 200 0 0 0 VPWR
+port 4 nsew
+flabel metal1 s 46 0 46 0 0 FreeSans 200 0 0 0 VGND
+port 1 nsew
+flabel metal1 s 46 544 46 544 0 FreeSans 200 0 0 0 VPWR
+port 4 nsew
 flabel pwell s 29 -17 63 17 0 FreeSans 200 0 0 0 VNB
 port 2 nsew ground bidirectional
 flabel nwell s 29 527 63 561 0 FreeSans 200 0 0 0 VPB
 port 3 nsew power bidirectional
-rlabel viali s 1141 221 1175 255 1 LO
-port 5 nsew signal output
-rlabel locali s 1027 215 1179 265 1 LO
-port 5 nsew signal output
-rlabel viali s 1353 221 1387 255 1 LO
-port 5 nsew signal output
-rlabel locali s 1351 183 1455 493 1 LO
-port 5 nsew signal output
-rlabel viali s 1525 221 1559 255 1 LO
-port 5 nsew signal output
-rlabel locali s 1489 215 1641 265 1 LO
-port 5 nsew signal output
-rlabel viali s 1697 221 1731 255 1 LO
-port 5 nsew signal output
-rlabel locali s 1675 215 1825 265 1 LO
-port 5 nsew signal output
 rlabel metal1 s 1685 252 1743 261 1 LO
 port 5 nsew signal output
 rlabel metal1 s 1685 215 1743 224 1 LO
@@ -236,6 +205,6 @@ string LEFclass CORE
 string FIXED_BBOX 0 0 2668 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 3162164
-string GDS_START 3158238
+string GDS_END 1656842
+string GDS_START 1652916
 << end >>

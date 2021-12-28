@@ -1,13 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -340 -1688 18266 18381
+timestamp 1640697850
 << nwell >>
 rect 1167 10569 1701 10901
 << pwell >>
-rect 1586 11258 1620 11410
+rect 1260 11244 1646 11436
+rect 1560 11232 1646 11244
 << mvnmos >>
 rect 1339 11270 1459 11410
 << mvpmos >>
@@ -1128,64 +1127,88 @@ rect 16043 -427 16059 -363
 rect 16123 -427 16124 -363
 rect 1675 -428 16124 -427
 use sky130_fd_io__gpiov2_amux_ctl_inv_1  sky130_fd_io__gpiov2_amux_ctl_inv_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 14983 0 1 494
 box -19 -49 346 715
 use sky130_fd_io__gpiov2_amux_ctl_inv_1  sky130_fd_io__gpiov2_amux_ctl_inv_1_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 15292 0 1 494
 box -19 -49 346 715
 use sky130_fd_io__gpiov2_amux_ctl_ls  sky130_fd_io__gpiov2_amux_ctl_ls_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 14705 0 1 1344
-box 53 30 2203 1486
+box 53 10 2203 1486
 use sky130_fd_io__gpiov2_amux_ctl_lshv2hv  sky130_fd_io__gpiov2_amux_ctl_lshv2hv_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 8787 0 1 10523
-box 3492 559 6918 1429
+box 3486 559 6918 1429
 use sky130_fd_io__tap_1  sky130_fd_io__tap_1_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 14675 0 1 494
 box -38 -49 134 715
 use sky130_fd_pr__model__pfet_highvoltage__example_55959141808421  sky130_fd_pr__model__pfet_highvoltage__example_55959141808421_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1286 0 -1 10835
 box -28 0 324 97
 use sky130_fd_io__gpiov2_amux_ctl_lshv2hv2  sky130_fd_io__gpiov2_amux_ctl_lshv2hv2_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 748 0 1 13628
-box 172 547 4053 3493
+box 172 529 4053 3493
 use sky130_fd_pr__model__nfet_highvoltage__example_55959141808586  sky130_fd_pr__model__nfet_highvoltage__example_55959141808586_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 1459 0 -1 11410
 box -28 0 148 63
 << labels >>
 flabel metal1 s 15194 813 15222 841 3 FreeSans 280 0 0 0 ANALOG_EN
+port 1 nsew
 flabel metal1 s 16373 1799 16401 1827 3 FreeSans 520 0 0 0 HLD_I_H
+port 2 nsew
 flabel metal1 s 15578 1751 15606 1779 3 FreeSans 520 0 0 0 HLD_I_H_N
+port 3 nsew
 flabel metal1 s 15349 2685 15377 2713 3 FreeSans 520 0 0 0 VDDIO_Q
+port 4 nsew
 flabel metal1 s 2265 11538 2293 11566 3 FreeSans 520 0 0 0 VSWITCH
+port 5 nsew
 flabel metal1 s 3072 11397 3100 11425 3 FreeSans 520 0 0 0 AMUX_EN_VSWITCH_H
+port 6 nsew
 flabel metal1 s 1460 15212 1488 15240 3 FreeSans 520 0 0 0 AMUX_EN_VDDA_H_N
+port 7 nsew
 flabel metal1 s 1716 15162 1744 15190 3 FreeSans 520 0 0 0 VSSA
+port 8 nsew
 flabel metal1 s 3420 11239 3448 11267 3 FreeSans 520 0 0 0 AMUX_EN_VSWITCH_H_N
+port 9 nsew
 flabel metal1 s 4098 11099 4126 11127 3 FreeSans 520 0 0 0 ENABLE_VSWITCH_H
+port 10 nsew
 flabel metal1 s 2088 14941 2116 14969 3 FreeSans 520 0 0 0 AMUX_EN_VDDIO_H_N
+port 11 nsew
 flabel metal1 s 1266 14942 1294 14970 3 FreeSans 520 0 0 0 AMUX_EN_VDDIO_H
+port 12 nsew
 flabel metal1 s 1388 10863 1416 10891 3 FreeSans 520 0 0 0 VSWITCH
+port 5 nsew
 flabel metal1 s 1772 15295 1800 15323 3 FreeSans 520 0 0 0 AMUX_EN_VDDA_H
+port 13 nsew
 flabel metal1 s 3884 11473 3912 11501 3 FreeSans 520 0 0 0 VSSA
+port 8 nsew
 flabel metal1 s 2414 14295 2442 14323 3 FreeSans 520 0 0 0 VSSA
+port 8 nsew
 flabel metal1 s 2378 14938 2406 14966 3 FreeSans 520 0 0 0 ENABLE_VDDA_H
+port 14 nsew
 flabel metal1 s 1689 16916 1717 16944 3 FreeSans 520 0 0 0 VDDA
+port 15 nsew
 flabel metal1 s 1719 11339 1747 11367 3 FreeSans 520 0 0 0 VSSA
+port 8 nsew
 flabel metal1 s 15661 1459 15689 1487 3 FreeSans 280 180 0 0 VSSD
+port 16 nsew
 flabel metal1 s 1176 15213 1204 15241 3 FreeSans 520 0 0 0 VSSA
+port 8 nsew
 flabel metal1 s 16316 2358 16344 2386 3 FreeSans 280 180 0 0 VCCD
+port 17 nsew
 flabel metal1 s 14816 486 14844 514 3 FreeSans 280 0 0 0 VSSD
+port 16 nsew
 flabel metal1 s 14955 1155 14983 1183 3 FreeSans 280 0 0 0 VCCD
+port 17 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 18663084
-string GDS_START 18637428
+string GDS_END 8466082
+string GDS_START 8440426
 << end >>

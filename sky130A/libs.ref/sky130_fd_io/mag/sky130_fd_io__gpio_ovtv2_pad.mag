@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1294 19147 16306 34747
+timestamp 1640697850
 << metal4 >>
 tri 979 33194 1272 33487 se
 rect 1272 33485 13740 33487
@@ -913,7 +911,7 @@ tri 506 20947 1496 21937 ne
 rect 1496 20947 13516 21937
 tri 13516 20947 14506 21937 nw
 use sky130_fd_pr__padplhp__example_559591418080  sky130_fd_pr__padplhp__example_559591418080_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 14506 1 0 20947
 box -478 -478 6000 7000
 << properties >>

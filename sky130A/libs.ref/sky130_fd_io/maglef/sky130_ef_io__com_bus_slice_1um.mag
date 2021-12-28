@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729485
+timestamp 1640697864
 << metal4 >>
 rect 0 13600 200 18593
 rect 0 12410 200 13300
@@ -19,11 +19,11 @@ rect 0 2580 200 3270
 rect 0 1370 200 2300
 rect 0 0 200 1090
 << obsm4 >>
-rect 0 34400 200 39593
-rect 0 18593 200 19000
-rect 0 13380 200 13600
+rect 0 34750 200 39593
+rect 0 13380 200 13520
+rect 0 12210 200 12330
 rect 0 11020 200 11160
-rect 0 9942 200 10138
+rect 0 9922 200 10158
 << metal5 >>
 rect 0 34750 200 39593
 rect 0 13600 200 18590
@@ -100,6 +100,6 @@ string LEFclass PAD SPACER
 string FIXED_BBOX 0 0 200 39593
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_ef_io.gds
-string GDS_END 1707646
-string GDS_START 1702020
+string GDS_END 2305334
+string GDS_START 2299708
 << end >>

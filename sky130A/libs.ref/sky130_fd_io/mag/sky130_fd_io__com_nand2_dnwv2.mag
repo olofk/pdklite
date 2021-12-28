@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1317 -1472 1743 2455
+timestamp 1640697850
 << nwell >>
 rect -51 355 483 1087
+<< pwell >>
+rect -11 -103 443 149
 << mvnmos >>
 rect 68 -77 188 123
 rect 244 -77 364 123
@@ -249,35 +249,35 @@ rect -57 -200 375 -166
 rect 409 -200 473 -166
 rect -57 -212 473 -200
 use sky130_fd_pr__via_l1m1__example_5595914180897  sky130_fd_pr__via_l1m1__example_5595914180897_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 409 -1 0 -22
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 57 -1 0 1055
 box 0 0 1 1
 use sky130_fd_pr__via_l1m1__example_559591418084  sky130_fd_pr__via_l1m1__example_559591418084_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 409 -1 0 1055
 box 0 0 1 1
 use sky130_fd_pr__via_pol1__example_559591418083  sky130_fd_pr__via_pol1__example_559591418083_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 88 1 0 189
 box 0 0 1 1
 use sky130_fd_pr__via_pol1__example_559591418083  sky130_fd_pr__via_pol1__example_559591418083_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 272 1 0 182
 box 0 0 1 1
 use sky130_fd_pr__model__nfet_highvoltage__example_55959141808144  sky130_fd_pr__model__nfet_highvoltage__example_55959141808144_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 364 0 -1 123
 box -28 0 145 100
 use sky130_fd_pr__model__nfet_highvoltage__example_55959141808144  sky130_fd_pr__model__nfet_highvoltage__example_55959141808144_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 68 0 -1 123
 box -28 0 145 100
 use sky130_fd_pr__model__pfet_highvoltage__example_55959141808142  sky130_fd_pr__model__pfet_highvoltage__example_55959141808142_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 68 0 -1 1021
 box -28 0 324 267
 << properties >>

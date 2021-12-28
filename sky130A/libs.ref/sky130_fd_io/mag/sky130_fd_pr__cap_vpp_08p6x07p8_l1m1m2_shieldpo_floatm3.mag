@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -1260 2976 2828
+timestamp 1640697850
 << pwell >>
 rect 894 821 918 872
 << poly >>
@@ -1965,9 +1963,13 @@ rect 913 0 1716 7
 rect 0 0 1716 1568
 << labels >>
 flabel metal3 s 1189 266 1340 379 0 FreeSans 1000 0 0 0 MET3
+port 1 nsew
 flabel pwell s 894 821 918 872 0 FreeSans 200 0 0 0 SUB
+port 2 nsew
 flabel metal2 s 840 1518 878 1555 0 FreeSans 400 0 0 0 C1
+port 3 nsew
 flabel metal2 s 646 1533 672 1563 0 FreeSans 400 0 0 0 C0
+port 4 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string GDS_END 37209448

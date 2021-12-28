@@ -1,16 +1,19 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 2958 2911
+timestamp 1640697995
 << nwell >>
 rect -66 377 306 1251
 rect 706 385 1000 1115
 rect 1400 377 1698 1251
 << pwell >>
-rect 0 1611 1632 1645
-rect 0 -17 1632 17
+rect -26 1585 1658 1671
+rect 4 1311 780 1585
+rect 366 1101 624 1311
+rect 366 325 624 811
+rect 366 317 904 325
+rect 4 43 904 317
+rect -26 -43 1658 43
 << scnmos >>
 rect 795 151 825 299
 << scpmoshvt >>
@@ -920,12 +923,153 @@ flabel metal1 s 0 791 1632 837 0 FreeSans 340 0 0 0 VPB
 port 5 nsew power bidirectional
 flabel metal1 s 0 1605 1632 1628 0 FreeSans 340 0 0 0 VNB
 port 4 nsew ground bidirectional
+rlabel viali s 904 621 938 655 1 LVPWR
+port 2 nsew power bidirectional
+rlabel viali s 832 621 866 655 1 LVPWR
+port 2 nsew power bidirectional
+rlabel metal1 s 14 604 1618 661 1 LVPWR
+port 2 nsew power bidirectional
+rlabel locali s 179 1349 297 1549 1 VGND
+port 3 nsew ground bidirectional
+rlabel locali s 506 1123 624 1549 1 VGND
+port 3 nsew ground bidirectional
+rlabel locali s 514 79 632 782 1 VGND
+port 3 nsew ground bidirectional
+rlabel locali s 826 79 944 303 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 904 85 938 119 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 832 85 866 119 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 592 85 626 119 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 584 1509 618 1543 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 520 85 554 119 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 512 1509 546 1543 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 257 1509 291 1543 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 257 85 291 119 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 185 1509 219 1543 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 185 85 219 119 1 VGND
+port 3 nsew ground bidirectional
+rlabel metal1 s 0 51 1632 125 1 VGND
+port 3 nsew ground bidirectional
+rlabel metal1 s 0 1503 1632 1577 1 VGND
+port 3 nsew ground bidirectional
+rlabel locali s 0 1611 1632 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1567 1611 1601 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1567 -17 1601 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1471 1611 1505 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1471 -17 1505 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1375 1611 1409 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1375 -17 1409 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1279 1611 1313 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1279 -17 1313 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1183 1611 1217 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1183 -17 1217 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1087 1611 1121 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1087 -17 1121 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 991 1611 1025 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 991 -17 1025 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 895 1611 929 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 895 -17 929 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 799 1611 833 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 799 -17 833 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 703 1611 737 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 703 -17 737 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 607 1611 641 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 607 -17 641 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 511 1611 545 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 511 -17 545 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 415 1611 449 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 415 -17 449 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 319 1611 353 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 319 -17 353 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 223 1611 257 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 223 -17 257 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 127 1611 161 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 127 -17 161 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 31 1611 65 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 31 -17 65 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 -23 1632 23 1 VNB
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 1605 1632 1651 1 VNB
+port 4 nsew ground bidirectional
+rlabel locali s 1455 797 1632 831 1 VPB
+port 5 nsew power bidirectional
+rlabel viali s 1567 797 1601 831 1 VPB
+port 5 nsew power bidirectional
+rlabel viali s 1471 797 1505 831 1 VPB
+port 5 nsew power bidirectional
+rlabel viali s 127 797 161 831 1 VPB
+port 5 nsew power bidirectional
+rlabel viali s 31 797 65 831 1 VPB
+port 5 nsew power bidirectional
+rlabel metal1 s 0 791 1632 837 1 VPB
+port 5 nsew power bidirectional
+rlabel locali s 26 939 92 1176 1 VPWR
+port 6 nsew power bidirectional
+rlabel locali s 26 893 144 939 1 VPWR
+port 6 nsew power bidirectional
+rlabel viali s 104 899 138 933 1 VPWR
+port 6 nsew power bidirectional
+rlabel viali s 104 695 138 729 1 VPWR
+port 6 nsew power bidirectional
+rlabel viali s 32 899 66 933 1 VPWR
+port 6 nsew power bidirectional
+rlabel viali s 32 695 66 729 1 VPWR
+port 6 nsew power bidirectional
+rlabel metal1 s 0 689 1632 763 1 VPWR
+port 6 nsew power bidirectional
+rlabel metal1 s 0 865 1632 939 1 VPWR
+port 6 nsew power bidirectional
 << properties >>
 string LEFsite unithvdbl
 string LEFclass CORE
 string FIXED_BBOX 0 0 1632 1628
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 297540
-string GDS_START 278850
+string GDS_END 146382
+string GDS_START 127692
+string MASKHINTS_HVI 22 34 706 1316
 << end >>

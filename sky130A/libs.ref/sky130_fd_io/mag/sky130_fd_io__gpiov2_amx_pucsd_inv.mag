@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1259 -1241 2675 1885
+timestamp 1640697850
 << nwell >>
 rect 1 293 1415 625
+<< pwell >>
+rect 41 19 1375 155
 << mvnmos >>
 rect 120 45 240 129
 rect 296 45 416 129
@@ -424,26 +424,32 @@ rect 813 31 1131 65
 rect 1165 31 1171 65
 rect 69 19 1171 31
 use sky130_fd_pr__via_pol1__example_5595914180833  sky130_fd_pr__via_pol1__example_5595914180833_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 206 0 -1 311
 box 0 0 1 1
 use sky130_fd_pr__pfet_01v8__example_55959141808566  sky130_fd_pr__pfet_01v8__example_55959141808566_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 120 0 1 359
 box -28 0 1204 97
 use sky130_fd_pr__nfet_01v8__example_55959141808565  sky130_fd_pr__nfet_01v8__example_55959141808565_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 120 0 1 45
 box -28 0 1204 29
 << labels >>
 flabel metal1 s 147 42 243 99 3 FreeSans 520 0 0 0 VSSA
+port 1 nsew
 flabel metal1 s 146 490 233 554 3 FreeSans 520 0 0 0 VDA
+port 2 nsew
 flabel metal1 s 265 348 323 375 3 FreeSans 520 90 0 0 Y
+port 3 nsew
 flabel metal1 s 195 71 195 71 3 FreeSans 520 0 0 0 VSSA
+port 1 nsew
 flabel metal1 s 189 522 189 522 3 FreeSans 520 0 0 0 VDA
+port 2 nsew
 flabel metal1 s 121 227 190 253 3 FreeSans 520 0 0 0 A
+port 4 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 18392142
-string GDS_START 18385434
+string GDS_END 8192054
+string GDS_START 8185346
 << end >>

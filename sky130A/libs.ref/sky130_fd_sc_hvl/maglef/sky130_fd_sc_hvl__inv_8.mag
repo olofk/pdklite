@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729579
+timestamp 1640697996
 << nwell >>
 rect -66 377 1506 897
 << pwell >>
-rect 0 -17 1440 17
+rect 53 43 1433 317
+rect -26 -43 1466 43
 << locali >>
 rect 0 797 31 831
 rect 65 797 127 831
@@ -241,34 +242,14 @@ rect 0 -23 1440 -17
 << labels >>
 rlabel locali s 62 316 1352 363 6 A
 port 1 nsew signal input
-rlabel locali s 1388 279 1422 407 6 Y
-port 6 nsew signal output
-rlabel locali s 1191 441 1257 689 6 Y
-port 6 nsew signal output
-rlabel locali s 1183 245 1422 246 6 Y
-port 6 nsew signal output
-rlabel locali s 1183 146 1313 245 6 Y
-port 6 nsew signal output
-rlabel locali s 879 441 945 689 6 Y
-port 6 nsew signal output
-rlabel locali s 863 146 905 246 6 Y
-port 6 nsew signal output
-rlabel locali s 567 441 633 689 6 Y
-port 6 nsew signal output
-rlabel locali s 551 146 593 246 6 Y
-port 6 nsew signal output
-rlabel locali s 255 441 321 689 6 Y
-port 6 nsew signal output
-rlabel locali s 255 407 1422 441 6 Y
-port 6 nsew signal output
-rlabel locali s 239 279 1245 280 6 Y
-port 6 nsew signal output
-rlabel locali s 239 246 1422 279 6 Y
-port 6 nsew signal output
-rlabel locali s 239 146 281 246 6 Y
-port 6 nsew signal output
 rlabel metal1 s 0 51 1440 125 6 VGND
 port 2 nsew ground bidirectional
+rlabel metal1 s 0 -23 1440 23 8 VNB
+port 3 nsew ground bidirectional
+rlabel pwell s -26 -43 1466 43 8 VNB
+port 3 nsew ground bidirectional
+rlabel pwell s 53 43 1433 317 6 VNB
+port 3 nsew ground bidirectional
 rlabel viali s 1375 -17 1409 17 8 VNB
 port 3 nsew ground bidirectional
 rlabel viali s 1279 -17 1313 17 8 VNB
@@ -301,10 +282,10 @@ rlabel viali s 31 -17 65 17 8 VNB
 port 3 nsew ground bidirectional
 rlabel locali s 0 -17 1440 17 8 VNB
 port 3 nsew ground bidirectional
-rlabel pwell s 0 -17 1440 17 8 VNB
-port 3 nsew ground bidirectional
-rlabel metal1 s 0 -23 1440 23 8 VNB
-port 3 nsew ground bidirectional
+rlabel metal1 s 0 791 1440 837 6 VPB
+port 4 nsew power bidirectional
+rlabel nwell s -66 377 1506 897 6 VPB
+port 4 nsew power bidirectional
 rlabel viali s 1375 797 1409 831 6 VPB
 port 4 nsew power bidirectional
 rlabel viali s 1279 797 1313 831 6 VPB
@@ -337,12 +318,34 @@ rlabel viali s 31 797 65 831 6 VPB
 port 4 nsew power bidirectional
 rlabel locali s 0 797 1440 831 6 VPB
 port 4 nsew power bidirectional
-rlabel nwell s -66 377 1506 897 6 VPB
-port 4 nsew power bidirectional
-rlabel metal1 s 0 791 1440 837 6 VPB
-port 4 nsew power bidirectional
 rlabel metal1 s 0 689 1440 763 6 VPWR
 port 5 nsew power bidirectional
+rlabel locali s 1183 146 1313 245 6 Y
+port 6 nsew signal output
+rlabel locali s 1183 245 1422 246 6 Y
+port 6 nsew signal output
+rlabel locali s 863 146 905 246 6 Y
+port 6 nsew signal output
+rlabel locali s 551 146 593 246 6 Y
+port 6 nsew signal output
+rlabel locali s 239 146 281 246 6 Y
+port 6 nsew signal output
+rlabel locali s 239 246 1422 279 6 Y
+port 6 nsew signal output
+rlabel locali s 1388 279 1422 407 6 Y
+port 6 nsew signal output
+rlabel locali s 239 279 1245 280 6 Y
+port 6 nsew signal output
+rlabel locali s 255 407 1422 441 6 Y
+port 6 nsew signal output
+rlabel locali s 1191 441 1257 689 6 Y
+port 6 nsew signal output
+rlabel locali s 879 441 945 689 6 Y
+port 6 nsew signal output
+rlabel locali s 567 441 633 689 6 Y
+port 6 nsew signal output
+rlabel locali s 255 441 321 689 6 Y
+port 6 nsew signal output
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
@@ -350,6 +353,6 @@ string FIXED_BBOX 0 0 1440 814
 string LEFsymmetry X Y
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
-string GDS_END 938714
-string GDS_START 921696
+string GDS_END 59604
+string GDS_START 42586
 << end >>

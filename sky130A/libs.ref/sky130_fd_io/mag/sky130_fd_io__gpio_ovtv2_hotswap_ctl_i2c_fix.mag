@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect 1062 -603 29631 16453
+timestamp 1640697850
 << locali >>
 rect 12165 1381 12231 1473
 rect 12178 1347 12216 1381
@@ -1564,35 +1562,56 @@ rect 2915 1503 2941 1559
 rect 2997 1503 3009 1559
 rect 2771 1498 3009 1503
 use sky130_fd_io__sio_hotswap_log_ovtv2_i2c_fix  sky130_fd_io__sio_hotswap_log_ovtv2_i2c_fix_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 8920 0 1 1484
 box 16 -95 6374 1336
 use sky130_fd_io__gpio_ovtv2_hotswap_latch_i2c_fix  sky130_fd_io__gpio_ovtv2_hotswap_latch_i2c_fix_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -9399 0 1 -970
-box 11721 1627 37770 16163
+box 11695 1627 37770 16163
 << labels >>
 flabel metal1 s 12939 1513 12978 1541 0 FreeSans 200 0 0 0 EN_H
+port 1 nsew
 flabel metal1 s 12679 1475 12721 1503 0 FreeSans 200 0 0 0 FORCEHI_H[1]
+port 2 nsew
 flabel metal1 s 14236 1415 14338 1447 0 FreeSans 200 0 0 0 OD_I_H_N
+port 3 nsew
 flabel metal1 s 8613 1547 8663 1593 3 FreeSans 520 0 0 0 ENHS_LAT_H_N
+port 4 nsew
 flabel metal1 s 3224 2201 3334 2247 3 FreeSans 520 0 0 0 PGHS_H
+port 5 nsew
 flabel metal1 s 12400 1972 12429 2248 0 FreeSans 200 0 0 0 VDDIO
+port 6 nsew
 flabel metal1 s 14371 1972 14400 2248 0 FreeSans 200 0 0 0 VDDIO
+port 6 nsew
 flabel metal1 s 11555 1972 11581 2248 0 FreeSans 200 0 0 0 VDDIO
+port 6 nsew
 flabel metal1 s 14371 2498 14400 2700 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 12400 2498 12429 2700 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 14371 2424 14400 2470 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 12400 2424 12429 2470 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 11522 2424 11542 2470 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 11522 2498 11542 2700 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 12429 2424 12458 2470 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 12429 2498 12458 2700 0 FreeSans 200 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 4800 823 5019 1016 3 FreeSans 520 0 0 0 VDDIO
+port 6 nsew
 flabel metal1 s 5273 2579 5506 2710 3 FreeSans 520 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 3061 1511 3294 1626 3 FreeSans 520 0 0 0 VSSD
+port 7 nsew
 flabel metal1 s 9612 1287 9670 1329 0 FreeSans 440 0 0 0 VPWR_KA
+port 8 nsew
 flabel metal1 s 5354 1505 5412 1547 0 FreeSans 440 180 0 0 PAD_ESD
+port 9 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string GDS_END 40211036

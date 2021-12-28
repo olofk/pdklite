@@ -1,13 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 2034 1852
+timestamp 1640697977
 << nwell >>
 rect -38 261 774 582
 << pwell >>
-rect 29 -17 63 17
+rect 99 157 623 203
+rect 1 21 728 157
+rect 29 -17 63 21
 << scnmos >>
 rect 80 47 110 131
 rect 252 47 282 177
@@ -120,27 +120,27 @@ rect 252 497 282 523
 rect 447 497 477 523
 rect 619 497 649 523
 rect 80 265 110 297
-rect 46 249 110 265
+rect 46 249 112 265
 rect 252 259 282 333
 rect 447 266 477 333
 rect 619 266 649 297
 rect 46 215 62 249
-rect 96 215 110 249
-rect 46 205 110 215
+rect 96 215 112 249
+rect 46 205 112 215
+rect 154 249 282 259
+rect 154 215 170 249
+rect 204 215 282 249
 rect 80 131 110 205
-rect 152 249 282 259
-rect 152 215 168 249
-rect 202 215 282 249
-rect 152 199 282 215
-rect 403 249 547 266
-rect 403 215 419 249
-rect 453 215 487 249
-rect 521 215 547 249
-rect 403 200 547 215
-rect 589 249 649 266
-rect 589 215 605 249
-rect 639 215 649 249
-rect 589 200 649 215
+rect 154 199 282 215
+rect 401 249 541 266
+rect 401 215 417 249
+rect 451 215 485 249
+rect 519 215 541 249
+rect 401 200 541 215
+rect 583 249 649 266
+rect 583 215 599 249
+rect 633 215 649 249
+rect 583 200 649 215
 rect 252 177 282 199
 rect 447 177 477 200
 rect 619 131 649 200
@@ -150,10 +150,10 @@ rect 447 21 477 47
 rect 619 21 649 47
 << polycont >>
 rect 62 215 96 249
-rect 168 215 202 249
-rect 419 215 453 249
-rect 487 215 521 249
-rect 605 215 639 249
+rect 170 215 204 249
+rect 417 215 451 249
+rect 485 215 519 249
+rect 599 215 633 249
 << locali >>
 rect 0 527 29 561
 rect 63 527 121 561
@@ -191,8 +191,8 @@ rect 17 215 62 249
 rect 96 215 112 249
 rect 17 211 112 215
 rect 146 249 243 299
-rect 146 215 168 249
-rect 202 215 243 249
+rect 146 215 170 249
+rect 204 215 243 249
 rect 146 177 243 215
 rect 17 143 243 177
 rect 318 250 352 367
@@ -219,12 +219,13 @@ rect 694 383 719 417
 rect 642 352 719 383
 rect 386 284 639 318
 rect 318 249 537 250
-rect 318 215 419 249
-rect 453 215 487 249
-rect 521 215 537 249
+rect 318 215 417 249
+rect 451 215 485 249
+rect 519 215 537 249
 rect 318 211 537 215
 rect 571 249 639 284
-rect 571 215 605 249
+rect 571 215 599 249
+rect 633 215 639 249
 rect 318 165 352 211
 rect 571 177 639 215
 rect 277 161 352 165
@@ -329,13 +330,17 @@ port 4 nsew power bidirectional
 flabel pwell s 29 -17 63 17 0 FreeSans 200 0 0 0 VNB
 port 3 nsew ground bidirectional
 rlabel comment s 0 0 0 0 4 clkdlybuf4s15_1
+rlabel metal1 s 0 -48 736 48 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal1 s 0 496 736 592 1 VPWR
+port 5 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
 string FIXED_BBOX 0 0 736 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 1842086
-string GDS_START 1835966
+string GDS_END 3188518
+string GDS_START 3182366
 string path 0.000 13.600 18.400 13.600 
 << end >>

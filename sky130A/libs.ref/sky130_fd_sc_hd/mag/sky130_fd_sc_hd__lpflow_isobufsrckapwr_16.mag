@@ -1,14 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 4150 1852
+timestamp 1640697977
 << nwell >>
 rect -38 261 2890 582
 << pwell >>
+rect 37 157 1011 203
+rect 37 21 2834 157
+rect 37 17 64 21
 rect 30 -17 64 17
-rect 1041 -17 1075 17
+rect 1041 -17 1075 21
 << scnmos >>
 rect 117 47 147 177
 rect 311 47 341 177
@@ -1479,11 +1480,13 @@ port 5 nsew ground bidirectional
 flabel pwell s 1041 -17 1075 17 0 FreeSans 200 0 0 0 VNB
 port 5 nsew ground bidirectional
 flabel pwell s 1058 0 1058 0 0 FreeSans 200 0 0 0 VNB
+port 5 nsew
 flabel nwell s 30 527 64 561 0 FreeSans 200 0 0 0 VPB
 port 6 nsew power bidirectional
 flabel nwell s 1041 527 1075 561 0 FreeSans 200 0 0 0 VPB
 port 6 nsew power bidirectional
 flabel nwell s 1058 544 1058 544 0 FreeSans 200 0 0 0 VPB
+port 6 nsew
 flabel metal1 s 30 -17 64 17 0 FreeSans 200 0 0 0 VGND
 port 4 nsew ground bidirectional abutment
 flabel metal1 s 30 527 64 561 0 FreeSans 200 0 0 0 VPWR
@@ -1491,43 +1494,23 @@ port 7 nsew power bidirectional abutment
 flabel metal1 s 26 428 75 468 0 FreeSans 200 0 0 0 KAPWR
 port 3 nsew power bidirectional abutment
 rlabel comment s 0 0 0 0 4 lpflow_isobufsrckapwr_16
-rlabel viali s 2251 425 2285 459 1 KAPWR
-port 3 nsew power bidirectional abutment
 rlabel locali s 2242 381 2291 493 1 KAPWR
-port 3 nsew power bidirectional abutment
-rlabel viali s 2422 425 2456 459 1 KAPWR
 port 3 nsew power bidirectional abutment
 rlabel locali s 2414 381 2463 493 1 KAPWR
 port 3 nsew power bidirectional abutment
-rlabel viali s 2592 425 2626 459 1 KAPWR
-port 3 nsew power bidirectional abutment
 rlabel locali s 2586 381 2637 493 1 KAPWR
-port 3 nsew power bidirectional abutment
-rlabel viali s 2768 425 2802 459 1 KAPWR
 port 3 nsew power bidirectional abutment
 rlabel locali s 2763 378 2817 493 1 KAPWR
 port 3 nsew power bidirectional abutment
-rlabel viali s 1047 425 1081 459 1 KAPWR
-port 3 nsew power bidirectional abutment
 rlabel locali s 1031 299 1097 493 1 KAPWR
-port 3 nsew power bidirectional abutment
-rlabel viali s 1219 425 1253 459 1 KAPWR
 port 3 nsew power bidirectional abutment
 rlabel locali s 1203 299 1269 493 1 KAPWR
 port 3 nsew power bidirectional abutment
-rlabel viali s 1390 425 1424 459 1 KAPWR
-port 3 nsew power bidirectional abutment
 rlabel locali s 1375 299 1441 493 1 KAPWR
-port 3 nsew power bidirectional abutment
-rlabel viali s 1560 425 1594 459 1 KAPWR
 port 3 nsew power bidirectional abutment
 rlabel locali s 1554 381 1606 493 1 KAPWR
 port 3 nsew power bidirectional abutment
-rlabel viali s 1736 425 1770 459 1 KAPWR
-port 3 nsew power bidirectional abutment
 rlabel locali s 1726 381 1778 493 1 KAPWR
-port 3 nsew power bidirectional abutment
-rlabel viali s 1908 425 1942 459 1 KAPWR
 port 3 nsew power bidirectional abutment
 rlabel locali s 1898 381 1950 493 1 KAPWR
 port 3 nsew power bidirectional abutment
@@ -1555,15 +1538,17 @@ rlabel metal1 s 1035 416 1093 428 1 KAPWR
 port 3 nsew power bidirectional abutment
 rlabel metal1 s 14 428 2838 468 1 KAPWR
 port 3 nsew power bidirectional abutment
-rlabel pwell s 1041 -17 1075 17 1 VNB
-port 5 nsew ground bidirectional
+rlabel metal1 s 0 -48 2852 48 1 VGND
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 0 496 2852 592 1 VPWR
+port 7 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
 string FIXED_BBOX 0 0 2852 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 3225664
-string GDS_START 3203748
+string GDS_END 2444532
+string GDS_START 2422616
 string path 0.000 0.000 71.300 0.000 
 << end >>

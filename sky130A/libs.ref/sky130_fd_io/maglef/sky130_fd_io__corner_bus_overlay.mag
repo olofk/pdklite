@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729485
+timestamp 1640697864
 << metal4 >>
 rect 0 35890 287 40733
 rect 0 14740 529 19733
@@ -68,6 +68,8 @@ rect 374 3640 9467 4490
 rect 0 3520 9467 3640
 rect 837 2430 9467 3520
 rect 0 2310 9467 2430
+tri 0 1060 80 1140 ne
+rect 80 1060 407 1140
 rect 550 1060 9467 2310
 rect 0 334 9467 1060
 rect 0 251 327 334
@@ -132,6 +134,8 @@ rect 640 5600 9227 5684
 rect 625 4390 9227 5600
 rect 614 3740 9227 4390
 rect 1077 2210 9227 3740
+tri 0 840 320 1160 ne
+rect 320 840 427 1160
 rect 790 840 9227 2210
 rect 0 574 9227 840
 rect 0 0 107 574
@@ -141,133 +145,133 @@ rect 11667 574 13687 624
 rect 19317 574 40000 624
 rect 19317 0 34837 574
 << labels >>
-rlabel metal4 s 0 11358 4582 11954 6 AMUXBUS_A
+rlabel metal5 s 0 10280 4631 12080 6 VSSA
 port 1 nsew signal bidirectional
-rlabel metal4 s 10625 0 11221 3695 6 AMUXBUS_A
+rlabel metal5 s 126 11137 128 11139 6 VSSA
 port 1 nsew signal bidirectional
-rlabel metal4 s 0 10406 4187 11002 6 AMUXBUS_B
+rlabel metal5 s 0 8100 267 8750 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 7368 0 8017 254 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 9547 0 11347 5364 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 10257 126 10259 128 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 0 10280 3915 10346 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 0 8080 267 8770 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 0 11062 4310 11298 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 0 12014 4635 12080 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 11281 0 11347 5368 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 10329 0 10565 4311 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 7347 0 8037 254 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal4 s 9547 0 9613 4648 6 VSSA
+port 1 nsew signal bidirectional
+rlabel metal5 s 0 35890 287 40733 6 VSSIO
 port 2 nsew signal bidirectional
-rlabel metal4 s 9673 0 10269 4175 6 AMUXBUS_B
+rlabel metal5 s 0 5920 320 6810 6 VSSIO
 port 2 nsew signal bidirectional
-rlabel metal4 s 0 2510 757 3440 6 VCCD
+rlabel metal5 s 5187 0 6077 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal5 s 35157 0 40000 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 0 5900 320 6830 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 0 35890 287 40733 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 126 38906 128 38908 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 35157 0 40000 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 38173 126 38175 128 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal4 s 5167 0 6097 254 6 VSSIO
+port 2 nsew signal bidirectional
+rlabel metal5 s 0 7130 277 7780 6 VSWITCH
 port 3 nsew signal bidirectional
-rlabel metal4 s 1777 0 2707 254 6 VCCD
+rlabel metal5 s 6397 0 7047 254 6 VSWITCH
 port 3 nsew signal bidirectional
-rlabel metal5 s 0 2530 757 3420 6 VCCD
+rlabel metal4 s 0 7110 277 7800 6 VSWITCH
 port 3 nsew signal bidirectional
-rlabel metal5 s 1797 0 2687 254 6 VCCD
+rlabel metal4 s 6377 0 7067 254 6 VSWITCH
 port 3 nsew signal bidirectional
-rlabel metal4 s 0 1140 470 2230 6 VCCHIB
+rlabel metal5 s 0 9070 295 9960 6 VSSD
 port 4 nsew signal bidirectional
-rlabel metal4 s 407 0 1497 254 6 VCCHIB
+rlabel metal5 s 8337 0 9227 254 6 VSSD
 port 4 nsew signal bidirectional
-rlabel metal5 s 0 1160 470 2210 6 VCCHIB
+rlabel metal4 s 0 9050 295 9980 6 VSSD
 port 4 nsew signal bidirectional
-rlabel metal5 s 427 0 1477 254 6 VCCHIB
+rlabel metal4 s 8317 0 9247 254 6 VSSD
 port 4 nsew signal bidirectional
-rlabel metal4 s 0 3720 294 4410 6 VDDA
+rlabel metal5 s 0 12400 325 13250 6 VSSIO_Q
 port 5 nsew signal bidirectional
-rlabel metal4 s 2987 0 3677 251 6 VDDA
+rlabel metal5 s 11667 0 12517 254 6 VSSIO_Q
 port 5 nsew signal bidirectional
-rlabel metal5 s 0 3740 294 4390 6 VDDA
+rlabel metal4 s 0 12380 325 13270 6 VSSIO_Q
 port 5 nsew signal bidirectional
-rlabel metal5 s 3007 0 3657 251 6 VDDA
+rlabel metal4 s 11647 0 12537 254 6 VSSIO_Q
 port 5 nsew signal bidirectional
-rlabel metal4 s 0 4690 305 5620 6 VDDIO
+rlabel metal5 s 0 13570 296 14420 6 VDDIO_Q
 port 6 nsew signal bidirectional
-rlabel metal4 s 0 14740 529 19733 6 VDDIO
-port 6 nsew signal bidirectional
-rlabel metal4 s 3957 0 4887 254 6 VDDIO
-port 6 nsew signal bidirectional
-rlabel metal4 s 14007 0 19000 304 6 VDDIO
-port 6 nsew signal bidirectional
-rlabel metal5 s 0 4710 305 5600 6 VDDIO
-port 6 nsew signal bidirectional
-rlabel metal5 s 0 14740 529 19730 6 VDDIO
-port 6 nsew signal bidirectional
-rlabel metal5 s 3977 0 4867 254 6 VDDIO
-port 6 nsew signal bidirectional
-rlabel metal5 s 14007 0 18997 304 6 VDDIO
+rlabel metal5 s 12837 0 13687 254 6 VDDIO_Q
 port 6 nsew signal bidirectional
 rlabel metal4 s 0 13550 296 14440 6 VDDIO_Q
-port 7 nsew signal bidirectional
+port 6 nsew signal bidirectional
 rlabel metal4 s 12817 0 13707 254 6 VDDIO_Q
+port 6 nsew signal bidirectional
+rlabel metal5 s 0 14740 529 19730 6 VDDIO
 port 7 nsew signal bidirectional
-rlabel metal5 s 0 13570 296 14420 6 VDDIO_Q
+rlabel metal5 s 0 4710 305 5600 6 VDDIO
 port 7 nsew signal bidirectional
-rlabel metal5 s 12837 0 13687 254 6 VDDIO_Q
+rlabel metal5 s 3977 0 4867 254 6 VDDIO
 port 7 nsew signal bidirectional
-rlabel metal4 s 0 8080 267 8770 6 VSSA
+rlabel metal5 s 14007 0 18997 304 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 0 4690 305 5620 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 0 14740 529 19733 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 14007 0 19000 304 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal4 s 3957 0 4887 254 6 VDDIO
+port 7 nsew signal bidirectional
+rlabel metal5 s 0 3740 294 4390 6 VDDA
 port 8 nsew signal bidirectional
-rlabel metal4 s 0 10280 3915 10346 6 VSSA
+rlabel metal5 s 3007 0 3657 251 6 VDDA
 port 8 nsew signal bidirectional
-rlabel metal4 s 0 11062 4310 11298 6 VSSA
+rlabel metal4 s 0 3720 294 4410 6 VDDA
 port 8 nsew signal bidirectional
-rlabel metal4 s 0 12014 4635 12080 6 VSSA
+rlabel metal4 s 2987 0 3677 251 6 VDDA
 port 8 nsew signal bidirectional
-rlabel metal4 s 7347 0 8037 254 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal4 s 9547 0 9613 4648 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal4 s 10329 0 10565 4311 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal4 s 11281 0 11347 5368 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal5 s 0 8100 267 8750 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal5 s 0 10280 4631 12080 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal5 s 126 11137 128 11139 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal5 s 7368 0 8017 254 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal5 s 9547 0 11347 5364 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal5 s 10257 126 10259 128 6 VSSA
-port 8 nsew signal bidirectional
-rlabel metal4 s 0 9050 295 9980 6 VSSD
+rlabel metal5 s 0 1160 470 2210 6 VCCHIB
 port 9 nsew signal bidirectional
-rlabel metal4 s 8317 0 9247 254 6 VSSD
+rlabel metal5 s 427 0 1477 254 6 VCCHIB
 port 9 nsew signal bidirectional
-rlabel metal5 s 0 9070 295 9960 6 VSSD
+rlabel metal4 s 0 1140 470 2230 6 VCCHIB
 port 9 nsew signal bidirectional
-rlabel metal5 s 8337 0 9227 254 6 VSSD
+rlabel metal4 s 407 0 1497 254 6 VCCHIB
 port 9 nsew signal bidirectional
-rlabel metal4 s 0 35890 287 40733 6 VSSIO
+rlabel metal5 s 0 2530 757 3420 6 VCCD
 port 10 nsew signal bidirectional
-rlabel metal4 s 0 5900 320 6830 6 VSSIO
+rlabel metal5 s 1797 0 2687 254 6 VCCD
 port 10 nsew signal bidirectional
-rlabel metal4 s 126 38906 128 38908 6 VSSIO
+rlabel metal4 s 0 2510 757 3440 6 VCCD
 port 10 nsew signal bidirectional
-rlabel metal4 s 35157 0 40000 254 6 VSSIO
+rlabel metal4 s 1777 0 2707 254 6 VCCD
 port 10 nsew signal bidirectional
-rlabel metal4 s 38173 126 38175 128 6 VSSIO
-port 10 nsew signal bidirectional
-rlabel metal4 s 5167 0 6097 254 6 VSSIO
-port 10 nsew signal bidirectional
-rlabel metal5 s 0 35890 287 40733 6 VSSIO
-port 10 nsew signal bidirectional
-rlabel metal5 s 0 5920 320 6810 6 VSSIO
-port 10 nsew signal bidirectional
-rlabel metal5 s 35157 0 40000 254 6 VSSIO
-port 10 nsew signal bidirectional
-rlabel metal5 s 5187 0 6077 254 6 VSSIO
-port 10 nsew signal bidirectional
-rlabel metal4 s 0 12380 325 13270 6 VSSIO_Q
+rlabel metal4 s 0 11358 4582 11954 6 AMUXBUS_A
 port 11 nsew signal bidirectional
-rlabel metal4 s 11647 0 12537 254 6 VSSIO_Q
+rlabel metal4 s 10625 0 11221 3695 6 AMUXBUS_A
 port 11 nsew signal bidirectional
-rlabel metal5 s 0 12400 325 13250 6 VSSIO_Q
-port 11 nsew signal bidirectional
-rlabel metal5 s 11667 0 12517 254 6 VSSIO_Q
-port 11 nsew signal bidirectional
-rlabel metal4 s 0 7110 277 7800 6 VSWITCH
+rlabel metal4 s 0 10406 4187 11002 6 AMUXBUS_B
 port 12 nsew signal bidirectional
-rlabel metal4 s 6377 0 7067 254 6 VSWITCH
-port 12 nsew signal bidirectional
-rlabel metal5 s 0 7130 277 7780 6 VSWITCH
-port 12 nsew signal bidirectional
-rlabel metal5 s 6397 0 7047 254 6 VSWITCH
+rlabel metal4 s 9673 0 10269 4175 6 AMUXBUS_B
 port 12 nsew signal bidirectional
 << properties >>
 string LEFclass PAD

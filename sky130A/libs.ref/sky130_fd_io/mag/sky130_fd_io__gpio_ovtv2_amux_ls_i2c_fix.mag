@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -4530 -10029 23227 4374
+timestamp 1640697850
 << dnwell >>
 rect -977 -150 3243 3114
 << nwell >>
@@ -13,7 +11,10 @@ rect 17301 -313 17407 59
 rect -2393 -5555 -2061 -4912
 rect -1889 -7074 -1395 -6642
 << pwell >>
-rect -122 16 -88 1279
+rect -148 -10 -62 1305
+rect 21649 1262 21927 1454
+rect -2561 -6794 -2303 -6734
+rect -2767 -6986 -2303 -6794
 << mvnmos >>
 rect 21728 1288 21848 1428
 rect -2685 -6960 -2565 -6820
@@ -2265,75 +2266,92 @@ rect -2138 -6925 -2086 -6919
 rect -2138 -6989 -2086 -6977
 rect -2138 -7047 -2086 -7041
 use sky130_fd_io__gpio_ovtv2_amux_ctl_lshv2hv  sky130_fd_io__gpio_ovtv2_amux_ctl_lshv2hv_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4 0 1 0
 box -126 -376 7172 1761
 use sky130_fd_io__ctlv2_ls_analogen_ovtv2  sky130_fd_io__ctlv2_ls_analogen_ovtv2_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -3270 0 1 -8769
 box 0 0 2456 2385
 use sky130_fd_pr__nfet_01v8__example_55959141808474  sky130_fd_pr__nfet_01v8__example_55959141808474_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 -2382 0 -1 -6760
 box -28 0 128 97
 use sky130_fd_pr__nfet_01v8__example_55959141808473  sky130_fd_pr__nfet_01v8__example_55959141808473_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -2685 0 1 -6960
 box -28 0 145 70
 use sky130_fd_pr__nfet_01v8__example_55959141808472  sky130_fd_pr__nfet_01v8__example_55959141808472_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 21728 0 1 1288
 box -28 0 148 63
 use sky130_fd_pr__pfet_01v8__example_55959141808471  sky130_fd_pr__pfet_01v8__example_55959141808471_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1770 0 1 -7008
 box -28 0 284 131
 use sky130_fd_pr__pfet_01v8__example_55959141808470  sky130_fd_pr__pfet_01v8__example_55959141808470_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 -2127 1 0 -5436
 box -28 0 324 97
 use sky130_fd_pr__pfet_01v8__example_55959141808469  sky130_fd_pr__pfet_01v8__example_55959141808469_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 21552 0 1 1599
 box -28 0 324 97
 use sky130_fd_io__gpio_ovtv2_amux_guardring  sky130_fd_io__gpio_ovtv2_amux_guardring_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1063 0 1 -236
 box -120 -120 4512 3350
 use sky130_fd_io__gpio_ovtv2_amux_ctl_ls_i2c_fix  sky130_fd_io__gpio_ovtv2_amux_ctl_ls_i2c_fix_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 18358 0 1 219
 box -2220 -287 2336 1486
 use sky130_fd_io__hvsbt_inv_x1  sky130_fd_io__hvsbt_inv_x1_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 -2263 0 1 -4656
 box -46 24 399 1116
 use sky130_fd_io__gpiov2_amux_ctl_inv_1_i2c_fix  sky130_fd_io__gpiov2_amux_ctl_inv_1_i2c_fix_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 16984 0 -1 391
 box -19 -49 346 704
 use sky130_fd_io__gpiov2_amux_ctl_inv_1_i2c_fix  sky130_fd_io__gpiov2_amux_ctl_inv_1_i2c_fix_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 16675 0 -1 391
 box -19 -49 346 704
 << labels >>
 flabel metal2 s 19108 774 19141 798 3 FreeSans 400 0 0 0 HLD_I_H_N
+port 1 nsew
 flabel locali s 16734 94 16776 122 3 FreeSans 400 0 0 0 ANALOG_EN
+port 2 nsew
 flabel metal1 s -2200 -7047 -2175 -7004 3 FreeSans 400 90 0 0 ENABLE_VDDA_H
+port 3 nsew
 flabel metal1 s -2705 -6166 -2681 -6126 3 FreeSans 400 90 0 0 ENABLE_VSWITCH_H
+port 4 nsew
 flabel metal1 s 17465 -251 17506 -196 3 FreeSans 400 0 0 0 VCCD
+port 5 nsew
 flabel metal1 s -1196 -6992 -1156 -6965 3 FreeSans 400 0 0 0 VDDA
+port 6 nsew
 flabel metal1 s 18588 1622 18630 1649 3 FreeSans 400 0 0 0 VDDIO_Q
+port 7 nsew
 flabel metal1 s -92 1500 -48 1530 3 FreeSans 400 0 0 0 VSSA
+port 8 nsew
 flabel metal1 s -2192 -5005 -2151 -4974 3 FreeSans 400 0 0 0 VSWITCH
+port 9 nsew
 flabel metal1 s -1676 -6130 -1647 -6089 3 FreeSans 400 90 0 0 AMUX_EN_VDDA_H
+port 10 nsew
 flabel metal1 s -1337 -6007 -1307 -5968 3 FreeSans 400 90 0 0 AMUX_EN_VDDA_H_N
+port 11 nsew
 flabel metal1 s 18573 171 18618 202 3 FreeSans 400 0 0 0 AMUX_EN_VDDIO_H
+port 12 nsew
 flabel metal1 s 20309 78 20365 125 3 FreeSans 400 0 0 0 AMUX_EN_VDDIO_H_N
+port 13 nsew
 flabel metal1 s 747 -106 798 -49 3 FreeSans 400 90 0 0 AMUX_EN_VSWITCH_H
+port 14 nsew
 flabel metal1 s 382 -100 420 -47 3 FreeSans 400 90 0 0 AMUX_EN_VSWITCH_H_N
+port 15 nsew
 flabel metal1 s 6012 428 6053 459 3 FreeSans 400 0 0 0 VSWITCH
+port 9 nsew
 flabel metal1 s -2986 -6971 -2942 -6941 3 FreeSans 400 0 0 0 VSSA
+port 8 nsew
 flabel comment s -1203 -99 -1203 -99 0 FreeSans 280 0 0 0 HLD_H
 flabel comment s -1199 -24 -1199 -24 0 FreeSans 280 0 0 0 RST_H
 flabel comment s -1419 -318 -1419 -318 0 FreeSans 280 0 0 0 HLD_H

@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729579
+timestamp 1640697996
 << nwell >>
 rect -66 377 834 897
 << pwell >>
-rect 0 -17 768 17
+rect 10 43 764 289
+rect -26 -43 794 43
 << locali >>
 rect 375 652 409 751
 rect 305 435 409 652
@@ -137,30 +138,32 @@ rlabel locali s 25 307 110 373 6 B1
 port 3 nsew signal input
 rlabel locali s 217 307 319 350 6 B2
 port 4 nsew signal input
-rlabel locali s 375 652 409 751 6 Y
-port 9 nsew signal output
-rlabel locali s 305 435 409 652 6 Y
-port 9 nsew signal output
-rlabel locali s 305 420 359 435 6 Y
-port 9 nsew signal output
-rlabel locali s 147 386 359 420 6 Y
-port 9 nsew signal output
-rlabel locali s 147 271 181 386 6 Y
-port 9 nsew signal output
-rlabel locali s 147 123 254 271 6 Y
-port 9 nsew signal output
 rlabel metal1 s 0 51 768 125 6 VGND
 port 5 nsew ground bidirectional
-rlabel pwell s 0 -17 768 17 8 VNB
-port 6 nsew ground bidirectional
 rlabel metal1 s 0 -23 768 23 8 VNB
 port 6 nsew ground bidirectional
-rlabel nwell s -66 377 834 897 6 VPB
-port 7 nsew power bidirectional
+rlabel pwell s -26 -43 794 43 8 VNB
+port 6 nsew ground bidirectional
+rlabel pwell s 10 43 764 289 6 VNB
+port 6 nsew ground bidirectional
 rlabel metal1 s 0 791 768 837 6 VPB
+port 7 nsew power bidirectional
+rlabel nwell s -66 377 834 897 6 VPB
 port 7 nsew power bidirectional
 rlabel metal1 s 0 689 768 763 6 VPWR
 port 8 nsew power bidirectional
+rlabel locali s 147 123 254 271 6 Y
+port 9 nsew signal output
+rlabel locali s 147 271 181 386 6 Y
+port 9 nsew signal output
+rlabel locali s 147 386 359 420 6 Y
+port 9 nsew signal output
+rlabel locali s 305 420 359 435 6 Y
+port 9 nsew signal output
+rlabel locali s 305 435 409 652 6 Y
+port 9 nsew signal output
+rlabel locali s 375 652 409 751 6 Y
+port 9 nsew signal output
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
@@ -168,6 +171,6 @@ string FIXED_BBOX 0 0 768 814
 string LEFsymmetry X Y
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
-string GDS_END 307386
-string GDS_START 297598
+string GDS_END 386136
+string GDS_START 376348
 << end >>

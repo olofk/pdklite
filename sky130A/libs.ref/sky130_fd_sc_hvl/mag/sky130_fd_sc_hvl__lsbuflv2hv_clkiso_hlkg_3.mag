@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 6252 2911
+timestamp 1640697995
 << nwell >>
 rect -66 1151 102 1251
 rect -66 419 3079 1151
@@ -11,8 +9,14 @@ rect -66 377 102 419
 rect 1883 341 3079 419
 rect 3479 409 4339 1219
 << pwell >>
-rect 0 1611 4992 1645
-rect 0 -17 4992 17
+rect -26 1585 5018 1671
+rect 449 1353 2439 1585
+rect 2748 1353 3006 1585
+rect 183 1217 3006 1353
+rect 3534 1303 4297 1585
+rect 183 43 1175 359
+rect 3534 43 4012 325
+rect -26 -43 5018 43
 << scnmos >>
 rect 3617 1329 3647 1477
 rect 3703 1329 3733 1477
@@ -2881,12 +2885,444 @@ flabel comment s 2152 1340 2152 1340 0 FreeSans 300 0 0 0 D
 flabel comment s 2388 1340 2388 1340 0 FreeSans 300 0 0 0 S
 flabel comment s 2877 920 2877 920 0 FreeSans 200 0 0 0 I36
 flabel comment s 2877 1306 2877 1306 0 FreeSans 200 0 0 0 I35
+rlabel viali s 4032 614 4066 648 1 LVPWR
+port 3 nsew power bidirectional
+rlabel viali s 3960 614 3994 648 1 LVPWR
+port 3 nsew power bidirectional
+rlabel metal1 s 14 604 4978 661 1 LVPWR
+port 3 nsew power bidirectional
+rlabel locali s 367 97 413 331 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 367 51 485 97 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3924 125 3990 245 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3742 125 3808 245 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3556 125 3622 235 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3556 79 3990 125 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 4225 1325 4275 1503 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 4037 1325 4087 1503 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3924 1325 3990 1503 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3738 1383 3804 1503 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3556 1503 4275 1549 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 3556 1383 3622 1503 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 679 97 725 331 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 607 51 725 97 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 945 97 991 331 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 909 51 1027 97 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 4236 1509 4270 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 4140 1509 4174 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 4044 1509 4078 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3948 1509 3982 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3948 85 3982 119 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3852 1509 3886 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3852 85 3886 119 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3756 1509 3790 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3756 85 3790 119 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3660 1509 3694 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3660 85 3694 119 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3564 1509 3598 1543 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 3564 85 3598 119 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2911 1520 2945 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2815 1520 2849 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2718 1520 2752 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2623 1520 2657 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2527 1520 2561 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2431 1520 2465 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2335 1520 2369 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2239 1520 2273 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2143 1520 2177 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 2047 1520 2081 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1951 1520 1985 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1855 1520 1889 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1759 1520 1793 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1663 1520 1697 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1567 1520 1601 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1471 1520 1505 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1375 1520 1409 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1279 1520 1313 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1183 1520 1217 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 1087 1520 1121 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 991 1520 1025 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 987 57 1021 91 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 915 57 949 91 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 895 1520 929 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 799 1520 833 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 703 1520 737 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 685 57 719 91 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 613 57 647 91 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 607 1520 641 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 511 1520 545 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 445 57 479 91 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 415 1520 449 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 373 57 407 91 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 319 1520 353 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel viali s 223 1520 257 1554 1 VGND
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 51 4992 125 1 VGND
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 1503 4992 1577 1 VGND
+port 4 nsew ground bidirectional
+rlabel locali s 0 1611 4992 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4927 1611 4961 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4927 -17 4961 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4831 1611 4865 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4831 -17 4865 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4735 1611 4769 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4735 -17 4769 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4639 1611 4673 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4639 -17 4673 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4543 1611 4577 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4543 -17 4577 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4447 1611 4481 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4447 -17 4481 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4351 1611 4385 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4351 -17 4385 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4255 1611 4289 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4255 -17 4289 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4159 1611 4193 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4159 -17 4193 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4063 1611 4097 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 4063 -17 4097 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3967 1611 4001 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3967 -17 4001 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3871 1611 3905 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3871 -17 3905 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3775 1611 3809 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3775 -17 3809 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3679 1611 3713 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3679 -17 3713 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3583 1611 3617 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3583 -17 3617 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3487 1611 3521 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3487 -17 3521 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3391 1611 3425 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3391 -17 3425 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3295 1611 3329 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3295 -17 3329 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3199 1611 3233 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3199 -17 3233 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3103 1611 3137 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3103 -17 3137 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3007 1611 3041 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 3007 -17 3041 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2911 1611 2945 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2911 -17 2945 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2815 1611 2849 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2815 -17 2849 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2719 1611 2753 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2719 -17 2753 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2623 1611 2657 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2623 -17 2657 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2527 1611 2561 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2527 -17 2561 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2431 1611 2465 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2431 -17 2465 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2335 1611 2369 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2335 -17 2369 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2239 1611 2273 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2239 -17 2273 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2143 1611 2177 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2143 -17 2177 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2047 1611 2081 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 2047 -17 2081 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1951 1611 1985 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1951 -17 1985 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1855 1611 1889 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1855 -17 1889 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1759 1611 1793 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1759 -17 1793 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1663 1611 1697 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1663 -17 1697 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1567 1611 1601 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1567 -17 1601 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1471 1611 1505 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1471 -17 1505 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1375 1611 1409 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1375 -17 1409 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1279 1611 1313 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1279 -17 1313 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1183 1611 1217 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1183 -17 1217 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1087 1611 1121 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 1087 -17 1121 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 991 1611 1025 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 991 -17 1025 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 895 1611 929 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 895 -17 929 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 799 1611 833 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 799 -17 833 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 703 1611 737 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 703 -17 737 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 607 1611 641 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 607 -17 641 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 511 1611 545 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 511 -17 545 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 415 1611 449 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 415 -17 449 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 319 1611 353 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 319 -17 353 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 223 1611 257 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 223 -17 257 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 127 1611 161 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 127 -17 161 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 31 1611 65 1645 1 VNB
+port 5 nsew ground bidirectional
+rlabel viali s 31 -17 65 17 1 VNB
+port 5 nsew ground bidirectional
+rlabel metal1 s 0 -23 4992 23 1 VNB
+port 5 nsew ground bidirectional
+rlabel metal1 s 0 1605 4992 1651 1 VNB
+port 5 nsew ground bidirectional
+rlabel locali s 1827 797 1985 831 1 VPB
+port 6 nsew power bidirectional
+rlabel viali s 1925 797 1959 831 1 VPB
+port 6 nsew power bidirectional
+rlabel viali s 1853 797 1887 831 1 VPB
+port 6 nsew power bidirectional
+rlabel viali s 103 797 137 831 1 VPB
+port 6 nsew power bidirectional
+rlabel viali s 31 797 65 831 1 VPB
+port 6 nsew power bidirectional
+rlabel metal1 s 0 791 4992 837 1 VPB
+port 6 nsew power bidirectional
+rlabel locali s 2666 749 2710 1007 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2666 403 2710 703 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2629 703 2747 749 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2354 749 2398 1007 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2354 403 2398 703 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2317 703 2435 749 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2042 1007 2710 1051 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2042 749 2086 1007 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2042 403 2086 703 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2005 703 2123 749 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2931 925 2977 1011 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2931 853 2977 879 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 2859 879 2977 925 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 679 925 725 1023 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 679 481 725 879 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 643 879 761 925 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 945 703 1062 751 1 VPWR
+port 7 nsew power bidirectional
+rlabel locali s 945 481 991 703 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2937 885 2971 919 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2865 885 2899 919 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2707 709 2741 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2635 709 2669 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2395 709 2429 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2323 709 2357 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2083 709 2117 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 2011 709 2045 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 1022 709 1056 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 950 709 984 743 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 721 885 755 919 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 649 885 683 919 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 409 885 443 919 1 VPWR
+port 7 nsew power bidirectional
+rlabel viali s 337 885 371 919 1 VPWR
+port 7 nsew power bidirectional
+rlabel metal1 s 0 689 4992 763 1 VPWR
+port 7 nsew power bidirectional
+rlabel metal1 s 0 865 4992 939 1 VPWR
+port 7 nsew power bidirectional
 << properties >>
 string LEFsite unithvdbl
 string LEFclass CORE
 string FIXED_BBOX 0 0 4992 1628
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 1239600
-string GDS_START 1186606
+string GDS_END 531566
+string GDS_START 478572
 << end >>

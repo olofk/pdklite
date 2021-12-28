@@ -1,13 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1298 -1308 1850 1852
+timestamp 1640697977
 << nwell >>
 rect -38 261 590 582
 << pwell >>
-rect 30 -17 64 17
+rect 362 163 551 203
+rect 1 27 551 163
+rect 30 -17 64 27
+rect 362 21 551 27
 << scnmos >>
 rect 79 53 109 137
 rect 259 53 289 137
@@ -246,13 +247,17 @@ port 4 nsew ground bidirectional
 flabel nwell s 30 527 64 561 0 FreeSans 200 0 0 0 VPB
 port 5 nsew power bidirectional
 rlabel comment s 0 0 0 0 4 lpflow_inputiso1n_1
+rlabel metal1 s 0 -48 552 48 1 VGND
+port 3 nsew ground bidirectional abutment
+rlabel metal1 s 0 496 552 592 1 VPWR
+port 6 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
 string FIXED_BBOX 0 0 552 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 3585284
-string GDS_START 3580378
+string GDS_END 2366566
+string GDS_START 2361660
 string path 0.000 0.000 13.800 0.000 
 << end >>

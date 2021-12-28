@@ -1,15 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1260 -1396 17264 41260
-<< ndiff >>
-rect 1089 37045 1123 37126
-rect 2323 37045 2357 37126
-<< pdiff >>
-rect 1089 37126 1123 37152
-rect 2323 37126 2357 37152
+timestamp 1640697850
 << metal1 >>
 tri 3115 39968 3147 40000 se
 rect 2697 39916 2703 39968
@@ -891,36 +883,54 @@ rect 15777 36955 15782 37011
 rect 15716 35292 15782 36955
 rect 15848 35292 15914 37912
 use sky130_fd_io__gpiov2_ictl_logic  sky130_fd_io__gpiov2_ictl_logic_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 12264 0 -1 1116
-box -34 24 3321 1116
+box -34 10 3321 1116
 use sky130_fd_io__gpiov2_buf_localesd  sky130_fd_io__gpiov2_buf_localesd_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 3161 0 1 36196
 box 146 0 3161 3800
 use sky130_fd_io__gpiov2_ibuf_se  sky130_fd_io__gpiov2_ibuf_se_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3079 0 1 36000
 box -467 -220 12925 4000
 << labels >>
 flabel metal3 s 15726 35819 15775 36078 3 FreeSans 200 0 0 0 ENABLE_VDDIO_LV
+port 1 nsew
 flabel metal2 s 824 35975 904 36127 3 FreeSans 400 180 0 0 OUT_H
+port 2 nsew
 flabel metal2 s 1042 4136 1042 4136 0 FreeSans 200 90 0 0 MODE_VCCHIB_N
+port 3 nsew
 flabel metal1 s 10245 704 10245 704 0 FreeSans 200 90 0 0 MODE_VCCHIB_N
+port 3 nsew
 flabel metal1 s 15429 39770 15848 39986 3 FreeSans 400 180 0 0 VCCHIB
+port 4 nsew
 flabel metal1 s 3342 39782 3799 39961 3 FreeSans 400 180 0 0 VDDIO_Q
+port 5 nsew
 flabel metal1 s 911 35817 1231 36038 3 FreeSans 400 180 0 0 VSSD
+port 6 nsew
 flabel metal1 s 2702 36238 2938 36301 3 FreeSans 400 180 0 0 PAD
+port 7 nsew
 flabel metal1 s 15473 37934 15595 38006 3 FreeSans 400 180 0 0 OUT
+port 8 nsew
 flabel metal1 s 12069 729 12160 763 3 FreeSans 200 0 0 0 DM_H_N[1]
+port 9 nsew
 flabel metal1 s 11816 725 11876 762 3 FreeSans 200 0 0 0 DM_H_N[0]
+port 10 nsew
 flabel metal1 s 11416 728 11524 760 3 FreeSans 200 0 0 0 DM_H_N[2]
+port 11 nsew
 flabel metal1 s 10972 361 11001 477 3 FreeSans 200 0 0 0 INP_DIS_H_N
+port 12 nsew
 flabel metal1 s 10320 642 10351 759 3 FreeSans 200 0 0 0 IB_MODE_SEL_H
+port 13 nsew
 flabel metal1 s 9786 678 9818 789 3 FreeSans 200 0 0 0 IB_MODE_SEL_H_N
+port 14 nsew
 flabel metal1 s 9330 687 9363 788 3 FreeSans 200 0 0 0 VTRIP_SEL_H_N
+port 15 nsew
 flabel metal1 s 9334 910 9654 1086 3 FreeSans 400 180 0 0 VSSD
+port 6 nsew
 flabel metal1 s 10366 69 10823 248 3 FreeSans 400 180 0 0 VDDIO_Q
+port 5 nsew
 flabel comment s 13712 38624 13712 38624 0 FreeSans 440 0 0 0 LV_NET
 flabel comment s 1148 35565 1148 35565 0 FreeSans 200 90 0 0 TRIPSEL_I_H_N
 flabel comment s 1084 35565 1084 35565 0 FreeSans 200 90 0 0 VTRIP_SEL_H
@@ -931,6 +941,6 @@ flabel comment s 15740 35546 15740 35546 0 FreeSans 400 90 0 0 ENABLE_VDDIO_LV
 flabel comment s 870 35708 870 35708 0 FreeSans 400 0 0 0 OUT_H
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 14022772
-string GDS_START 14001574
+string GDS_END 3725210
+string GDS_START 3704012
 << end >>

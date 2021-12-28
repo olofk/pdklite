@@ -1,14 +1,16 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1386 -1636 8432 3021
+timestamp 1640697850
 << nwell >>
 rect 6630 124 6846 534
 rect 6952 124 7168 534
 rect 6630 96 7168 124
 rect 6654 -370 7086 96
+<< pwell >>
+rect 18 1429 714 1681
+rect 72 1328 714 1429
+rect 72 10 724 1328
 << mvnmos >>
 rect 97 1455 197 1655
 rect 379 1455 479 1655
@@ -1020,35 +1022,35 @@ rect 402 -376 6774 -344
 rect 6826 -376 6838 -324
 rect 6890 -376 6896 -324
 use sky130_fd_pr__nfet_01v8__example_55959141808474  sky130_fd_pr__nfet_01v8__example_55959141808474_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 97 0 -1 1655
 box -28 0 128 97
 use sky130_fd_pr__nfet_01v8__example_55959141808485  sky130_fd_pr__nfet_01v8__example_55959141808485_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 379 0 -1 1655
 box -28 0 284 97
 use sky130_fd_pr__nfet_01v8__example_55959141808484  sky130_fd_pr__nfet_01v8__example_55959141808484_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 698 1 0 89
 box -28 0 128 267
 use sky130_fd_pr__nfet_01v8__example_55959141808483  sky130_fd_pr__nfet_01v8__example_55959141808483_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 698 1 0 369
 box -28 0 908 267
 use sky130_fd_pr__pfet_01v8__example_55959141808482  sky130_fd_pr__pfet_01v8__example_55959141808482_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 7018 -1 0 415
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808482  sky130_fd_pr__pfet_01v8__example_55959141808482_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6696 -1 0 415
 box -28 0 228 29
 use sky130_fd_pr__pfet_01v8__example_55959141808481  sky130_fd_pr__pfet_01v8__example_55959141808481_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6720 -1 0 -151
 box -28 0 128 131
 use sky130_fd_pr__pfet_01v8__example_55959141808481  sky130_fd_pr__pfet_01v8__example_55959141808481_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 6720 1 0 -95
 box -28 0 128 131
 << labels >>
@@ -1056,6 +1058,6 @@ flabel comment s 571 -38 571 -38 0 FreeSans 400 90 0 0 FBK
 flabel comment s 391 -54 391 -54 0 FreeSans 400 90 0 0 OUT_H_N
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 48699514
-string GDS_START 48684210
+string GDS_END 48780194
+string GDS_START 48764890
 << end >>

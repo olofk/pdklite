@@ -24,7 +24,7 @@ set ::env(FP_WELLTAP_CELL) "sky130_fd_sc_ms__tapvpwrvgnd_1"
 set ::env(FP_ENDCAP_CELL) "sky130_fd_sc_ms__decap_4"
 
 # defaults (can be overridden by designs):
-set ::env(SYNTH_DRIVING_CELL) "sky130_fd_sc_ms__inv_8"
+set ::env(SYNTH_DRIVING_CELL) "sky130_fd_sc_ms__inv_2"
 #capacitance : 0.017653;
 set ::env(SYNTH_DRIVING_CELL_PIN) "Y"
 # update these
@@ -59,4 +59,5 @@ set ::env(CLK_BUFFER_INPUT) A
 set ::env(CLK_BUFFER_OUTPUT) X
 set ::env(CTS_CLK_BUFFER_LIST) "sky130_fd_sc_ms__clkbuf_2 sky130_fd_sc_ms__clkbuf_4 sky130_fd_sc_ms__clkbuf_8"
 set ::env(CTS_MAX_CAP) 1.53169
+set ::env(DEFAULT_MAX_TRAN) 0.75
 set ::env(FP_PDN_RAIL_WIDTH) 0.48

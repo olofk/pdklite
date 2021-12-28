@@ -1,13 +1,15 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 5070 2157
+timestamp 1640697995
 << nwell >>
 rect -66 377 3810 897
 << pwell >>
-rect 0 -17 3744 17
+rect 1022 223 1280 233
+rect 1022 217 1848 223
+rect 2173 217 3740 283
+rect 4 43 3740 217
+rect -26 -43 3770 43
 << mvnmos >>
 rect 83 107 183 191
 rect 239 107 339 191
@@ -1518,12 +1520,46 @@ flabel locali s 2815 242 2849 276 0 FreeSans 340 0 0 0 SET_B
 port 5 nsew signal input
 flabel locali s 2815 316 2849 350 0 FreeSans 340 0 0 0 SET_B
 port 5 nsew signal input
+rlabel locali s 2067 73 2257 199 1 VGND
+port 6 nsew ground bidirectional
+rlabel locali s 2940 73 3118 265 1 VGND
+port 6 nsew ground bidirectional
+rlabel locali s 3419 73 3609 265 1 VGND
+port 6 nsew ground bidirectional
+rlabel locali s 684 73 874 199 1 VGND
+port 6 nsew ground bidirectional
+rlabel locali s 1040 73 1090 211 1 VGND
+port 6 nsew ground bidirectional
+rlabel locali s 1640 73 1830 185 1 VGND
+port 6 nsew ground bidirectional
+rlabel metal1 s 0 51 3744 125 1 VGND
+port 6 nsew ground bidirectional
+rlabel metal1 s 0 -23 3744 23 1 VNB
+port 7 nsew ground bidirectional
+rlabel metal1 s 0 791 3744 837 1 VPB
+port 8 nsew power bidirectional
+rlabel locali s 2167 657 2357 751 1 VPWR
+port 9 nsew power bidirectional
+rlabel locali s 2653 535 2843 741 1 VPWR
+port 9 nsew power bidirectional
+rlabel locali s 3163 609 3281 741 1 VPWR
+port 9 nsew power bidirectional
+rlabel locali s 3427 471 3616 741 1 VPWR
+port 9 nsew power bidirectional
+rlabel locali s 684 561 863 741 1 VPWR
+port 9 nsew power bidirectional
+rlabel locali s 1109 525 1145 741 1 VPWR
+port 9 nsew power bidirectional
+rlabel locali s 1699 585 1889 741 1 VPWR
+port 9 nsew power bidirectional
+rlabel metal1 s 0 689 3744 763 1 VPWR
+port 9 nsew power bidirectional
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
 string FIXED_BBOX 0 0 3744 814
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 664840
-string GDS_START 629888
+string GDS_END 605350
+string GDS_START 570398
 << end >>

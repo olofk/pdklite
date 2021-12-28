@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729485
+timestamp 1640697864
 << metal4 >>
 rect 0 35957 287 40800
 rect 0 14807 529 19800
@@ -69,7 +69,6 @@ rect 374 3707 9467 4557
 rect 0 3587 9467 3707
 rect 837 2497 9467 3587
 rect 0 2377 9467 2497
-tri 0 1127 80 1207 ne
 rect 80 1127 407 1207
 rect 550 1127 9467 2377
 rect 0 334 9467 1127
@@ -131,7 +130,6 @@ rect 640 5667 9227 5751
 rect 625 4457 9227 5667
 rect 614 3807 9227 4457
 rect 1077 2277 9227 3807
-tri 0 907 320 1227 ne
 rect 320 907 427 1227
 rect 790 907 9227 2277
 rect 0 574 9227 907
@@ -151,8 +149,6 @@ rlabel metal4 s 9673 0 10269 4175 6 AMUXBUS_B
 port 2 nsew signal bidirectional
 rlabel metal5 s 0 10347 4631 12147 6 VSSA
 port 3 nsew ground bidirectional
-rlabel metal5 s 126 11204 128 11206 6 VSSA
-port 3 nsew ground bidirectional
 rlabel metal5 s 0 8167 267 8817 6 VSSA
 port 3 nsew ground bidirectional
 rlabel metal4 s 0 10347 3915 10413 6 VSSA
@@ -166,8 +162,6 @@ port 3 nsew ground bidirectional
 rlabel metal5 s 7368 0 8017 254 6 VSSA
 port 3 nsew ground bidirectional
 rlabel metal5 s 9547 0 11347 5431 6 VSSA
-port 3 nsew ground bidirectional
-rlabel metal5 s 10257 126 10259 128 6 VSSA
 port 3 nsew ground bidirectional
 rlabel metal4 s 11281 0 11347 5435 6 VSSA
 port 3 nsew ground bidirectional
@@ -239,15 +233,11 @@ rlabel metal4 s 0 5967 320 6897 6 VSSIO
 port 10 nsew ground bidirectional
 rlabel metal4 s 0 35957 287 40800 6 VSSIO
 port 10 nsew ground bidirectional
-rlabel metal4 s 126 38973 128 38975 6 VSSIO
-port 10 nsew ground bidirectional
 rlabel metal5 s 5187 0 6077 254 6 VSSIO
 port 10 nsew ground bidirectional
 rlabel metal4 s 5167 0 6097 254 6 VSSIO
 port 10 nsew ground bidirectional
 rlabel metal4 s 35157 0 40000 254 6 VSSIO
-port 10 nsew ground bidirectional
-rlabel metal4 s 38173 126 38175 128 6 VSSIO
 port 10 nsew ground bidirectional
 rlabel metal5 s 0 9137 295 10027 6 VSSD
 port 11 nsew ground bidirectional
@@ -270,6 +260,6 @@ string LEFclass ENDCAP TOPRIGHT
 string FIXED_BBOX 0 0 40000 40800
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_ef_io.gds
-string GDS_END 1673972
-string GDS_START 1661258
+string GDS_END 2435822
+string GDS_START 2423108
 << end >>

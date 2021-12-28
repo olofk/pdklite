@@ -1,24 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729575
+timestamp 1640697980
 << nwell >>
 rect -38 261 958 582
 << pwell >>
-rect 30 -17 64 17
+rect 1 21 891 203
+rect 30 -17 64 21
 << locali >>
-rect 283 325 333 425
-rect 563 325 613 425
-rect 283 289 613 325
-rect 40 215 197 257
-rect 231 215 385 255
-rect 419 181 468 289
-rect 511 215 645 255
-rect 679 215 833 257
-rect 107 145 468 181
-rect 107 129 173 145
-rect 275 129 341 145
-<< obsli1 >>
 rect 0 527 29 561
 rect 63 527 121 561
 rect 155 527 213 561
@@ -30,26 +19,21 @@ rect 615 527 673 561
 rect 707 527 765 561
 rect 799 527 857 561
 rect 891 527 920 561
-rect 30 325 81 493
 rect 115 359 165 527
-rect 199 459 417 493
-rect 199 325 249 459
-rect 30 291 249 325
-rect 367 359 417 459
-rect 479 459 697 493
-rect 479 359 529 459
-rect 647 325 697 459
+rect 283 325 333 425
+rect 563 325 613 425
+rect 283 289 613 325
 rect 731 359 781 527
-rect 815 325 866 493
-rect 647 291 866 325
-rect 18 95 73 181
-rect 502 145 873 181
-rect 502 95 536 145
-rect 18 61 536 95
+rect 40 215 197 257
+rect 231 215 385 255
+rect 419 181 468 289
+rect 511 215 645 255
+rect 679 215 833 257
+rect 107 145 468 181
+rect 107 129 173 145
+rect 275 129 341 145
 rect 571 17 605 111
-rect 639 51 705 145
 rect 739 17 773 111
-rect 807 51 873 145
 rect 0 -17 29 17
 rect 63 -17 121 17
 rect 155 -17 213 17
@@ -61,7 +45,7 @@ rect 615 -17 673 17
 rect 707 -17 765 17
 rect 799 -17 857 17
 rect 891 -17 920 17
-<< obsli1c >>
+<< viali >>
 rect 29 527 63 561
 rect 121 527 155 561
 rect 213 527 247 561
@@ -82,6 +66,23 @@ rect 581 -17 615 17
 rect 673 -17 707 17
 rect 765 -17 799 17
 rect 857 -17 891 17
+<< obsli1 >>
+rect 30 325 81 493
+rect 199 459 417 493
+rect 199 325 249 459
+rect 30 291 249 325
+rect 367 359 417 459
+rect 479 459 697 493
+rect 479 359 529 459
+rect 647 325 697 459
+rect 815 325 866 493
+rect 647 291 866 325
+rect 18 95 73 181
+rect 502 145 873 181
+rect 502 95 536 145
+rect 18 61 536 95
+rect 639 51 705 145
+rect 807 51 873 145
 << metal1 >>
 rect 0 561 920 592
 rect 0 527 29 561
@@ -118,28 +119,82 @@ rlabel locali s 40 215 197 257 6 B1
 port 3 nsew signal input
 rlabel locali s 231 215 385 255 6 B2
 port 4 nsew signal input
-rlabel locali s 563 325 613 425 6 Y
-port 9 nsew signal output
-rlabel locali s 419 181 468 289 6 Y
-port 9 nsew signal output
-rlabel locali s 283 325 333 425 6 Y
-port 9 nsew signal output
-rlabel locali s 283 289 613 325 6 Y
-port 9 nsew signal output
-rlabel locali s 275 129 341 145 6 Y
-port 9 nsew signal output
-rlabel locali s 107 145 468 181 6 Y
-port 9 nsew signal output
-rlabel locali s 107 129 173 145 6 Y
-port 9 nsew signal output
 rlabel metal1 s 0 -48 920 48 8 VGND
 port 5 nsew ground bidirectional abutment
-rlabel pwell s 30 -17 64 17 8 VNB
+rlabel viali s 857 -17 891 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 765 -17 799 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 673 -17 707 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 581 -17 615 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 489 -17 523 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 397 -17 431 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 305 -17 339 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 213 -17 247 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 121 -17 155 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel viali s 29 -17 63 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel locali s 0 -17 920 17 8 VGND
+port 5 nsew ground bidirectional abutment
+rlabel locali s 739 17 773 111 6 VGND
+port 5 nsew ground bidirectional abutment
+rlabel locali s 571 17 605 111 6 VGND
+port 5 nsew ground bidirectional abutment
+rlabel pwell s 30 -17 64 21 6 VNB
+port 6 nsew ground bidirectional
+rlabel pwell s 1 21 891 203 6 VNB
 port 6 nsew ground bidirectional
 rlabel nwell s -38 261 958 582 6 VPB
 port 7 nsew power bidirectional
 rlabel metal1 s 0 496 920 592 6 VPWR
 port 8 nsew power bidirectional abutment
+rlabel viali s 857 527 891 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 765 527 799 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 673 527 707 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 581 527 615 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 489 527 523 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 397 527 431 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 305 527 339 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 213 527 247 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 121 527 155 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel viali s 29 527 63 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel locali s 731 359 781 527 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel locali s 115 359 165 527 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel locali s 0 527 920 561 6 VPWR
+port 8 nsew power bidirectional abutment
+rlabel locali s 275 129 341 145 6 Y
+port 9 nsew signal output
+rlabel locali s 107 129 173 145 6 Y
+port 9 nsew signal output
+rlabel locali s 107 145 468 181 6 Y
+port 9 nsew signal output
+rlabel locali s 419 181 468 289 6 Y
+port 9 nsew signal output
+rlabel locali s 283 289 613 325 6 Y
+port 9 nsew signal output
+rlabel locali s 563 325 613 425 6 Y
+port 9 nsew signal output
+rlabel locali s 283 325 333 425 6 Y
+port 9 nsew signal output
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
@@ -147,6 +202,6 @@ string FIXED_BBOX 0 0 920 544
 string LEFsymmetry X Y R90
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
-string GDS_END 2933104
-string GDS_START 2925228
+string GDS_END 1406564
+string GDS_START 1398688
 << end >>

@@ -1,13 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729571
-<< checkpaint >>
-rect -1512 -1494 2595 2038
+timestamp 1640697977
 << nwell >>
 rect -38 261 1142 582
 << pwell >>
-rect 30 -17 64 17
+rect 1 21 1027 203
+rect 30 -17 64 21
 << scnmos >>
 rect 79 47 109 177
 rect 163 47 193 177
@@ -670,10 +669,7 @@ rect 986 -179 1222 -32
 << metal5 >>
 rect 232 432 552 765
 rect 872 723 1335 778
-rect 872 635 986 723
-rect 872 595 892 615
-rect 912 575 986 635
-rect 872 487 986 575
+rect 872 487 986 723
 rect 1222 487 1335 723
 rect 872 432 1335 487
 rect -252 390 552 432
@@ -683,19 +679,9 @@ rect 528 154 552 390
 rect -252 112 552 154
 rect 232 -221 552 112
 rect 872 57 1335 112
-rect 872 -31 986 57
-rect 872 -71 892 -51
-rect 912 -91 986 -31
-rect 872 -179 986 -91
+rect 872 -179 986 57
 rect 1222 -179 1335 57
 rect 872 -234 1335 -179
-<< rm5 >>
-rect 872 615 912 635
-rect 892 595 912 615
-rect 872 575 912 595
-rect 872 -51 912 -31
-rect 892 -71 912 -51
-rect 872 -91 912 -71
 << labels >>
 flabel metal3 s -98 206 -34 270 0 FreeSans 600 0 0 0 X
 port 6 nsew signal output
@@ -718,18 +704,166 @@ port 2 nsew ground bidirectional abutment
 flabel metal1 s 30 527 64 561 0 FreeSans 200 0 0 0 VPWR
 port 5 nsew power bidirectional abutment
 rlabel comment s 0 0 0 0 4 probec_p_8
+rlabel via4 s 330 192 490 352 1 X
+port 6 nsew signal output
+rlabel via4 s -190 192 -30 352 1 X
+port 6 nsew signal output
+rlabel via3 s 475 218 515 258 1 X
+port 6 nsew signal output
+rlabel via3 s 395 218 435 258 1 X
+port 6 nsew signal output
+rlabel via3 s -45 218 -5 258 1 X
+port 6 nsew signal output
+rlabel via3 s -125 218 -85 258 1 X
+port 6 nsew signal output
+rlabel via2 s 475 218 515 258 1 X
+port 6 nsew signal output
+rlabel via2 s 395 218 435 258 1 X
+port 6 nsew signal output
+rlabel via1 s 485 223 515 253 1 X
+port 6 nsew signal output
+rlabel via1 s 421 223 451 253 1 X
+port 6 nsew signal output
+rlabel viali s 933 221 967 255 1 X
+port 6 nsew signal output
+rlabel viali s 861 221 895 255 1 X
+port 6 nsew signal output
+rlabel metal1 s 849 252 979 261 1 X
+port 6 nsew signal output
+rlabel metal1 s 849 215 979 224 1 X
+port 6 nsew signal output
+rlabel metal1 s 404 252 532 264 1 X
+port 6 nsew signal output
+rlabel metal1 s 404 224 979 252 1 X
+port 6 nsew signal output
+rlabel metal1 s 404 212 532 224 1 X
+port 6 nsew signal output
+rlabel metal2 s 378 210 532 266 1 X
+port 6 nsew signal output
+rlabel metal3 s -143 206 13 270 1 X
+port 6 nsew signal output
+rlabel metal3 s 377 205 533 271 1 X
+port 6 nsew signal output
+rlabel metal4 s -228 154 8 390 1 X
+port 6 nsew signal output
+rlabel metal4 s 292 154 528 390 1 X
+port 6 nsew signal output
 rlabel metal5 s 232 432 552 765 1 X
 port 6 nsew signal output
 rlabel metal5 s 232 -221 552 112 1 X
 port 6 nsew signal output
 rlabel metal5 s -252 112 552 432 1 X
 port 6 nsew signal output
+rlabel via4 s 1024 -141 1184 19 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel via3 s 1124 -20 1164 20 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel via3 s 1044 -20 1084 20 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel via2 s 1124 -20 1164 20 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel via2 s 1044 -20 1084 20 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel via1 s 1121 -15 1151 15 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel via1 s 1057 -15 1087 15 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 1041 -17 1075 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 949 -17 983 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 857 -17 891 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 765 -17 799 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 673 -17 707 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 581 -17 615 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 489 -17 523 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 397 -17 431 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 305 -17 339 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 213 -17 247 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 121 -17 155 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel viali s 29 -17 63 17 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal1 s 0 26 1104 48 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal1 s 0 -26 1168 26 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal1 s 0 -48 1104 -26 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal2 s 1027 -28 1181 28 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal3 s 1026 -33 1182 33 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal4 s 986 -179 1222 57 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel metal5 s 872 -234 1335 112 1 VGND
+port 2 nsew ground bidirectional abutment
+rlabel via4 s 1024 525 1184 685 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel via3 s 1124 524 1164 564 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel via3 s 1044 524 1084 564 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel via2 s 1124 524 1164 564 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel via2 s 1044 524 1084 564 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel via1 s 1121 529 1151 559 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel via1 s 1057 529 1087 559 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 1041 527 1075 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 949 527 983 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 857 527 891 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 765 527 799 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 673 527 707 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 581 527 615 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 489 527 523 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 397 527 431 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 305 527 339 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 213 527 247 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 121 527 155 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel viali s 29 527 63 561 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 0 570 1104 592 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 0 518 1168 570 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 0 496 1104 518 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel metal2 s 1027 516 1181 572 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel metal3 s 1026 511 1182 577 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel metal4 s 986 487 1222 723 1 VPWR
+port 5 nsew power bidirectional abutment
+rlabel metal5 s 872 432 1335 778 1 VPWR
+port 5 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
 string LEFclass CORE
 string FIXED_BBOX 0 0 1104 544
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
 string LEFsymmetry X Y R90
-string GDS_END 4108534
-string GDS_START 4095726
+string GDS_END 31774
+string GDS_START 18966
 << end >>

@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -2496 -2439 27004 8745
+timestamp 1640697850
 << nwell >>
 rect -1 766 3131 892
 rect 3149 766 6281 892
@@ -20688,49 +20686,52 @@ rect 20994 367 21019 423
 rect 21075 367 21085 423
 rect 20771 362 21085 367
 use sky130_fd_pr__pfet_01v8__example_55959141808174  sky130_fd_pr__pfet_01v8__example_55959141808174_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 24340 1 0 713
 box -28 0 440 985
 use sky130_fd_pr__pfet_01v8__example_55959141808172  sky130_fd_pr__pfet_01v8__example_55959141808172_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 24340 1 0 1181
 box -28 0 908 985
 use sky130_fd_pr__pfet_01v8__example_55959141808171  sky130_fd_pr__pfet_01v8__example_55959141808171_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 6215 1 0 673
 box -28 0 128 1489
 use sky130_fd_pr__pfet_01v8__example_55959141808171  sky130_fd_pr__pfet_01v8__example_55959141808171_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3065 1 0 673
 box -28 0 128 1489
 use sky130_fd_pr__pfet_01v8__example_55959141808168  sky130_fd_pr__pfet_01v8__example_55959141808168_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 18815 1 0 647
 box -28 0 596 1489
 use sky130_fd_pr__pfet_01v8__example_55959141808168  sky130_fd_pr__pfet_01v8__example_55959141808168_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 21965 1 0 647
 box -28 0 596 1489
 use sky130_fd_pr__pfet_01v8__example_55959141808168  sky130_fd_pr__pfet_01v8__example_55959141808168_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 15665 1 0 647
 box -28 0 596 1489
 use sky130_fd_pr__pfet_01v8__example_55959141808168  sky130_fd_pr__pfet_01v8__example_55959141808168_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 9365 1 0 647
 box -28 0 596 1489
 use sky130_fd_pr__pfet_01v8__example_55959141808168  sky130_fd_pr__pfet_01v8__example_55959141808168_4
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 12515 1 0 647
 box -28 0 596 1489
 use sky130_fd_io__gpio_ovtv2_hotswap_guardrings  sky130_fd_io__gpio_ovtv2_hotswap_guardrings_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 -1236 0 1 -1179
 box 0 0 26980 8664
 << labels >>
 flabel metal3 s 18585 1574 19474 1766 3 FreeSans 200 0 0 0 VCC_IO
+port 1 nsew
 flabel metal3 s 20771 1465 21085 1621 3 FreeSans 200 0 0 0 VPB_DRVR
+port 2 nsew
 flabel metal1 s 128 701 184 747 3 FreeSans 200 0 0 0 PSWG_H
+port 3 nsew
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
 string GDS_END 39593778

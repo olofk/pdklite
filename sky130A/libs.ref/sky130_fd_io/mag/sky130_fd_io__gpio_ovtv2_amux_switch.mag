@@ -1,15 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1293 -844 9951 2170
+timestamp 1640697850
 use sky130_fd_io__gpio_ovtv2_amux_switch_pmos  sky130_fd_io__gpio_ovtv2_amux_switch_pmos_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 8611 0 1 -353
 box -80 769 4262 1263
 use sky130_fd_io__gpio_ovtv2_amux_switch_pmos  sky130_fd_io__gpio_ovtv2_amux_switch_pmos_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 47 0 1 -353
 box -80 769 4262 1263
 << properties >>

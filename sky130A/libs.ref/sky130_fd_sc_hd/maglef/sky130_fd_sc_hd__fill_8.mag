@@ -1,12 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729575
+timestamp 1640697980
 << nwell >>
 rect -38 261 774 582
 << pwell >>
 rect 26 -24 70 10
-<< obsli1 >>
+<< locali >>
 rect 0 527 29 561
 rect 63 527 121 561
 rect 155 527 213 561
@@ -25,7 +25,7 @@ rect 431 -17 489 17
 rect 523 -17 581 17
 rect 615 -17 673 17
 rect 707 -17 736 17
-<< obsli1c >>
+<< viali >>
 rect 29 527 63 561
 rect 121 527 155 561
 rect 213 527 247 561
@@ -68,11 +68,47 @@ rect 0 -48 736 -17
 << labels >>
 rlabel metal1 s 0 -48 736 48 8 VGND
 port 1 nsew ground bidirectional abutment
+rlabel viali s 673 -17 707 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 581 -17 615 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 489 -17 523 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 397 -17 431 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 305 -17 339 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 213 -17 247 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 121 -17 155 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 29 -17 63 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel locali s 0 -17 736 17 8 VGND
+port 1 nsew ground bidirectional abutment
 rlabel pwell s 26 -24 70 10 8 VNB
 port 2 nsew ground bidirectional
 rlabel nwell s -38 261 774 582 6 VPB
 port 3 nsew power bidirectional
 rlabel metal1 s 0 496 736 592 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 673 527 707 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 581 527 615 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 489 527 523 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 397 527 431 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 305 527 339 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 213 527 247 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 121 527 155 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 29 527 63 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel locali s 0 527 736 561 6 VPWR
 port 4 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
@@ -81,6 +117,6 @@ string FIXED_BBOX 0 0 736 544
 string LEFsymmetry X Y R90
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
-string GDS_END 4091302
-string GDS_START 4089178
+string GDS_END 2158216
+string GDS_START 2156092
 << end >>

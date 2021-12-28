@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1340 -491 5522 2523
+timestamp 1640697850
 << nwell >>
 rect -47 769 4217 1263
 << mvpmos >>
@@ -1535,19 +1533,19 @@ rect 4062 842 4081 894
 rect 4133 842 4139 894
 rect 3440 818 4139 842
 use sky130_fd_pr__pfet_01v8__example_55959141808526  sky130_fd_pr__pfet_01v8__example_55959141808526_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 2151 1 0 1044
 box -28 0 128 985
 use sky130_fd_pr__pfet_01v8__example_55959141808526  sky130_fd_pr__pfet_01v8__example_55959141808526_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 2019 1 0 1044
 box -28 0 128 985
 use sky130_fd_pr__pfet_01v8__example_55959141808526  sky130_fd_pr__pfet_01v8__example_55959141808526_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 2019 1 0 888
 box -28 0 128 985
 use sky130_fd_pr__pfet_01v8__example_55959141808526  sky130_fd_pr__pfet_01v8__example_55959141808526_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 2151 1 0 888
 box -28 0 128 985
 << properties >>

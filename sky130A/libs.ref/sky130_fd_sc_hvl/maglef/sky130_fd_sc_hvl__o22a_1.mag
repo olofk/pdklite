@@ -1,11 +1,12 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729579
+timestamp 1640697996
 << nwell >>
 rect -66 377 1122 897
 << pwell >>
-rect 0 -17 1056 17
+rect 4 43 914 283
+rect -26 -43 1082 43
 << locali >>
 rect 25 99 76 751
 rect 284 355 430 411
@@ -178,15 +179,15 @@ rect 929 -17 991 17
 rect 1025 -17 1056 17
 rect 0 -23 1056 -17
 << labels >>
-rlabel locali s 910 280 976 403 6 A1
-port 1 nsew signal input
 rlabel locali s 607 242 742 246 6 A1
 port 1 nsew signal input
 rlabel locali s 521 246 976 280 6 A1
 port 1 nsew signal input
-rlabel locali s 396 314 430 355 6 A1
+rlabel locali s 910 280 976 403 6 A1
 port 1 nsew signal input
 rlabel locali s 396 280 555 314 6 A1
+port 1 nsew signal input
+rlabel locali s 396 314 430 355 6 A1
 port 1 nsew signal input
 rlabel locali s 284 355 430 411 6 A1
 port 1 nsew signal input
@@ -196,20 +197,22 @@ rlabel locali s 466 350 551 424 6 B1
 port 3 nsew signal input
 rlabel locali s 591 316 650 424 6 B2
 port 4 nsew signal input
-rlabel locali s 25 99 76 751 6 X
-port 9 nsew signal output
 rlabel metal1 s 0 51 1056 125 6 VGND
 port 5 nsew ground bidirectional
-rlabel pwell s 0 -17 1056 17 8 VNB
-port 6 nsew ground bidirectional
 rlabel metal1 s 0 -23 1056 23 8 VNB
 port 6 nsew ground bidirectional
-rlabel nwell s -66 377 1122 897 6 VPB
-port 7 nsew power bidirectional
+rlabel pwell s -26 -43 1082 43 8 VNB
+port 6 nsew ground bidirectional
+rlabel pwell s 4 43 914 283 6 VNB
+port 6 nsew ground bidirectional
 rlabel metal1 s 0 791 1056 837 6 VPB
+port 7 nsew power bidirectional
+rlabel nwell s -66 377 1122 897 6 VPB
 port 7 nsew power bidirectional
 rlabel metal1 s 0 689 1056 763 6 VPWR
 port 8 nsew power bidirectional
+rlabel locali s 25 99 76 751 6 X
+port 9 nsew signal output
 << properties >>
 string LEFsite unithv
 string LEFclass CORE
@@ -217,6 +220,6 @@ string FIXED_BBOX 0 0 1056 814
 string LEFsymmetry X Y
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
-string GDS_END 481398
-string GDS_START 468662
+string GDS_END 398928
+string GDS_START 386192
 << end >>

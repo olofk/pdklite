@@ -1,16 +1,16 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729573
-<< checkpaint >>
-rect -1326 -1283 3054 2911
+timestamp 1640697995
 << nwell >>
 rect -66 377 160 1251
 rect 560 377 1085 1027
 rect 1485 377 1794 1251
 << pwell >>
-rect 0 1611 1728 1645
-rect 0 -17 1728 17
+rect -26 1585 1754 1671
+rect 583 217 845 283
+rect 583 43 1045 217
+rect -26 -43 1754 43
 << mvnmos >>
 rect 662 107 762 257
 rect 862 107 962 191
@@ -484,12 +484,118 @@ flabel metal1 s 0 791 1728 837 0 FreeSans 340 0 0 0 VPB
 port 5 nsew power bidirectional
 flabel metal1 s 0 1605 1728 1628 0 FreeSans 340 0 0 0 VNB
 port 4 nsew ground bidirectional
+rlabel viali s 798 615 832 649 1 LOWHVPWR
+port 2 nsew power bidirectional
+rlabel viali s 726 615 760 649 1 LOWHVPWR
+port 2 nsew power bidirectional
+rlabel metal1 s 14 604 1714 661 1 LOWHVPWR
+port 2 nsew power bidirectional
+rlabel viali s 863 79 897 113 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 791 79 825 113 1 VGND
+port 3 nsew ground bidirectional
+rlabel viali s 719 79 753 113 1 VGND
+port 3 nsew ground bidirectional
+rlabel metal1 s 0 51 1728 125 1 VGND
+port 3 nsew ground bidirectional
+rlabel metal1 s 0 1503 1728 1577 1 VGND
+port 3 nsew ground bidirectional
+rlabel locali s 0 1611 1728 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1663 1611 1697 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1663 -17 1697 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1567 1611 1601 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1567 -17 1601 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1471 1611 1505 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1471 -17 1505 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1375 1611 1409 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1375 -17 1409 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1279 1611 1313 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1279 -17 1313 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1183 1611 1217 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1183 -17 1217 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1087 1611 1121 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 1087 -17 1121 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 991 1611 1025 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 991 -17 1025 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 895 1611 929 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 895 -17 929 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 799 1611 833 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 799 -17 833 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 703 1611 737 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 703 -17 737 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 607 1611 641 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 607 -17 641 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 511 1611 545 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 511 -17 545 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 415 1611 449 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 415 -17 449 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 319 1611 353 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 319 -17 353 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 223 1611 257 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 223 -17 257 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 127 1611 161 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 127 -17 161 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 31 1611 65 1645 1 VNB
+port 4 nsew ground bidirectional
+rlabel viali s 31 -17 65 17 1 VNB
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 -23 1728 23 1 VNB
+port 4 nsew ground bidirectional
+rlabel metal1 s 0 1605 1728 1651 1 VNB
+port 4 nsew ground bidirectional
+rlabel locali s 1485 797 1728 831 1 VPB
+port 5 nsew power bidirectional
+rlabel viali s 1663 797 1697 831 1 VPB
+port 5 nsew power bidirectional
+rlabel viali s 1567 797 1601 831 1 VPB
+port 5 nsew power bidirectional
+rlabel viali s 31 797 65 831 1 VPB
+port 5 nsew power bidirectional
+rlabel metal1 s 0 791 1728 837 1 VPB
+port 5 nsew power bidirectional
+rlabel metal1 s 0 865 1728 939 1 VPWR
+port 6 nsew power bidirectional
 << properties >>
 string LEFsite unithvdbl
 string LEFclass CORE
 string FIXED_BBOX 0 0 1728 1628
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hvl/gds/sky130_fd_sc_hvl.gds
 string LEFsymmetry X Y
-string GDS_END 328362
-string GDS_START 315668
+string GDS_END 12834
+string GDS_START 140
 << end >>

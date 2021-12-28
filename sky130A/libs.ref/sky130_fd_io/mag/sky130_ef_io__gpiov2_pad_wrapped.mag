@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1403 -1260 17394 43453
+timestamp 1640697850
 << metal1 >>
 rect 10137 2116 10143 2168
 rect 10195 2156 10201 2168
@@ -388,274 +386,185 @@ rect 15746 3990 16000 4880
 rect 0 2620 254 3670
 rect 15746 2620 16000 3670
 use sky130_ef_io__gpiov2_pad  gpio
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 0 0 1 2600
 box -143 -543 16134 39593
 << labels >>
 rlabel metal4 s 0 12818 7288 13414 4 AMUXBUS_A
-port 28 nsew signal bidirectional
+port 28 nsew
 rlabel metal4 s 7752 12818 16000 13414 4 AMUXBUS_A
-port 28 nsew signal bidirectional
+port 28 nsew
 rlabel metal4 s 0 11866 10429 12462 4 AMUXBUS_B
-port 29 nsew signal bidirectional
+port 29 nsew
 rlabel metal4 s 10893 11866 16000 12462 4 AMUXBUS_B
-port 29 nsew signal bidirectional
+port 29 nsew
 rlabel metal2 s 10141 0 10197 480 4 ANALOG_EN
-port 22 nsew signal input
+port 22 nsew
 rlabel metal2 s 8853 0 8909 480 4 ANALOG_POL
-port 26 nsew signal input
+port 26 nsew
 rlabel metal2 s 5817 0 5873 480 4 ANALOG_SEL
-port 23 nsew signal input
+port 23 nsew
 rlabel metal2 s 5173 0 5229 480 4 DM[2]
-port 6 nsew signal input
+port 6 nsew
 rlabel metal2 s 11337 0 11393 480 4 DM[1]
-port 7 nsew signal input
+port 7 nsew
 rlabel metal2 s 9497 0 9553 480 4 DM[0]
-port 8 nsew signal input
+port 8 nsew
 rlabel metal2 s 7013 0 7069 480 4 ENABLE_H
-port 13 nsew signal input
+port 13 nsew
 rlabel metal2 s 7657 0 7713 480 4 ENABLE_INP_H
-port 15 nsew signal input
+port 15 nsew
 rlabel metal2 s 2689 0 2745 480 4 ENABLE_VDDA_H
-port 14 nsew signal input
+port 14 nsew
 rlabel metal2 s 13821 0 13877 480 4 ENABLE_VDDIO
-port 24 nsew signal input
+port 24 nsew
 rlabel metal2 s 3333 0 3389 480 4 ENABLE_VSWITCH_H
-port 25 nsew signal input
+port 25 nsew
 rlabel metal2 s 6369 0 6425 480 4 HLD_H_N
-port 9 nsew signal input
+port 9 nsew
 rlabel metal2 s 4529 0 4585 480 4 HLD_OVR
-port 21 nsew signal input
+port 21 nsew
 rlabel metal2 s 1493 0 1549 480 4 IB_MODE_SEL
-port 12 nsew signal input
+port 12 nsew
 rlabel metal2 s 15017 0 15073 480 4 IN
-port 10 nsew signal output
+port 10 nsew
 rlabel metal2 s 297 0 353 480 4 IN_H
-port 1 nsew signal output
+port 1 nsew
 rlabel metal2 s 8301 0 8357 480 4 INP_DIS
-port 11 nsew signal input
+port 11 nsew
 rlabel metal2 s 849 0 905 480 4 OE_N
-port 16 nsew signal input
+port 16 nsew
 rlabel metal2 s 3977 0 4033 480 4 OUT
-port 27 nsew signal input
+port 27 nsew
 rlabel metal5 s 2240 23105 14760 35595 4 PAD
-port 5 nsew signal bidirectional
+port 5 nsew
 rlabel metal2 s 12533 0 12589 480 4 PAD_A_ESD_0_H
-port 3 nsew signal bidirectional
+port 3 nsew
 rlabel metal2 s 11981 0 12037 480 4 PAD_A_ESD_1_H
-port 4 nsew signal bidirectional
+port 4 nsew
 rlabel metal2 s 10693 0 10749 480 4 PAD_A_NOESD_H
-port 2 nsew signal bidirectional
+port 2 nsew
 rlabel metal2 s 13177 0 13233 480 4 SLOW
-port 19 nsew signal input
+port 19 nsew
 rlabel metal2 s 14373 0 14429 480 4 TIE_HI_ESD
-port 17 nsew signal output
+port 17 nsew
 rlabel metal2 s 15661 0 15717 480 4 TIE_LO_ESD
-port 18 nsew signal output
+port 18 nsew
 rlabel metal5 s 0 3990 254 4880 4 VCCD
-port 36 nsew power bidirectional
+port 36 nsew
 rlabel metal4 s 0 3970 254 4900 4 VCCD
-port 36 nsew power bidirectional
+port 36 nsew
 rlabel metal5 s 15746 3990 16000 4880 4 VCCD
-port 36 nsew power bidirectional
+port 36 nsew
 rlabel metal4 s 15746 3970 16000 4900 4 VCCD
-port 36 nsew power bidirectional
+port 36 nsew
 rlabel metal5 s 0 2620 254 3670 4 VCCHIB
-port 34 nsew power bidirectional
+port 34 nsew
 rlabel metal4 s 0 2600 254 3690 4 VCCHIB
-port 34 nsew power bidirectional
+port 34 nsew
 rlabel metal5 s 15746 2620 16000 3670 4 VCCHIB
-port 34 nsew power bidirectional
+port 34 nsew
 rlabel metal4 s 15746 2600 16000 3690 4 VCCHIB
-port 34 nsew power bidirectional
+port 34 nsew
 rlabel metal5 s 0 5200 193 5850 4 VDDA
-port 31 nsew power bidirectional
+port 31 nsew
 rlabel metal4 s 0 5180 193 5870 4 VDDA
-port 31 nsew power bidirectional
+port 31 nsew
 rlabel metal5 s 15794 5200 16000 5850 4 VDDA
-port 31 nsew power bidirectional
+port 31 nsew
 rlabel metal4 s 15794 5180 16000 5870 4 VDDA
-port 31 nsew power bidirectional
+port 31 nsew
 rlabel metal5 s 0 16200 254 21190 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal5 s 0 6170 254 7060 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal4 s 0 6150 254 7080 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal4 s 0 16200 254 21193 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal5 s 15746 16200 16000 21190 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal5 s 15746 6170 16000 7060 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal4 s 15746 6150 16000 7080 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal4 s 15746 16200 16000 21193 4 VDDIO
-port 35 nsew power bidirectional
+port 35 nsew
 rlabel metal5 s 0 15030 254 15880 4 VDDIO_Q
-port 33 nsew power bidirectional
+port 33 nsew
 rlabel metal4 s 0 15010 254 15900 4 VDDIO_Q
-port 33 nsew power bidirectional
+port 33 nsew
 rlabel metal5 s 15746 15030 16000 15880 4 VDDIO_Q
-port 33 nsew power bidirectional
+port 33 nsew
 rlabel metal4 s 15746 15010 16000 15900 4 VDDIO_Q
-port 33 nsew power bidirectional
+port 33 nsew
 rlabel metal5 s 0 11740 254 13540 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal5 s 0 9561 254 10210 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 0 11740 522 11806 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 0 12522 254 12758 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 0 13474 522 13540 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 0 9540 254 10230 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal5 s 15746 11740 16000 13540 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal5 s 15746 9561 16000 10210 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 15746 12522 16000 12758 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 9418 13474 16000 13540 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 9418 11740 16000 11806 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal4 s 15746 9540 16000 10230 4 VSSA
-port 30 nsew ground bidirectional
+port 30 nsew
 rlabel metal5 s 0 10530 254 11420 4 VSSD
-port 38 nsew ground bidirectional
+port 38 nsew
 rlabel metal4 s 0 10510 254 11440 4 VSSD
-port 38 nsew ground bidirectional
+port 38 nsew
 rlabel metal5 s 15746 10530 16000 11420 4 VSSD
-port 38 nsew ground bidirectional
+port 38 nsew
 rlabel metal4 s 15746 10510 16000 11440 4 VSSD
-port 38 nsew ground bidirectional
+port 38 nsew
 rlabel metal4 s 0 37350 254 42193 4 VSSIO
-port 37 nsew ground bidirectional
+port 37 nsew
 rlabel metal5 s 0 7380 254 8270 4 VSSIO
-port 37 nsew ground bidirectional
+port 37 nsew
 rlabel metal4 s 127 39771 127 39771 4 VSSIO
+port 37 nsew
 rlabel metal4 s 0 7360 254 8290 4 VSSIO
-port 37 nsew ground bidirectional
+port 37 nsew
 rlabel metal4 s 15746 37350 16000 42193 4 VSSIO
-port 37 nsew ground bidirectional
+port 37 nsew
 rlabel metal5 s 15746 7380 16000 8270 4 VSSIO
-port 37 nsew ground bidirectional
+port 37 nsew
 rlabel metal4 s 15746 7360 16000 8290 4 VSSIO
-port 37 nsew ground bidirectional
+port 37 nsew
 rlabel metal4 s 15873 39771 15873 39771 4 VSSIO
+port 37 nsew
 rlabel metal5 s 0 13860 254 14710 4 VSSIO_Q
-port 39 nsew ground bidirectional
+port 39 nsew
 rlabel metal4 s 0 13840 254 14730 4 VSSIO_Q
-port 39 nsew ground bidirectional
+port 39 nsew
 rlabel metal5 s 15746 13860 16000 14710 4 VSSIO_Q
-port 39 nsew ground bidirectional
+port 39 nsew
 rlabel metal4 s 15746 13840 16000 14730 4 VSSIO_Q
-port 39 nsew ground bidirectional
+port 39 nsew
 rlabel metal5 s 0 8590 254 9240 4 VSWITCH
-port 32 nsew power bidirectional
+port 32 nsew
 rlabel metal4 s 0 8570 254 9260 4 VSWITCH
-port 32 nsew power bidirectional
+port 32 nsew
 rlabel metal5 s 15746 8590 16000 9240 4 VSWITCH
-port 32 nsew power bidirectional
+port 32 nsew
 rlabel metal4 s 15746 8570 16000 9260 4 VSWITCH
-port 32 nsew power bidirectional
+port 32 nsew
 rlabel metal2 s 2137 0 2193 480 4 VTRIP_SEL
-port 20 nsew signal input
-rlabel metal4 s 7752 12818 16000 13414 1 AMUXBUS_A
-port 28 nsew signal bidirectional
-rlabel metal4 s 10893 11866 16000 12462 1 AMUXBUS_B
-port 29 nsew signal bidirectional
-rlabel metal4 s 0 3970 254 4900 1 VCCD
-port 36 nsew power bidirectional
-rlabel metal5 s 15746 3990 16000 4880 1 VCCD
-port 36 nsew power bidirectional
-rlabel metal4 s 15746 3970 16000 4900 1 VCCD
-port 36 nsew power bidirectional
-rlabel metal4 s 0 2600 254 3690 1 VCCHIB
-port 34 nsew power bidirectional
-rlabel metal5 s 15746 2620 16000 3670 1 VCCHIB
-port 34 nsew power bidirectional
-rlabel metal4 s 15746 2600 16000 3690 1 VCCHIB
-port 34 nsew power bidirectional
-rlabel metal4 s 0 5180 193 5870 1 VDDA
-port 31 nsew power bidirectional
-rlabel metal5 s 15794 5200 16000 5850 1 VDDA
-port 31 nsew power bidirectional
-rlabel metal4 s 15794 5180 16000 5870 1 VDDA
-port 31 nsew power bidirectional
-rlabel metal5 s 0 6170 254 7060 1 VDDIO
-port 35 nsew power bidirectional
-rlabel metal4 s 0 6150 254 7080 1 VDDIO
-port 35 nsew power bidirectional
-rlabel metal4 s 0 16200 254 21193 1 VDDIO
-port 35 nsew power bidirectional
-rlabel metal5 s 15746 16200 16000 21190 1 VDDIO
-port 35 nsew power bidirectional
-rlabel metal5 s 15746 6170 16000 7060 1 VDDIO
-port 35 nsew power bidirectional
-rlabel metal4 s 15746 6150 16000 7080 1 VDDIO
-port 35 nsew power bidirectional
-rlabel metal4 s 15746 16200 16000 21193 1 VDDIO
-port 35 nsew power bidirectional
-rlabel metal4 s 0 15010 254 15900 1 VDDIO_Q
-port 33 nsew power bidirectional
-rlabel metal5 s 15746 15030 16000 15880 1 VDDIO_Q
-port 33 nsew power bidirectional
-rlabel metal4 s 15746 15010 16000 15900 1 VDDIO_Q
-port 33 nsew power bidirectional
-rlabel metal5 s 0 9561 254 10210 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 0 11740 522 11806 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 0 12522 254 12758 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 0 13474 522 13540 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 0 9540 254 10230 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal5 s 15746 11740 16000 13540 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal5 s 15746 9561 16000 10210 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 15746 12522 16000 12758 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 9418 13474 16000 13540 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 9418 11740 16000 11806 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 15746 9540 16000 10230 1 VSSA
-port 30 nsew ground bidirectional
-rlabel metal4 s 0 10510 254 11440 1 VSSD
-port 38 nsew ground bidirectional
-rlabel metal5 s 15746 10530 16000 11420 1 VSSD
-port 38 nsew ground bidirectional
-rlabel metal4 s 15746 10510 16000 11440 1 VSSD
-port 38 nsew ground bidirectional
-rlabel metal4 s 0 7360 254 8290 1 VSSIO
-port 37 nsew ground bidirectional
-rlabel metal4 s 15746 37350 16000 42193 1 VSSIO
-port 37 nsew ground bidirectional
-rlabel metal5 s 15746 7380 16000 8270 1 VSSIO
-port 37 nsew ground bidirectional
-rlabel metal4 s 15746 7360 16000 8290 1 VSSIO
-port 37 nsew ground bidirectional
-rlabel metal4 s 0 13840 254 14730 1 VSSIO_Q
-port 39 nsew ground bidirectional
-rlabel metal5 s 15746 13860 16000 14710 1 VSSIO_Q
-port 39 nsew ground bidirectional
-rlabel metal4 s 15746 13840 16000 14730 1 VSSIO_Q
-port 39 nsew ground bidirectional
-rlabel metal4 s 0 8570 254 9260 1 VSWITCH
-port 32 nsew power bidirectional
-rlabel metal5 s 15746 8590 16000 9240 1 VSWITCH
-port 32 nsew power bidirectional
-rlabel metal4 s 15746 8570 16000 9260 1 VSWITCH
-port 32 nsew power bidirectional
+port 20 nsew
 << properties >>
-string LEFclass PAD INOUT
 string FIXED_BBOX 0 0 16000 42193
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_ef_io__gpiov2_pad_wrapped.gds
 string GDS_END 8275438

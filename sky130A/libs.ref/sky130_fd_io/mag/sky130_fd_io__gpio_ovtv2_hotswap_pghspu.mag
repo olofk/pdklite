@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1386 -1260 24763 1598
+timestamp 1640697850
 << nwell >>
 rect -126 0 4006 338
 rect 4048 0 8180 338
@@ -4087,75 +4085,75 @@ rect 18741 69 18742 113
 rect 18678 68 18680 69
 rect 18740 68 18742 69
 use sky130_fd_pr__pfet_01v8__example_55959141808164  sky130_fd_pr__pfet_01v8__example_55959141808164_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 14636 1 0 119
 box -28 0 128 1993
 use sky130_fd_pr__pfet_01v8__example_55959141808164  sky130_fd_pr__pfet_01v8__example_55959141808164_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 14636 1 0 119
 box -28 0 128 1993
 use sky130_fd_pr__pfet_01v8__example_55959141808164  sky130_fd_pr__pfet_01v8__example_55959141808164_2
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 18810 1 0 119
 box -28 0 128 1993
 use sky130_fd_pr__pfet_01v8__example_55959141808164  sky130_fd_pr__pfet_01v8__example_55959141808164_3
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 8114 1 0 119
 box -28 0 128 1993
 use sky130_fd_pr__pfet_01v8__example_55959141808164  sky130_fd_pr__pfet_01v8__example_55959141808164_4
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 3940 1 0 119
 box -28 0 128 1993
 use sky130_fd_pr__pfet_01v8__example_55959141808162  sky130_fd_pr__pfet_01v8__example_55959141808162_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 1 11462 1 0 119
 box -28 0 128 1489
 use sky130_fd_pr__pfet_01v8__example_55959141808162  sky130_fd_pr__pfet_01v8__example_55959141808162_1
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 11288 1 0 119
 box -28 0 128 1489
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3948 0 -1 114
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 8127 0 -1 114
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 4188 0 -1 195
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 8352 0 -1 195
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_4
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 11492 0 -1 195
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_5
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 14635 0 -1 195
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_6
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 18737 0 -1 195
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_7
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 22876 0 -1 195
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_8
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 18794 0 -1 114
 box 0 24 168 28
 use sky130_fd_io__tk_em1s_cdns_55959141808161  sky130_fd_io__tk_em1s_cdns_55959141808161_9
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 14620 0 -1 114
 box 0 24 168 28
 use sky130_fd_io__tk_em1o_cdns_5595914180840  sky130_fd_io__tk_em1o_cdns_5595914180840_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 3754 0 -1 195
 box 0 24 168 28
 << labels >>

@@ -1,12 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729575
+timestamp 1640697980
 << nwell >>
 rect -38 261 314 582
 << pwell >>
-rect 29 -17 63 17
-<< obsli1 >>
+rect 1 21 275 183
+rect 29 -17 63 21
+<< locali >>
 rect 0 527 29 561
 rect 63 527 121 561
 rect 155 527 213 561
@@ -19,7 +20,7 @@ rect 0 -17 29 17
 rect 63 -17 121 17
 rect 155 -17 213 17
 rect 247 -17 276 17
-<< obsli1c >>
+<< viali >>
 rect 29 527 63 561
 rect 121 527 155 561
 rect 213 527 247 561
@@ -42,11 +43,37 @@ rect 0 -48 276 -17
 << labels >>
 rlabel metal1 s 0 -48 276 48 8 VGND
 port 1 nsew ground bidirectional abutment
-rlabel pwell s 29 -17 63 17 8 VNB
+rlabel viali s 213 -17 247 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 121 -17 155 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel viali s 29 -17 63 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel locali s 0 -17 276 17 8 VGND
+port 1 nsew ground bidirectional abutment
+rlabel locali s 17 17 259 167 6 VGND
+port 1 nsew ground bidirectional abutment
+rlabel locali s 17 167 121 275 6 VGND
+port 1 nsew ground bidirectional abutment
+rlabel pwell s 29 -17 63 21 6 VNB
+port 2 nsew ground bidirectional
+rlabel pwell s 1 21 275 183 6 VNB
 port 2 nsew ground bidirectional
 rlabel nwell s -38 261 314 582 6 VPB
 port 3 nsew power bidirectional
 rlabel metal1 s 0 496 276 592 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 213 527 247 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 121 527 155 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel viali s 29 527 63 561 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel locali s 155 201 259 309 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel locali s 17 309 259 527 6 VPWR
+port 4 nsew power bidirectional abutment
+rlabel locali s 0 527 276 561 6 VPWR
 port 4 nsew power bidirectional abutment
 << properties >>
 string LEFsite unithd
@@ -55,6 +82,6 @@ string FIXED_BBOX 0 0 276 544
 string LEFsymmetry X Y R90
 string LEFview TRUE
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
-string GDS_END 3987236
-string GDS_START 3984630
+string GDS_END 3301500
+string GDS_START 3298894
 << end >>

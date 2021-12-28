@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -300 17731 15300 35331
+timestamp 1640697850
 << metal4 >>
 tri 1934 33739 2266 34071 se
 rect 2266 34047 12734 34071
@@ -2827,11 +2825,11 @@ tri 1500 19531 2490 20521 ne
 rect 2490 19531 12510 20521
 tri 12510 19531 13500 20521 nw
 use sky130_fd_pr__padplhp__example_559591418080  sky130_fd_pr__padplhp__example_559591418080_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 1500 0 1 19531
 box -478 -478 6000 7000
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 9124426
-string GDS_START 9124162
+string GDS_END 11194754
+string GDS_START 11194490
 << end >>

@@ -1,14 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect -1259 -1554 2750 2057
+timestamp 1640697850
 << nwell >>
 rect 1 37 1415 346
 rect 1 14 1490 37
 rect 1 -101 483 14
 rect 1280 -294 1490 14
+<< pwell >>
+rect 41 613 1375 749
 << mvnmos >>
 rect 120 639 240 723
 rect 296 639 416 723
@@ -679,11 +679,11 @@ rect 405 -40 1349 -6
 rect 67 -41 1349 -40
 rect 67 -46 417 -41
 use sky130_fd_pr__nfet_01v8__example_55959141808487  sky130_fd_pr__nfet_01v8__example_55959141808487_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 120 0 1 639
 box -28 0 1204 29
 use sky130_fd_pr__pfet_01v8__example_55959141808486  sky130_fd_pr__pfet_01v8__example_55959141808486_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 120 0 1 80
 box -28 0 1204 97
 << properties >>

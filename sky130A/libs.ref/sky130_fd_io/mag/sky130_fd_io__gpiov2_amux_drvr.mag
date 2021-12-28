@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1619729480
-<< checkpaint >>
-rect 14733 -16504 29586 -3017
+timestamp 1640697850
 << dnwell >>
 rect 16073 -8402 21019 -6652
 rect 16073 -11421 20759 -8402
@@ -24,10 +22,15 @@ rect 22343 -10544 23737 -10378
 rect 15993 -11501 20839 -11215
 rect 22486 -12089 24604 -11923
 << pwell >>
-rect 18348 -9167 19396 -9133
-rect 20174 -9351 20466 -8105
-rect 16985 -10496 17101 -10346
-rect 22435 -11466 26244 -11432
+rect 18322 -9193 19422 -9107
+rect 18735 -9535 19149 -9193
+rect 20148 -9283 20492 -8079
+rect 19441 -9377 20492 -9283
+rect 19441 -9535 20122 -9377
+rect 17166 -10320 17518 -10127
+rect 16959 -10522 17518 -10320
+rect 17166 -10541 17518 -10522
+rect 22409 -11492 26270 -11406
 << mvnmos >>
 rect 18814 -9509 18914 -9309
 rect 18970 -9509 19070 -9309
@@ -208,25 +211,7 @@ rect 18268 -10518 18302 -10484
 rect 18724 -10450 18758 -10416
 rect 18724 -10518 18758 -10484
 << psubdiff >>
-rect 22435 -11466 22459 -11432
-rect 22493 -11466 22529 -11432
-rect 22563 -11466 22598 -11432
-rect 22632 -11466 22667 -11432
-rect 22701 -11466 22736 -11432
-rect 22770 -11466 22805 -11432
-rect 22839 -11466 22874 -11432
-rect 22908 -11466 22943 -11432
-rect 22977 -11466 23012 -11432
-rect 23046 -11466 23081 -11432
-rect 23115 -11466 23150 -11432
-rect 23184 -11466 23219 -11432
-rect 23253 -11466 23288 -11432
-rect 23322 -11466 23357 -11432
-rect 23391 -11466 23426 -11432
-rect 23460 -11466 23495 -11432
-rect 23529 -11466 23564 -11432
-rect 23598 -11466 23633 -11432
-rect 23667 -11466 23702 -11432
+rect 23669 -11466 23702 -11432
 rect 23736 -11466 23771 -11432
 rect 23805 -11466 23840 -11432
 rect 23874 -11466 23909 -11432
@@ -355,6 +340,25 @@ rect 17019 -10404 17067 -10370
 rect 16985 -10438 17101 -10404
 rect 17019 -10472 17067 -10438
 rect 16985 -10496 17101 -10472
+rect 22435 -11466 22459 -11432
+rect 22493 -11466 22529 -11432
+rect 22563 -11466 22598 -11432
+rect 22632 -11466 22667 -11432
+rect 22701 -11466 22736 -11432
+rect 22770 -11466 22805 -11432
+rect 22839 -11466 22874 -11432
+rect 22908 -11466 22943 -11432
+rect 22977 -11466 23012 -11432
+rect 23046 -11466 23081 -11432
+rect 23115 -11466 23150 -11432
+rect 23184 -11466 23219 -11432
+rect 23253 -11466 23288 -11432
+rect 23322 -11466 23357 -11432
+rect 23391 -11466 23426 -11432
+rect 23460 -11466 23495 -11432
+rect 23529 -11466 23564 -11432
+rect 23598 -11466 23633 -11432
+rect 23667 -11466 23669 -11432
 << mvnsubdiff >>
 rect 16119 -6732 16247 -6698
 rect 16281 -6732 16315 -6698
@@ -674,24 +678,6 @@ rect 24378 -12023 24412 -11989
 rect 24446 -12023 24480 -11989
 rect 24514 -12023 24538 -11989
 << psubdiffcont >>
-rect 22459 -11466 22493 -11432
-rect 22529 -11466 22563 -11432
-rect 22598 -11466 22632 -11432
-rect 22667 -11466 22701 -11432
-rect 22736 -11466 22770 -11432
-rect 22805 -11466 22839 -11432
-rect 22874 -11466 22908 -11432
-rect 22943 -11466 22977 -11432
-rect 23012 -11466 23046 -11432
-rect 23081 -11466 23115 -11432
-rect 23150 -11466 23184 -11432
-rect 23219 -11466 23253 -11432
-rect 23288 -11466 23322 -11432
-rect 23357 -11466 23391 -11432
-rect 23426 -11466 23460 -11432
-rect 23495 -11466 23529 -11432
-rect 23564 -11466 23598 -11432
-rect 23633 -11466 23667 -11432
 rect 23702 -11466 23736 -11432
 rect 23771 -11466 23805 -11432
 rect 23840 -11466 23874 -11432
@@ -817,6 +803,24 @@ rect 16985 -10404 17019 -10370
 rect 17067 -10404 17101 -10370
 rect 16985 -10472 17019 -10438
 rect 17067 -10472 17101 -10438
+rect 22459 -11466 22493 -11432
+rect 22529 -11466 22563 -11432
+rect 22598 -11466 22632 -11432
+rect 22667 -11466 22701 -11432
+rect 22736 -11466 22770 -11432
+rect 22805 -11466 22839 -11432
+rect 22874 -11466 22908 -11432
+rect 22943 -11466 22977 -11432
+rect 23012 -11466 23046 -11432
+rect 23081 -11466 23115 -11432
+rect 23150 -11466 23184 -11432
+rect 23219 -11466 23253 -11432
+rect 23288 -11466 23322 -11432
+rect 23357 -11466 23391 -11432
+rect 23426 -11466 23460 -11432
+rect 23495 -11466 23529 -11432
+rect 23564 -11466 23598 -11432
+rect 23633 -11466 23667 -11432
 << mvnsubdiffcont >>
 rect 16247 -6732 16281 -6698
 rect 16315 -6732 16349 -6698
@@ -7411,181 +7415,229 @@ rect 17373 -15232 17395 -15168
 rect 17459 -15232 17461 -15168
 rect 17221 -15233 17461 -15232
 use sky130_fd_io__gpiov2_amux_drvr_ls  sky130_fd_io__gpiov2_amux_drvr_ls_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 16331 0 1 -9217
-box 38 39 1860 1138
+box 38 24 1860 1138
 use sky130_fd_io__gpiov2_amux_drvr_ls  sky130_fd_io__gpiov2_amux_drvr_ls_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 24609 0 1 -12705
-box 38 39 1860 1138
+box 38 24 1860 1138
 use sky130_fd_io__gpiov2_amux_drvr_ls  sky130_fd_io__gpiov2_amux_drvr_ls_2
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 20092 0 1 -9217
-box 38 39 1860 1138
+box 38 24 1860 1138
 use sky130_fd_io__gpiov2_amux_drvr_ls  sky130_fd_io__gpiov2_amux_drvr_ls_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 16331 0 -1 -9083
-box 38 39 1860 1138
+box 38 24 1860 1138
 use sky130_fd_io__gpiov2_amux_drvr_ls  sky130_fd_io__gpiov2_amux_drvr_ls_4
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 16185 0 1 -13625
-box 38 39 1860 1138
+box 38 24 1860 1138
 use sky130_fd_io__gpiov2_amux_drvr_ls  sky130_fd_io__gpiov2_amux_drvr_ls_5
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 28283 0 1 -12705
-box 38 39 1860 1138
+box 38 24 1860 1138
 use sky130_fd_pr__nfet_01v8__example_55959141808579  sky130_fd_pr__nfet_01v8__example_55959141808579_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 19676 0 1 -9509
 box -28 0 128 85
 use sky130_fd_pr__nfet_01v8__example_55959141808579  sky130_fd_pr__nfet_01v8__example_55959141808579_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 18914 0 -1 -9309
 box -28 0 128 85
 use sky130_fd_pr__nfet_01v8__example_55959141808579  sky130_fd_pr__nfet_01v8__example_55959141808579_2
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 19620 0 1 -9509
 box -28 0 128 85
 use sky130_fd_pr__nfet_01v8__example_55959141808579  sky130_fd_pr__nfet_01v8__example_55959141808579_3
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 18970 0 -1 -9309
 box -28 0 128 85
 use sky130_fd_pr__nfet_01v8__example_55959141808578  sky130_fd_pr__nfet_01v8__example_55959141808578_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 17492 1 0 -10462
 box -28 0 128 131
 use sky130_fd_pr__nfet_01v8__example_55959141808577  sky130_fd_pr__nfet_01v8__example_55959141808577_0
-timestamp 1619729480
+timestamp 1640697850
 transform 0 -1 17492 1 0 -10306
 box -28 0 128 131
 use sky130_fd_pr__nfet_01v8__example_55959141808576  sky130_fd_pr__nfet_01v8__example_55959141808576_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 19943 0 1 -9509
 box -28 0 128 97
 use sky130_fd_io__amx_inv1  sky130_fd_io__amx_inv1_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 16742 0 -1 -10035
 box 0 10 338 748
 use sky130_fd_io__amx_inv1  sky130_fd_io__amx_inv1_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 20176 0 -1 -9456
 box 0 10 338 748
 use sky130_fd_io__amx_inv1  sky130_fd_io__amx_inv1_2
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 16560 0 -1 -10035
 box 0 10 338 748
 use sky130_fd_pr__pfet_01v8__example_55959141808573  sky130_fd_pr__pfet_01v8__example_55959141808573_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 17857 0 1 -10530
 box -28 0 428 63
 use sky130_fd_pr__pfet_01v8__example_55959141808572  sky130_fd_pr__pfet_01v8__example_55959141808572_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 18313 0 1 -10530
 box -28 0 428 63
 use sky130_fd_io__hvsbt_inv_x2  sky130_fd_io__hvsbt_inv_x2_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 22912 0 1 -11502
 box 0 24 534 1116
 use sky130_fd_io__hvsbt_inv_x2  sky130_fd_io__hvsbt_inv_x2_1
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 22560 0 1 -11502
 box 0 24 534 1116
 use sky130_fd_io__gpiov2_amux_drvr_lshv2hv  sky130_fd_io__gpiov2_amux_drvr_lshv2hv_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 17744 0 1 -8115
-box -1543 4 1666 3442
+box -1543 -16 1692 3442
 use sky130_fd_io__gpiov2_amx_inv4  sky130_fd_io__gpiov2_amx_inv4_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 19218 0 -1 -9588
 box 0 10 534 616
 use sky130_fd_io__gpiov2_amx_inv4  sky130_fd_io__gpiov2_amx_inv4_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 19400 0 -1 -9588
 box 0 10 534 616
 use sky130_fd_io__gpiov2_amx_inv4  sky130_fd_io__gpiov2_amx_inv4_2
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 23372 0 1 -12646
 box 0 10 534 616
 use sky130_fd_io__gpiov2_amx_inv4  sky130_fd_io__gpiov2_amx_inv4_3
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 20104 0 -1 -9588
 box 0 10 534 616
 use sky130_fd_io__gpiov2_amx_inv4  sky130_fd_io__gpiov2_amx_inv4_4
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 22486 0 1 -12646
 box 0 10 534 616
 use sky130_fd_io__gpiov2_amx_inv4  sky130_fd_io__gpiov2_amx_inv4_5
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 19048 0 -1 -9588
 box 0 10 534 616
 use sky130_fd_io__hvsbt_inv_x1  sky130_fd_io__hvsbt_inv_x1_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 23264 0 1 -11502
 box -46 24 399 1116
 use sky130_fd_io__hvsbt_inv_x1  sky130_fd_io__hvsbt_inv_x1_1
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 22742 0 1 -11502
 box -46 24 399 1116
 use sky130_fd_io__gpiov2_amux_drvr_lshv2hv2  sky130_fd_io__gpiov2_amux_drvr_lshv2hv2_0
-timestamp 1619729480
+timestamp 1640697850
 transform -1 0 21030 0 1 -8115
-box 279 4 4943 3838
+box 279 -16 4943 3838
 use sky130_fd_io__gpiov2_amx_pucsd_inv  sky130_fd_io__gpiov2_amx_pucsd_inv_0
-timestamp 1619729480
+timestamp 1640697850
 transform 1 0 23189 0 1 -12655
 box 1 19 1415 625
 << labels >>
 flabel metal1 s 17060 -13513 17088 -13485 3 FreeSans 520 0 0 0 VSSD
+port 1 nsew
 flabel metal1 s 22961 -11349 22989 -11321 3 FreeSans 520 0 0 0 VSSD
+port 1 nsew
 flabel metal1 s 17217 -12677 17245 -12649 3 FreeSans 520 0 0 0 VDDIO_Q
+port 2 nsew
 flabel metal1 s 17464 -10079 17492 -10051 3 FreeSans 520 0 0 0 VSWITCH
+port 3 nsew
 flabel metal1 s 18501 -7072 18529 -7044 3 FreeSans 520 0 0 0 VSSA
+port 4 nsew
 flabel metal1 s 18925 -8000 18953 -7972 3 FreeSans 520 0 0 0 VSSA
+port 4 nsew
 flabel metal1 s 17759 -13207 17787 -13179 3 FreeSans 520 0 0 0 VCCD
+port 5 nsew
 flabel metal1 s 18158 -8801 18186 -8773 3 FreeSans 520 0 0 0 VCCD
+port 5 nsew
 flabel metal1 s 22906 -10546 22934 -10518 3 FreeSans 520 0 0 0 VCCD
+port 5 nsew
 flabel metal1 s 22462 -11144 22488 -11107 3 FreeSans 520 0 0 0 D_B
+port 6 nsew
 flabel metal1 s 22659 -11142 22706 -11106 3 FreeSans 520 90 0 0 D_B
+port 6 nsew
 flabel metal1 s 23514 -11143 23549 -11099 3 FreeSans 520 0 0 0 NMIDA_VCCD_N
+port 7 nsew
 flabel metal1 s 23201 -10925 23274 -10888 3 FreeSans 520 0 0 0 NMIDA_VCCD
+port 8 nsew
 flabel metal1 s 16798 -10755 16834 -10706 3 FreeSans 520 0 0 0 NGA_PAD_VSWITCH_H_N
+port 9 nsew
 flabel metal1 s 16479 -10545 16511 -10469 3 FreeSans 520 0 0 0 PD_CSD_VSWITCH_H_N
+port 10 nsew
 flabel metal1 s 20414 -9692 20441 -9603 3 FreeSans 520 0 0 0 NGB_PAD_VSWITCH_H_N
+port 11 nsew
 flabel metal1 s 19787 -9423 19815 -9395 3 FreeSans 520 0 0 0 NGA_PAD_VSWITCH_H
+port 12 nsew
 flabel metal1 s 18274 -10341 18302 -10313 3 FreeSans 520 0 0 0 PD_CSD_VSWITCH_H
+port 13 nsew
 flabel metal1 s 19121 -9835 19149 -9807 3 FreeSans 520 0 0 0 NGB_AMX_VSWITCH_H
+port 14 nsew
 flabel metal1 s 19481 -9423 19509 -9395 3 FreeSans 520 0 0 0 NGB_PAD_VSWITCH_H
+port 15 nsew
 flabel metal1 s 19777 -9256 19805 -9228 3 FreeSans 520 0 0 0 AMUX_EN_VDDIO_H_N
+port 16 nsew
 flabel metal1 s 18606 -9281 18634 -9253 3 FreeSans 520 90 0 0 AMUX_EN_VDDA_H_N
+port 17 nsew
 flabel metal1 s 23080 -10885 23108 -10857 3 FreeSans 520 0 0 0 NMIDA_ON_N
+port 18 nsew
 flabel metal1 s 22728 -10810 22756 -10782 3 FreeSans 520 0 0 0 D_B
+port 6 nsew
 flabel metal1 s 26629 -12291 26657 -12263 3 FreeSans 520 0 0 0 VCCD
+port 5 nsew
 flabel metal1 s 26764 -11721 26792 -11693 3 FreeSans 520 0 0 0 VDDIO_Q
+port 2 nsew
 flabel metal1 s 28015 -12260 28043 -12232 3 FreeSans 520 0 0 0 PU_ON_N
+port 19 nsew
 flabel metal1 s 27800 -12281 27828 -12253 3 FreeSans 520 0 0 0 PU_ON
+port 20 nsew
 flabel metal1 s 27147 -12207 27175 -12179 3 FreeSans 520 0 0 0 AMUX_EN_VDDIO_H
+port 21 nsew
 flabel metal1 s 16425 -13180 16453 -13152 3 FreeSans 520 0 0 0 AMUXBUSA_ON_N
+port 22 nsew
 flabel metal1 s 16640 -13200 16668 -13172 3 FreeSans 520 0 0 0 AMUXBUSA_ON
+port 23 nsew
 flabel metal1 s 16576 -9640 16604 -9612 3 FreeSans 520 0 0 0 AMUX_EN_VSWITCH_H_N
+port 24 nsew
 flabel metal1 s 18499 -10469 18527 -10441 3 FreeSans 520 0 0 0 VSWITCH
+port 3 nsew
 flabel metal1 s 20388 -7089 20416 -7061 3 FreeSans 520 0 0 0 PGB_AMX_VDDA_H_N
+port 25 nsew
 flabel metal1 s 18775 -9423 18803 -9395 3 FreeSans 520 0 0 0 NGA_AMX_VSWITCH_H
+port 26 nsew
 flabel metal1 s 18925 -9435 18953 -9407 3 FreeSans 520 0 0 0 VSSA
+port 4 nsew
 flabel metal1 s 19824 -8772 19852 -8744 3 FreeSans 520 0 0 0 PD_ON_N
+port 27 nsew
 flabel metal1 s 16434 -4653 16462 -4625 3 FreeSans 520 0 0 0 VDDA
+port 28 nsew
 flabel metal1 s 19419 -7347 19447 -7319 3 FreeSans 520 90 0 0 AMUX_EN_VDDA_H
+port 29 nsew
 flabel metal1 s 28182 -12531 28210 -12503 3 FreeSans 520 0 0 0 VSSD
+port 1 nsew
 flabel metal1 s 17439 -9609 17467 -9581 3 FreeSans 520 0 0 0 AMUX_EN_VSWITCH_H
+port 30 nsew
 flabel metal1 s 25064 -12280 25092 -12252 3 FreeSans 520 0 0 0 AMUXBUSB_ON
+port 31 nsew
 flabel metal1 s 23993 -12315 24065 -12272 3 FreeSans 520 180 0 0 PU_CSD_VDDIOQ_H_N
+port 32 nsew
 flabel metal1 s 24849 -12260 24877 -12232 3 FreeSans 520 0 0 0 AMUXBUSB_ON_N
+port 33 nsew
 flabel metal1 s 19609 -8792 19637 -8764 3 FreeSans 520 0 0 0 PD_ON
+port 34 nsew
 flabel metal1 s 23095 -12422 23123 -12394 3 FreeSans 520 180 0 0 PGB_PAD_VDDIOQ_H_N
+port 35 nsew
 flabel metal1 s 22734 -12422 22762 -12394 3 FreeSans 520 180 0 0 PGA_PAD_VDDIOQ_H_N
+port 36 nsew
 flabel metal1 s 18358 -7089 18386 -7061 3 FreeSans 520 0 0 0 PGA_AMX_VDDA_H_N
+port 37 nsew
 flabel comment s 18453 -8925 18453 -8925 0 FreeSans 2000 180 0 0 VSWITCH- VSSA
 << properties >>
 string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_fd_io.gds
-string GDS_END 18534890
-string GDS_START 18392204
+string GDS_END 8334802
+string GDS_START 8192116
 << end >>
